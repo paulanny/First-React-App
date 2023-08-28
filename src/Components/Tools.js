@@ -1,4 +1,4 @@
-import './Tools.css';
+import "./Tools.css";
 import CanvaImg from "../Assets/canva-icon.png";
 import CorelDrawImg from "../Assets/corel-draw-icon.png";
 import FigmaImg from "../Assets/figma.png";
@@ -6,7 +6,7 @@ import PhotoshopImg from "../Assets/photoshop.png";
 
 const Tools = () => {
   return (
-    <div class="toolspane">
+    <div className="toolspane" id="tools">
       <div className="toolsp">
         <p className="firsttoolp">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
