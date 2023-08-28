@@ -1,0 +1,141 @@
+.projndpics2 {
+    background: rgb(24, 2, 47);
+    border: 1px solid rgba(150, 140, 127, 0.3);
+    border-radius: 16px;
+    padding: 48px 0px 0px 48px;
+    display: flex;
+    flex-direction: row;
+    margin: 32px auto;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 2px;
+    align-items: flex-end;
+    width: 90%;
+    overflow: hidden;
+  }
+  
+  .abtproj2 {
+    padding-right: 32px;
+    padding-bottom: 56px;
+    width: 50%;
+  }
+  
+  .projectimg2 {
+    width: 50%;
+  }
+  
+  .projectimg2 img {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+    background-size: cover;
+    background-position: 50% center;
+    object-position: left top;
+    display: flex;
+    /* position: absolute;
+        left: 0;
+        bottom: 0; */
+    margin-left: 85px;
+  }
+  
+  @media (max-width:1000px) {
+    .projndpics2 {
+      background: rgb(24, 2, 47);
+      border: 1px solid rgba(150, 140, 127, 0.3);
+      border-radius: 16px;
+      padding: 48px 0px 0px 48px;
+      display: flex;
+      flex-direction: column;
+      margin: 32px auto;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      min-height: 2px;
+      align-items: flex-end;
+      width: 100%;
+      overflow: hidden;
+  }
+  .projectimg2 {
+    width: 100%;
+  }
+  }
+  @media (max-width:550px) {
+    .projndpics2 {
+      background: rgb(24, 2, 47);
+      border: 1px solid rgba(150, 140, 127, 0.3);
+      border-radius: 16px;
+      padding: 48px 0px 0px 25px;
+      display: flex;
+      flex-direction: column;
+      margin: 32px auto;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      min-height: 2px;
+      align-items: flex-end;
+      width: 90%;
+      overflow: hidden;
+  }
+  
+  .abtproj2 {
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: 48px;
+  }
+  
+  .allprojects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 12px;
+  }
+  }
+  
+  
+  @media (max-width:500px) {
+    .abtproj2 {
+      width: 100%;
+      padding-right: 15px;
+      padding-bottom: 60px;
+  }
+  
+  .projectimg2 {
+    width: 100%;
+  }
+  
+  .projectimg2 img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    background-size: cover;
+    background-position: 50% center;
+    object-position: left top;
+    display: flex;
+    margin-left: 85px;
+  }
+  }
+  
+  @media (max-width:450px){
+    .projectimg2 img {
+      width: 100%;
+    object-fit: cover;
+    height: 250px;
+    background-size: cover;
+    background-position: 50% center;
+    object-position: left top;
+    display: flex;
+    margin-left: 55px;
+    }
+  }
+  
+  
+  @Media (max-width:290px) {
+    .projectimg2 img {
+      width: 100%;
+      object-fit: cover;
+      height: 250px;
+      background-size: cover;
+      background-position: 50% center;
+      object-position: left top;
+      display: flex;
+      margin-left: 10px;
+    }
+  }
