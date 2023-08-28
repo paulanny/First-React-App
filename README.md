@@ -1,8 +1,2 @@
-## A basic React app
-
-A basic React app setup with the following additional libraries installed:
-
-- `react-datepicker`
-- `react-select`
-- `formik`
-- `yup`
+# First-React-App
+This is my Design Portfolio, my first react app
