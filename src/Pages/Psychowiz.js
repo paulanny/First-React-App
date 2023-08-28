@@ -1,6 +1,6 @@
-import "./Mockup.css";
-import "../Components/Header.css"
-import "./KGshot.css";
+import './Mockup.css';
+import "../Components/SecondProj.css";
+import "../Components/Header.css";
 import LogoImage from "../Assets/myLogo.png";
 import Proj6Img from '../Assets/proj6.png';
 import Psychowizone from "../Assets/psychowiz design/1.jpg"
@@ -39,8 +39,8 @@ const Psychowiz = () => {
             </nav>
         </header>
 
-        <div class="projndpics2">
-            <div class="abtproj2">
+        <div class="projndpics3">
+            <div class="abtproj3">
                 <p class="bigp">PSYCHOWIZARD VENTURE DESIGNS</p>
                 <p class="projstory">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aperiam quae doloremque corporis iste voluptatum quia optio incidunt ipsa,
                                                                                                                                             officiis nesciunt eos ut, fugiat ad alias rem enim, earum praesentium?..
@@ -48,7 +48,7 @@ const Psychowiz = () => {
 
                
             </div>
-            <div class="projectimg2">
+            <div class="projectimg3">
             <img src={Proj6Img} alt="project1"/>
             </div>
         </div>

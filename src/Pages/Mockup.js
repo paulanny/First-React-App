@@ -1,6 +1,6 @@
 import './Mockup.css';
-import "../Components/Header.css"
-import "./KGshot.css";
+import "../Components/SecondProj.css";
+import "../Components/Header.css";
 import LogoImage from "../Assets/myLogo.png";
 import Proj5Img from '../Assets/proj5.png';
 import Mockone from "../Assets/mockup images/1.jpg"
@@ -39,8 +39,8 @@ const Mockup = () => {
         </nav>
     </header>
 
-    <div class="projndpics2">
-        <div class="abtproj2">
+    <div class="projndpics3">
+        <div class="abtproj3">
             <p class="bigp">MOCKUP DESIGNS</p>
             <p class="projstory">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aperiam quae doloremque corporis iste voluptatum quia optio incidunt ipsa,
                                                                                                                                                                 officiis nesciunt eos ut, fugiat ad alias rem enim, earum praesentium?..
@@ -48,7 +48,7 @@ const Mockup = () => {
 
            
         </div>
-        <div class="projectimg2">
+        <div class="projectimg3">
         <img src={Proj5Img} alt="project1"/>
         </div>
     </div>

@@ -1,6 +1,6 @@
 import './Mockup.css';
 import "../Components/Header.css"
-import "./KGshot.css";
+import "../Components/SecondProj.css";
 import LogoImage from "../Assets/myLogo.png";
 import Proj2Img from '../Assets/incivil.png';
 import Psycheone from "../Assets/psyche/1.png";
@@ -39,8 +39,8 @@ const Psyche = () => {
             </nav>
         </header>
 
-        <div class="projndpics2">
-            <div class="abtproj2">
+        <div class="projndpics3">
+            <div class="abtproj3">
                 <p class="bigp">DEPARTMENTAL DESIGNS</p>
                 <p class="projstory">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aperiam quae doloremque corporis iste voluptatum quia optio incidunt ipsa,
                                                                                                                                             officiis nesciunt eos ut, fugiat ad alias rem enim, earum praesentium?..
@@ -48,7 +48,7 @@ const Psyche = () => {
 
         
             </div>
-            <div class="projectimg2">
+            <div class="projectimg3">
             <img src={Proj2Img} alt="project1"/>
             </div>
         </div>

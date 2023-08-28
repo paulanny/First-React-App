@@ -1,6 +1,6 @@
-import "./Mockup.css";
+import './Mockup.css';
+import "../Components/SecondProj.css";
 import "../Components/Header.css";
-import "./KGshot.css";
 import LogoImage from "../Assets/myLogo.png";
 import Proj3Img from "../Assets/proj3.png";
 import Eggone from "../Assets/eggimages/1.jpg";
@@ -35,8 +35,8 @@ const EggDesigns = () => {
         </nav>
       </header>
 
-      <div class="projndpics2">
-        <div class="abtproj2">
+      <div class="projndpics3">
+        <div class="abtproj3">
           <p class="bigp">SIMPLE AND CLASSY EGG DESIGNS</p>
           <p class="projstory">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
@@ -45,7 +45,7 @@ const EggDesigns = () => {
             praesentium?..
           </p>
         </div>
-        <div class="projectimg2">
+        <div class="projectimg3">
           <img src={Proj3Img} alt="project1" />
         </div>
       </div>
