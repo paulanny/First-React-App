@@ -13,7 +13,7 @@ import Mockseven from "../Assets/mockup images/7.jpg";
 import Mockeight from "../Assets/mockup images/8.png";
 import Mocknine from "../Assets/mockup images/9.jpg";
 import Mockten from "../Assets/mockup images/10.jpg";
-
+import BackdropPattern from '../Components/BackdropPattern';
 const Mockup = () => {
     return (
         <div>
@@ -106,6 +106,7 @@ const Mockup = () => {
 
 
     <p class="selecteddesp">End of Selected Mockups Designs</p>
+    <BackdropPattern />
     </div>
     )
 }

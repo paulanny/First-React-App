@@ -13,7 +13,7 @@ import Psycheseven from "../Assets/psyche/7.png";
 import Psycheeight from "../Assets/psyche/8.jpg";
 import Psychenine from "../Assets/psyche/9.jpg";
 import Psycheten from "../Assets/psyche/10.jpg";
-
+import BackdropPattern from '../Components/BackdropPattern';
 const Psyche = () => {
     return(
         <div>
@@ -106,6 +106,7 @@ const Psyche = () => {
 
 
         <p class="selecteddesp">End of Selected Departmental Designs</p>
+        <BackdropPattern />
 
         </div>
     )

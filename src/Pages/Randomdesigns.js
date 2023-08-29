@@ -12,6 +12,7 @@ import RandomImagesseven from "../Assets/random images/7.jpg";
 import RandomImageseight from "../Assets/random images/8.jpg";
 import RandomImagesnine from "../Assets/random images/9.jpg";
 import RandomImagesten from "../Assets/random images/10.jpg";
+import BackdropPattern from "../Components/BackdropPattern";
 
 const Randomdesigns = () => {
     return (
@@ -107,6 +108,7 @@ const Randomdesigns = () => {
 
 
         <p class="selecteddesp">End of Selected Random Designs</p>
+        <BackdropPattern />
         </div>
     )
 };

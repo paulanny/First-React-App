@@ -12,6 +12,7 @@ import KGStudiosix from "../Assets/image2/7.jpg";
 import KGStudioseven from "../Assets/image2/8.jpg";
 import KGStudioeight from "../Assets/image2/9.jpg";
 import KGStudionine from "../Assets/image2/10.jpg";
+import BackdropPattern from "../Components/BackdropPattern";
 
 const KGshot = () => {
   return (
@@ -101,6 +102,7 @@ const KGshot = () => {
       </section>
 
       <p class="selecteddesp">End of Selected KAAPIT Designs</p>
+      <BackdropPattern />
     </div>
   )
 };

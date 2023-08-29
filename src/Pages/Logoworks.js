@@ -12,7 +12,7 @@ import LogoImagesseven from "../Assets/logo images/7.jpg";
 import LogoImageseight from "../Assets/logo images/8.jpg";
 import LogoImagesnine from "../Assets/logo images/9.jpg";
 import LogoImagesten from "../Assets/logo images/10.jpg";
-
+import BackdropPattern from "../Components/BackdropPattern";
 const Logoworks = () => {
 
     return(
@@ -107,6 +107,7 @@ const Logoworks = () => {
 
 
         <p class="selecteddesp">End of Selected Logo Designs</p>
+        <BackdropPattern />
         </div>
     )
 };

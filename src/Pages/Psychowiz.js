@@ -13,6 +13,7 @@ import Psychowizseven from "../Assets/psychowiz design/7.jpg";
 import Psychowizeight from "../Assets/psychowiz design/8.jpg";
 import Psychowiznine from "../Assets/psychowiz design/9.png";
 import Psychowizten from "../Assets/psychowiz design/10.jpg";
+import BackdropPattern from '../Components/BackdropPattern';
 
 const Psychowiz = () => {
     return (
@@ -106,6 +107,7 @@ const Psychowiz = () => {
 
 
         <p class="selecteddesp">End of Selected Psychowizard Designs</p>
+        <BackdropPattern />
         </div>
     )
 };

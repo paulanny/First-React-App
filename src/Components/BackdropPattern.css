@@ -1,0 +1,17 @@
+.bgtest   {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    gap: 1px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  }
+
+  .bgtest span  {
+    background: rgb(24, 5, 41);
+    display: block;
+    border-radius: 10px;
+  }

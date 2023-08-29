@@ -10,6 +10,7 @@ import Eggfour from "../Assets/eggimages/4.jpg";
 import Eggfive from "../Assets/eggimages/5.jpg";
 import Eggsix from "../Assets/eggimages/6.jpg";
 import Eggseven from "../Assets/eggimages/7.jpg";
+import BackdropPattern from '../Components/BackdropPattern';
 // import Eggeight from "../Assets/eggimages/8.jpg";
 // import Eggnine from "../Assets/eggimages/9.jpg";
 // import Eggten from "../Assets/eggimages/10.jpg";
@@ -96,6 +97,7 @@ const EggDesigns = () => {
       </section>
 
       <p class="selecteddesp">End of Selected Fola's Egg Designs</p>
+      <BackdropPattern />
     </div>
   );
 }

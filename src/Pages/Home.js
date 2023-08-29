@@ -4,6 +4,7 @@ import SelectedProjsTexts from '../Components/SelectedProjsTexts';
 import Projects from '../Components/Projects';
 import Tools from '../Components/Tools';
 import Footer from '../Components/Footer';
+import BackdropPattern from '../Components/BackdropPattern';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
      description="Tools"/>
      <Tools />
      <Footer />
+     <BackdropPattern />
      </div>
     )
 }
