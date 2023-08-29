@@ -6,7 +6,7 @@
   }
 
   .projndpics {
-    background: rgb(24, 2, 47);
+    background: rgb(24, 2, 47, 0.5);
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
     padding: 48px 0px 0px 48px;
@@ -39,7 +39,7 @@
   }
 
   .projndpics2 {
-    background: rgb(24, 2, 47);
+    background: rgb(24, 2, 47, 0.5);
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
     padding: 48px 0px 0px 48px;
