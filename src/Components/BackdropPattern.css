@@ -1,17 +1,29 @@
-.bgtest   {
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    gap: 1px;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-  }
+.bgtest {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  gap: 1px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
 
-  .bgtest span  {
-    background: rgb(24, 5, 41);
-    display: block;
-    border-radius: 10px;
+.bgtest span {
+  background: rgb(24, 5, 41);
+  display: block;
+  border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+  .bgtest span {
+    height: calc(12.5vw);
   }
+}
+
+@media (max-width: 600px) {
+  .bgtest span {
+    height: calc(20vw);
+  }
+}
