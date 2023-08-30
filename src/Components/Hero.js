@@ -1,3 +1,4 @@
+import Typewriter from './Typewriter';
 import MyHeroImg from '../Assets/myimage.png';
 import arrowImg from '../Assets/arrow.png';
 import './Hero.css';
@@ -9,8 +10,9 @@ const Hero = () => {
             <div class="deetndimg">
                 <div class="selfdetails">
                     <p class="bigintro">
-                        Hi, I am
-                        <span class="paull"> Paul</span>
+                    <span className="paull"> Hi, I am  
+                    </span> 
+                        <Typewriter text="Paul" delay={100} infinite/>    
                     </p>
                     <p class="detailsp"> A passionate and creative <strong>GRAPHIC DESIGNER</strong> with
                          over 2 years of experience in the industry. With a strong background in 

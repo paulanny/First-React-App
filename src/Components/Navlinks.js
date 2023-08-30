@@ -1,3 +1,5 @@
+import ResumePdf from '../Assets/Animashaun Paul Resume.pdf';
+
 const NavLinks = (props) => {
 
     const closeMenu = () => {props.isMobile && props.closeMobileMenu()}
@@ -20,7 +22,8 @@ const NavLinks = (props) => {
                                 Contact</a>
                         </li>
                         <li onClick={closeMenu}>
-                                <a>
+                                <a href={ResumePdf} target="_blank"
+                    rel="noreferrer">
                                 
                             Resume</a>
                         </li>

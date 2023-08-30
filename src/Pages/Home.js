@@ -1,4 +1,4 @@
-import Header from '../Components/NavBar';
+import NavBar from '../Components/NavBar';
 import Hero from '../Components/Hero';
 import SelectedProjsTexts from '../Components/SelectedProjsTexts';
 import Projects from '../Components/Projects';
@@ -10,7 +10,7 @@ import BackdropPattern from '../Components/BackdropPattern';
 const Home = () => {
     return (
         <div>
-        <Header/>
+        <NavBar />
         <Hero/>
         <SelectedProjsTexts
         title="SELECTED PROJECTS"
