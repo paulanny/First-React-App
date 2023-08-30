@@ -34,6 +34,19 @@ header {
     gap: 20px;
   }
   
+
+  .MenundIcon  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+.MenundIcon .Hamburger    {
+    size:40px;
+     color:white;
+     display:none;
+  }
   .navbara a {
     display: block;
     padding: 15px;
@@ -52,10 +65,16 @@ header {
   }
   
 
-  @media (max-width:1000px) {
+  @media (max-width:780px) {
     .navbarul   {
       display: none;
     }
+
+    .MenundIcon .Hamburger    {
+    size:40px;
+     color:white;
+     display: block;
+  }
 }
 
 @media (max-width: 500px) {

@@ -1,10 +1,11 @@
-import Header from '../Components/Header';
+import Header from '../Components/NavBar';
 import Hero from '../Components/Hero';
 import SelectedProjsTexts from '../Components/SelectedProjsTexts';
 import Projects from '../Components/Projects';
 import Tools from '../Components/Tools';
 import Footer from '../Components/Footer';
 import BackdropPattern from '../Components/BackdropPattern';
+// import MobileMenu from '../Components/MobileMenu';
 
 const Home = () => {
     return (
