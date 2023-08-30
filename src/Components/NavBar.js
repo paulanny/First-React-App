@@ -25,8 +25,7 @@ return (
                 <Navigation />
                 <MobileNavigation />
                 </div>
-        //             {/* <CgMenuRight className='Hamburger' size='40px' color='white'
-        //             onClick={menuToggleHandler}/>
+        //            
         //             <AiOutlineClose className='Hamburger-close' size='40px' color='white'/>
         //     </nav> */}
         // {/* {openMenu && <MobileMenu />} */}

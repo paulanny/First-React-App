@@ -1,3 +1,11 @@
+.NavBar{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .NavBar ul {
     
         list-style-type: none;
@@ -30,9 +38,18 @@
         gap: 20px;
       }
 
+      .NavBar .MobileNavigation li {
+        padding: 14px 16px;
+        gap: 30px;
+        display: flex;
+        text-align: center;
+        margin: auto;
+        font-size: 23px;
+    }
+
       .NavBar .MobileNavigation ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         color: white;
         text-align: center;
         padding: 14px 16px;
@@ -41,30 +58,47 @@
       }
 
 
-    .NavBar .MobileNavigation ul {
-    display: flex;
-    flex-direction: column;
-    padding-top: 10px;
-    font-size: 23px;
-
-  }
-
   .NavBar .MobileNavigation {
     display: none;
   }
 
 
-  @media(max-width:990px){
+  @media (max-width: 990px){
 
     .NavBar .Navigation {
       display: none;
     }
 
-    .NavBar .MobileNavigation ul{
-      display: block;
+    .NavBar .MobileNavigation {
+      display: flex;
+      /* flex-direction: column; */
       background-color: red;
+      align-items: center;
       /* min-width: 20px; */
     }
+
+    .NavBar .MobileNavigation .Hamburger  {
+      position: absolute;
+      right: 5%;
+      cursor: pointer;
+    }
+
+    .NavBar nav ul {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      width: 100%;
+      background-color: #181818;
+
+}
   
+.NavBar nav ul list  {
+   padding-left: 15%;
+}
+
+.NavBar  {
+  opacity: 1;
+}
   }
-     
