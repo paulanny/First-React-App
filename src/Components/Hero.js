@@ -10,9 +10,9 @@ const Hero = () => {
             <div class="deetndimg">
                 <div class="selfdetails">
                     <p class="bigintro">
-                    <span className="paull"> Hi, I am  
+                    <span className="paull">Hi, I am     
                     </span> 
-                        <Typewriter text="Paul" delay={100} infinite/>    
+                         <Typewriter text= " Paul" delay={300} infinite/>    
                     </p>
                     <p class="detailsp"> A passionate and creative <strong>GRAPHIC DESIGNER</strong> with
                          over 2 years of experience in the industry. With a strong background in 

@@ -13,8 +13,8 @@ const Home = () => {
         <NavBar />
         <Hero/>
         <SelectedProjsTexts
-        title="SELECTED PROJECTS"
-        description="Projects"/>
+        title="SELECTED DESIGNS"
+        description="Designs"/>
         <Projects />
         <SelectedProjsTexts
      title="MY DESIGN TOOLS"

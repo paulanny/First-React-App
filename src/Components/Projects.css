@@ -82,7 +82,7 @@
   .bigp {
     color: white;
     font-size: 35px;
-    font-family: "Raleway", sans-serif;
+    font-family: 'fira sans condensed', sans-serif;
     font-weight: 700;
   }
   .projstory {
@@ -93,7 +93,7 @@
     margin-top: 24px;
     margin-bottom: 3em;
     color: white;
-    font-family: "Raleway", sans-serif;
+    font-family: 'fira sans condensed', sans-serif;
   }
   
   .abtproj {
@@ -287,7 +287,7 @@
     .bigp {
         color: white;
         font-size: 35px;
-        font-family: "Raleway", sans-serif;
+        font-family: 'fira sans condensed', sans-serif;
         font-weight: 700;
         width: 70%;
         line-height: 150%;
@@ -340,7 +340,7 @@
         margin-top: 24px;
         margin-bottom: 3em;
         color: white;
-        font-family: "Raleway", sans-serif;
+        font-family: 'fira sans condensed', sans-serif;
       }
 }
 
@@ -459,7 +459,7 @@
       .bigp {
         color: white;
         font-size: 20px;
-        font-family: "Raleway", sans-serif;
+        font-family: 'fira sans condensed', sans-serif;
         font-weight: 700;
       }
       
@@ -471,7 +471,7 @@
         margin-top: 24px;
         margin-bottom: 3em;
         color: white;
-        font-family: "Raleway", sans-serif;
+        font-family: 'fira sans condensed', sans-serif;
       }
       
       .viewshotp {
