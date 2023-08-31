@@ -38,6 +38,7 @@ const Projects = () => {
         </div>
       </div>
 
+   
       <div class="projndpics2">
         <div class="abtproj2">
           <p class="bigp">DEPARTMENTAL DESIGNS</p>
@@ -91,6 +92,7 @@ const Projects = () => {
           <img src={Proj3Img} alt="project1" />
         </div>
       </div>
+    
 
       <div class="projndpics">
         <div class="abtproj">

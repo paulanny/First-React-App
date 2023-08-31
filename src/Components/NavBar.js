@@ -2,36 +2,39 @@
 // import LogoImage from '../Assets/myLogo.png';
 // import './Header.css';
 // import { CgMenuRight } from 'react-icons/cg';
-import MobileNavigation from './MobileNavigation';
-import Navigation from './Navigation';
-import './Navbar.css';
+import MobileNavigation from "./MobileNavigation";
+import Navigation from "./Navigation";
+import "./Navbar.css";
 
 const NavBar = () => {
-// const [openMenu, setOpenMenu] = useState(false);
+  // const [openMenu, setOpenMenu] = useState(false);
 
-// const menuToggleHandler = () => {
-// setOpenMenu(!openMenu);
-// console.log('You Clicked me!');
-// }
+  // const menuToggleHandler = () => {
+  // setOpenMenu(!openMenu);
+  // console.log('You Clicked me!');
+  // }
 
-return (
+  return (
     // // <div>
     // // <header>
     //         {/* <nav className="navbar"> */}
     //             {/* <div className="logo" id="logo">
     //                 <img className="logoimg" src={LogoImage} alt="My-Logo"/>
     //             </div> */}
-                <div className='NavBar'>
-                <Navigation />
-                <MobileNavigation />
-                </div>
-        //            
-        //             <AiOutlineClose className='Hamburger-close' size='40px' color='white'/>
-        //     </nav> */}
-        // {/* {openMenu && <MobileMenu />} */}
-        // // </header>
-        // // </div>
-        );
-}
+    <div className="NavBar">
+      <div className="logo" id="logo">
+        <img className="logoimg" src={LogoImage} alt="My-Logo" />
+      </div>
+      <Navigation />
+      <MobileNavigation />
+    </div>
+    //
+    //             <AiOutlineClose className='Hamburger-close' size='40px' color='white'/>
+    //     </nav> */}
+    // {/* {openMenu && <MobileMenu />} */}
+    // // </header>
+    // // </div>
+  );
+};
 
 export default NavBar;

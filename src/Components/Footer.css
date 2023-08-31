@@ -28,11 +28,11 @@
   .letworksmallp {
     font-size: 20px;
     line-height: 219.2%;
-    width: 80%;
+    width: 90%;
     color: white;
-    font-family: "raleway", sans-serif;
-    letter-spacing: 0.08em;
+    font-family: 'fira sans condensed', sans-serif;
     margin-top: 1.5em;
+    text-align: justify;
   }
   
   .letworkbigp {
@@ -48,8 +48,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     /* color: white; */
-    font-family: "raleway", sans-serif;
-    letter-spacing: 0.08em;
+    font-family: 'fira sans condensed', sans-serif;
     font-size: 46px;
     font-weight: 800;
     line-height: 140.2%;
@@ -173,11 +172,10 @@
   .referencep     {
     display: flex;
     flex-direction: column;
-    font-family: 'raleway', sans-serif;
+    font-family: 'fira sans condensed', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.435);
-    letter-spacing: 0.04em;
     line-height: 140.2%;
   }
   
@@ -241,8 +239,7 @@
     line-height: 219.2%;
     width: 100%;
     color: white;
-    font-family: "raleway", sans-serif;
-    letter-spacing: 0.08em;
+    font-family: 'fira sans condensed', sans-serif;
     margin-top: 1.5em;
     margin-bottom: 50px;
   }
@@ -255,8 +252,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     /* color: white; */
-    font-family: "raleway", sans-serif;
-    letter-spacing: 0.08em;
+    font-family: 'fira sans condensed', sans-serif;
     margin-bottom: 30px;
     font-size: 36px;
     font-weight: 800;
@@ -323,8 +319,7 @@
     line-height: 219.2%;
     width: 100%;
     color: white;
-    font-family: "raleway", sans-serif;
-    letter-spacing: 0.08em;
+    font-family: 'fira sans condensed', sans-serif;
     margin-top: 1.5em;
     margin-bottom: 50px;
   }
@@ -351,8 +346,7 @@
     line-height: 219.2%;
     width: 100%;
     color: white;
-    font-family: "raleway", sans-serif;
-    letter-spacing: 0.08em;
+    font-family: 'fira sans condensed', sans-serif;
     margin-top: 1.5em;
     margin-bottom: 50px;
   }
@@ -450,8 +444,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     /* color: white; */
-    font-family: "raleway", sans-serif;
-    letter-spacing: 0.08em;
+    font-family: 'fira sans condensed', sans-serif;
     margin-bottom: 30px;
     font-size: 26px;
     font-weight: 800;
@@ -464,8 +457,7 @@
     line-height: 219.2%;
     width: 100%;
     color: white;
-    font-family: "raleway", sans-serif;
-    letter-spacing: 0.08em;
+    font-family: 'fira sans condensed', sans-serif;
     margin-top: 1.5em;
     margin-bottom: 50px;
   }

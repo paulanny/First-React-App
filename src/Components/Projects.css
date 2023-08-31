@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    -webkit-box-pack: justify;
     padding: 20px 50px;
   }
 
@@ -10,18 +11,19 @@
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
     padding: 48px 0px 0px 48px;
+    color: white;
     display: flex;
-    margin: 32px auto;
+    margin: 32px 0px;
     -webkit-box-pack: justify;
     justify-content: space-between;
     min-height: 2px;
     align-items: flex-end;
-    width: 95%;
     overflow: hidden;
+    width: 100%;
   }
   
   .projectimg {
-    width: 50%;
+    width: 60%;
   }
   
   .projectimg img {
@@ -42,18 +44,26 @@
     background: rgb(24, 2, 47, 0.5);
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
-    padding: 48px 0px 0px 48px;
-    display: flex;
-    flex-direction: column;
-    margin: 32px auto;
+    padding: 40px 0px 0px 32px;
+    color: white;
+    display: block;
+    margin: 32px 0px;
     -webkit-box-pack: justify;
     justify-content: space-between;
     min-height: 2px;
     align-items: flex-end;
-    width: 45%;
-    overflow: hidden;
-  }
+    width: 47%;
+}
   
+  
+
+  /* .projpics2wrapper{
+    width: 90%;
+    display: flex;
+    border:red 1px solid;
+  } */
+
+
   .abtproj2 {
     padding-right: 32px;
     padding-bottom: 56px;
@@ -114,24 +124,26 @@
   
   .viewbtn a {
     text-decoration: none;
+    font-family: 'fira sans condensed', sans-serif;
+    font-size: 25px;
   }
   
   .viewshotabtn {
-    /* background-color: #d6d93b; */
     background-color: transparent;
     display: flex;
-    --webkit-box-pack: center;
+    -webkit-box-pack: center;
     justify-content: center;
     min-height: 2px;
-    --webkit-box-align: center;
+    -webkit-box-align: center;
     align-items: center;
-    width: 160px;
+    width: 140px;
     height: 50px;
     outline: none;
     border: none;
+    color: transparent;
     position: relative;
     cursor: pointer;
-    border-radius: 5px;
+    font-family: 'fira sans condensed', sans-serif;
   }
   
   .viewshotabtn::before  {
@@ -244,7 +256,7 @@
         justify-content: space-between;
         min-height: 2px;
         align-items: flex-end;
-        width: 95%;
+        width: 100%;
         overflow: hidden;
       }
 

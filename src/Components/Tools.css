@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 80px auto 30px auto;
+    margin: 0px auto 30px auto;
     align-items: center;
     padding: 0px 50px;
   }
@@ -13,11 +13,11 @@
 
   .toolsp   {
     color: white;
-    font-family: 'raleway', sans-serif;
+    font-family: 'fira sans condensed', sans-serif;
     font-size: 18px;
     width: 45%;
     line-height: 219.2%;
-    letter-spacing: 0.08em;
+    text-align: justify;
     padding: 0px 20px;
 
   }
@@ -73,7 +73,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      margin: 80px auto 30px auto;
+      margin: 0px auto 30px auto;
       align-items: center;
       padding: 0px 50px;
   }
@@ -103,6 +103,7 @@
   margin: auto;
   justify-content: center;
   align-items: center;
+  
 }
 
 .toolicons {
@@ -115,11 +116,10 @@
 }
 
 .toolicons p {
-  font-family: 'raleway', sans-serif;
   color: white;
   font-weight: 500;
   font-size: 14px;
-  letter-spacing: 0.10em;
+  font-family: 'fira sans condensed', sans-serif;
 }
 
 
@@ -132,7 +132,6 @@
       font-size: 18px;
       width: 100%;
       line-height: 219.2%;
-      letter-spacing: 0.08em;
       padding: 0px 3px;
   } */
 
@@ -149,27 +148,25 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 40px auto 30px auto;
+  margin: 0px auto 30px auto;
   align-items: center;
   padding: 0px 12px;
 }
 
 .toolsp {
   color: white;
-  font-family: 'raleway', sans-serif;
+  font-family: 'fira sans condensed', sans-serif;
   font-size: 14px;
   width: 100%;
   line-height: 219.2%;
-  letter-spacing: 0.08em;
   padding: 0px 3px;
 }
 
 .toolicons p {
-  font-family: 'raleway', sans-serif;
+  font-family: 'fira sans condensed', sans-serif;
   color: white;
   font-weight: 500;
   font-size: 14px;
-  letter-spacing: 0.0em;
 }
   }
 
