@@ -5,9 +5,9 @@
 .deetndimg  {
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 100px auto;
     display: flex;
-    padding: 20px 50px;
+    /* padding: 20px 50px; */
   }
   
   .selfdetails {

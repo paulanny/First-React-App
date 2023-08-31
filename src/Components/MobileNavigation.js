@@ -1,8 +1,9 @@
+import { useState } from "react";
+import { motion } from 'framer-motion'
 import NavLinks from "./Navlinks";
 import "./Navbar.css";
 import { CgMenuRight } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
-import { useState } from "react";
 const MobileNavigation = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const menuToggleHandler = () => {
@@ -13,8 +14,10 @@ const MobileNavigation = () => {
     onClick={menuToggleHandler}/>
   );
   const hamburgerIcon = (
-    <CgMenuRight
+    <motion.CgMenuRight
       className="Hamburger"
+      whileHover={{ scale: 1.1 }}
+      transition={{ type: "spring", stiffness: 400, damping: 10 }}
       size="40px"
       color="white"
       onClick={menuToggleHandler}

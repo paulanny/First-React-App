@@ -1,6 +1,7 @@
 import ResumePdf from '../Assets/Animashaun Paul Resume.pdf';
 
 const NavLinks = (props) => {
+    
 
     const closeMenu = () => {props.isMobile && props.closeMobileMenu()}
     return (
