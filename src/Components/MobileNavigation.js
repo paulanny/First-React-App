@@ -14,10 +14,8 @@ const MobileNavigation = () => {
     onClick={menuToggleHandler}/>
   );
   const hamburgerIcon = (
-    <motion.CgMenuRight
+    <CgMenuRight
       className="Hamburger"
-      whileHover={{ scale: 1.1 }}
-      transition={{ type: "spring", stiffness: 400, damping: 10 }}
       size="40px"
       color="white"
       onClick={menuToggleHandler}

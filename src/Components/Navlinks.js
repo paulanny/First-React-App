@@ -1,33 +1,63 @@
+import { motion } from 'framer-motion'
 import ResumePdf from '../Assets/Animashaun Paul Resume.pdf';
 
 const NavLinks = (props) => {
-    
+    const animationFrom = {opacity: 0, y: -40}
+    const animateTo = {opacity: 1, y: 0}
 
     const closeMenu = () => {props.isMobile && props.closeMobileMenu()}
     return (
                     <ul>
-                        <li onClick={closeMenu}>
+                        <motion.li
+                        initial={animationFrom} 
+                        animate={animateTo}
+                        transition={{delay:0.05}}
+                        onClick={closeMenu}>
                             <a href="#about">
-                                About</a>
-                        </li>
-                        <li onClick={closeMenu}>
+                                About
+                                <span></span></a>
+                        </motion.li>
+                        <motion.li 
+                        initial={animationFrom} 
+                        animate={animateTo}
+                        transition={{delay:0.15}}
+                        onClick={closeMenu}>
                             <a href="#projects">
-                                Projects</a>
-                        </li>
-                        <li onClick={closeMenu}>
+                                Projects
+                                <span></span></a>
+                        </motion.li>
+                        <motion.li 
+                        initial={animationFrom} 
+                        animate={animateTo}
+                        onClick={closeMenu}>
                             <a href="#tools">
-                               Design Tools</a>
-                        </li>
-                        <li onClick={closeMenu}>
+                               Design Tools
+                               <span></span></a>
+                        </motion.li>
+                        <motion.li 
+                        initial={animationFrom} 
+                        animate={animateTo}
+                        transition={{delay:0.25}}
+                        onClick={closeMenu}>
                             <a href="#contact">
-                                Contact</a>
-                        </li>
-                        <li onClick={closeMenu}>
+                                Contact
+                                <span></span></a>
+                        </motion.li>
+                        
+                        <motion.li 
+                        initial={animationFrom} 
+                        animate={animateTo}
+                        transition={{delay:0.35}}
+                        onClick={closeMenu}>
+                        
                                 <a href={ResumePdf} target="_blank"
+                                
                     rel="noreferrer">
                                 
-                            Resume</a>
-                        </li>
+                            Resume
+                            <span></span></a>
+                          
+                        </motion.li>
                     </ul>
     
     )
