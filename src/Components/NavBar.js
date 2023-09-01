@@ -23,12 +23,16 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className={`NavBar ${scrolled ? 'scrolled' : ''}`}>
-      <div className="logo" id="logo">
-        <img className="logoimg" src={LogoImage} alt="My-Logo" />
-      </div>
-      <Navigation />
-      <MobileNavigation />
+    <div className={`NavBar ${scrolled ? "scrolled" : ""}`}>
+      {/* <div className="logonav"> */}
+        {/* <div className="logo" id="logo"> */}
+          <img className="logoimg" src={LogoImage} alt="My-Logo" />
+        {/* </div> */}
+        <Navigation />
+        {/* <CgMenuRight className="Hamburger" size="40px" color="white" /> */}
+
+        <MobileNavigation />
+      {/* </div> */}
     </div>
   );
 };

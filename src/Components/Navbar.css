@@ -1,205 +1,285 @@
 .NavBar {
-  height: 80px;
+  padding: 54px 50px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 100;
+  transition: all 0.3s ease-out 0s;
+  border-bottom: none;
+  background: transparent;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 50px 50px;
-  width: 100%;
-  background-color: transparent;
-  transition: background-color 0.3s ease-in-out;
-  z-index: 1000;
   /* background-color: rgb(24, 2, 47); */
 }
 
-/* .hoverline  {
-  width: 100%;
-  
-  height: 10px;
-} */
+.logonav {
+  min-height: 2px;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.bglinksp {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  transition: width 0.7s ease 0.4s, opacity 0.6s ease 0.4s;
+  width: 0px;
+}
 
 .logoimg {
   width: 30px;
-  /* margin-top: 30px; */
-  /* padding: 30px; */
+  display: flex;
+  min-height: 2px;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 72px;
 }
 
 
 .NavBar.scrolled {
-  background-color: rgb(24, 2, 47, 0.8); /* Change to the desired background color */
+  background-color: rgb(
+    24,
+    2,
+    47,
+    0.8
+  ); /* Change to the desired background color */
 }
 
+.NavBar .MobileNavigation {
+  display: none;
+}
 
-.NavBar ul {
-    
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-     
-      }
+a:hover > span {
+  width: 100%;
+}
 
-      .NavBar a {
-        color: white;
-        text-decoration: none;
-        display:block;
-        position: relative;
-      }
+a span {
+  background-color: #d6d93b;
+  position: absolute;
+  width: 0;
+  bottom: 0;
+  height: 2px;
+  left: 0;
+  transition: width 1s;
+}
 
-      .NavBar .Navigation li {
-        padding: 14px 16px;
-        /* gap: 100px;
-        display: flex; */
-        text-align: center;
-        margin: auto;
-        font-size: 14px;
-    }
-      
-.NavBar .Navigation ul {
-        display: flex;
-        flex-direction: row;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        gap: 20px;
-      }
+.linkbg   {
+    display: none;
+}
 
-      .NavBar .MobileNavigation li {
-        padding: 14px 16px;
-        /* gap: 30px;
-        display: flex;
-        text-align: center;
-        margin: auto; */
-        font-size: 30px;
-        cursor: pointer;
-    }
+.Navlinksa {
+  display: flex;
+  min-height: 2px;
+  -webkit-box-align: center;
+  align-items: center;
+}
 
-    /* .NavBar .MobileNavigation li { */
+.Navlinksa a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  display: block;
+  margin-right: 40px;
+  position: relative;
+  font-weight: 800;
+}
 
-      .NavBar .MobileNavigation ul {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    gap: 20px;
-    padding-top: 150px;
-      }
-
-
-  .NavBar .MobileNavigation {
+@media (max-width: 990px) {
+  .NavBar .Navigation {
     display: none;
   }
 
-  a:hover>span {
+  .bglinksp {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    transition: width 0.7s ease 0.4s, opacity 0.6s ease 0.4s;
     width: 100%;
   }
-  
-  a span  {
-    background-color: #d6d93b;
+
+  .NavBar .MobileNavigation {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .NavBar .MobileNavigation .Hamburger {
     position: absolute;
-      bottom: 0;
-      height: 2px;
-      left: 0;
-      transition: width 1s;
+    right: 5%;
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 3s ease;
+    
+  }
+
+  .NavBar .MobileNavigation .HamburgerC {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 3s ease;
+    top: 2%;
   }
 
 
-  @media (max-width: 990px){
 
-    .NavBar .Navigation {
-      display: none;
-    }
-
-    .NavBar .MobileNavigation {
-      display: flex;
-      /* flex-direction: column; */
-      /* background-color: red; */
-      align-items: center;
-      /* min-width: 20px; */
-    }
-
-    .NavBar .MobileNavigation .Hamburger  {
-      position: absolute;
-      right: 5%;
-      cursor: pointer;
-      z-index: 1000;
-      transition:all 3s ease;
-    }
-
-    .NavBar nav ul {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 1px;
-      right: 0;
-      width: 100%;
-      height: 100vh;
-      background-color: rgb(24, 2, 47, 0.8);
-
-}
-  
-.NavBar nav ul list  {
-   padding-left: 15%;
-}
-
-.NavBar  {
-  opacity: 1;
-}
-
-.NavBar .MobileNavigation li:nth-child(even) {
-  background: linear-gradient(to right,      
-  #d6d93b 0%,  #FFFF 50%,  #d6d93b 100%);
-  background-size: 200% auto;
-  /* color: #000; */
-  background-clip: text;
-  color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: mobileNavA 3s linear infinite;
-  padding-left: 150px;
+  .NavBar .MobileNavigation a:nth-child(even) {
+    background: linear-gradient(to right, #d6d93b 0%, #ffff 50%, #d6d93b 100%);
+    background-size: 200% auto;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: mobileNavA 3s linear infinite;
+    padding-left: 150px;
   }
 
   @keyframes mobileNavA {
     to {
       background-position: 200% center;
     }
-}
+  }
 
-.NavBar .MobileNavigation li:nth-child(odd) {
-  background: linear-gradient(to right,      
-  #FFFF 0%, #d6d93b 50%,  #FFFF 100%);
-  background-size: 200% auto;
-  /* color: #000; */
-  background-clip: text;
-  color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: mobileNavB 3s linear infinite;
-  padding-right: 100px;
+  .NavBar .MobileNavigation a:nth-child(odd) {
+    background: linear-gradient(to right, #ffff 0%, #d6d93b 50%, #ffff 100%);
+    background-size: 200% auto;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: mobileNavB 3s linear infinite;
+    padding-right: 100px;
   }
 
   @keyframes mobileNavB {
     to {
       background-position: 200% center;
     }
-}
+  }
 
-.NavBar .MobileNavigation li  {
-  font-family: 'fira sans condensed', sans-serif;
-  font-size: 35px;
-  font-weight: 800;
-}
+  .NavBar .MobileNavigation li {
+    font-family: "fira sans condensed", sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+  }
 
-.logoimg  {
-  position: fixed;
+  .logoimg {
+    position: fixed;
     z-index: 100;
     top: 1%;
     width: 40px;
+  }
+
+
+  .linkbg   {
+  position: fixed;
+    left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    
 }
+
+.Navlinksa {
+  display: flex;
+  flex-direction: column;
+  min-height: 2px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  /* justify-content: center; */
+  width: 100%;
+  height: 100vh;
+  padding: 40px;
+}
+
+.linkbg span {transition: height 0.8s ease-out 0s;
+    background: rgb(24, 2, 47, 0.9);
+    display: block;
+    height: 100vh;
+}
+
+/* .linkbg span:nth-child(2)  {
+  transition: height 0.8s ease-out 0.3s;
+}
+
+.linkbg span:nth-child(3)  {
+  transition: height 0.8s ease-out 0.6s
+}
+
+.linkbg span:nth-child(4)  {
+  transition: height 0.8s ease-out 0.9s;;
+} */
+
+  .NavBar a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    width:100%;
+    font-family: "fira sans condensed", sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    gap: 20px;
+    padding-top: 80px;
+  }
+
+  /* .linkbg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    transition: opacity 0.8s ease-out; 
+  } */
+  
+  /* .linkbg.closing {
+    opacity: 0;
+  } */
+  
+  /* .linkbg span {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background: rgba(18, 0, 36, 0.914);
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 0.8s ease-out;
   }
   
+  .linkbg.menu-open.animate-once .animate-span-1 {
+    animation: animateSpanOnce 2.4s 0s forwards;
+  }
+  
+  .linkbg.menu-open.animate-once .animate-span-2 {
+    animation: animateSpanOnce 2.4s 0.3s forwards;
+  }
+  
+  .linkbg.menu-open.animate-once .animate-span-3 {
+    animation: animateSpanOnce 2.4s 0.6s forwards;
+  }
+  
+  .linkbg.menu-open.animate-once .animate-span-4 {
+    animation: animateSpanOnce 2.4s 0.9s forwards;
+  }
+
+  @keyframes animateSpanOnce {
+    0% {
+      transform: scaleY(0);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  } */
+}
