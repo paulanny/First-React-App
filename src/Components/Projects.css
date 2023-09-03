@@ -99,7 +99,6 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 219.2%;
-    letter-spacing: 0.08em;
     margin-top: 24px;
     margin-bottom: 3em;
     color: white;
@@ -119,13 +118,13 @@
     margin-top: 0px !important;
     line-height: unset !important;
     color: #d6d93b;
-    letter-spacing: 0.03em;
+    margin-bottom: 0;
   }
   
   .viewbtn a {
     text-decoration: none;
     font-family: 'fira sans condensed', sans-serif;
-    font-size: 25px;
+    font-size: 16px;
   }
   
   .viewshotabtn {
@@ -140,7 +139,7 @@
     height: 50px;
     outline: none;
     border: none;
-    color: transparent;
+    color: #d6d93b;
     position: relative;
     cursor: pointer;
     font-family: 'fira sans condensed', sans-serif;

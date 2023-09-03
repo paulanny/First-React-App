@@ -1,5 +1,5 @@
 .NavBar {
-  padding: 54px 50px;
+  padding: 25px 50px;
   position: fixed;
   top: 0px;
   right: 0px;
@@ -83,11 +83,11 @@ a span {
 .Navlinksa a {
   color: white;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.2em;
   display: block;
   margin-right: 40px;
   position: relative;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 @media (max-width: 990px) {

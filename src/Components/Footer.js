@@ -12,8 +12,8 @@ const Footer = () => {
     <footer id="contact">
       <div class="letwork">
         <div class="letworkp">
-          <p class="letworkbigp">LET'S BUILD SOMETHING TOGETHER</p>
-          <p class="letworksmallp">
+          <p data-aos="fade-up" class="letworkbigp">LET'S BUILD SOMETHING TOGETHER</p>
+          <p data-aos="fade-up" class="letworksmallp">
             Do you consider me a suitable pore partner for your next adventure?
             or you're interested in collaborating on a design project and
             learning more about my design services? please don't hesitate to
@@ -23,7 +23,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div class="sendmessage">
+        <div data-aos="fade-up" class="sendmessage">
           <div class="arrowimg">
             <img src={Arrow} alt="messageicon" />
           </div>
@@ -42,9 +42,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="horizontaldiv"></div>
+      <div data-aos="fade-up" class="horizontaldiv"></div>
 
-      <div class="tributendsocials">
+      <div data-aos="fade-up" class="tributendsocials">
         <div class="socials">
           <div class="divsoc">
             <a class="soca">

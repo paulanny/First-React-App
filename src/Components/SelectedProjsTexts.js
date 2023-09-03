@@ -1,10 +1,12 @@
+// import { useEffect } from 'react';
 import './SelectedProjsTexts.css';
 
 const SelectedProjsTexts = (props) => {
+ 
   return (
     <div class="selectedptxt" id="projects">
-      <p class="selectwhite">{props.title}</p>
-      <p class="dimselect">{props.description}</p>
+      <p data-aos="fade-right" class="selectwhite">{props.title}</p>
+      <p  data-aos="fade-right" class="dimselect">{props.description}</p>
     </div>
   )
 };

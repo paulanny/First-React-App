@@ -14,17 +14,19 @@ const Projects = () => {
     <section class="allprojects">
       <div class="projndpics">
         <div class="abtproj">
-          <p class="bigp">KAAPIT STUDIO GRAPHICS</p>
-          <p class="projstory">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            aperiam quae doloremque corporis iste voluptatum quia optio incidunt
-            ipsa, officiis nesciunt eos ut, fugiat ad alias rem enim, earum
-            praesentium?..
+          <p data-aos="fade-up" class="bigp">KAAPIT GRAPHICS DESIGNS</p>
+          <p data-aos="fade-up" class="projstory">
+            As a Freelance graphic designer and one of the co-founders of
+             KAAPIT GRAPHIC STUDIO, I have worked on series of designs 
+             for the brand, starting from the brand's Logo design to other attractive 
+             and appealing social media post designs. click the button below to view some of the selected 
+             designs. 
+
           </p>
-          <div class="viewbtn">
+          <div data-aos="fade-up" class="viewbtn">
             <Link to="/kaapitshot" class="viewshota">
               <button class="viewshotabtn">
-                <p class="viewshotp">View Shots</p>
+                <p class="viewshotp">View Designs</p>
                 <div class="shotarrow">
                   <img src={btnArrow} alt="arrow" />
                   <img src={btnArrow} alt="arrow" />
@@ -41,18 +43,17 @@ const Projects = () => {
    
       <div class="projndpics2">
         <div class="abtproj2">
-          <p class="bigp">DEPARTMENTAL DESIGNS</p>
-          <p class="projstory">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            aperiam quae doloremque corporis iste voluptatum quia optio incidunt
-            ipsa, officiis nesciunt eos ut, fugiat ad alias rem enim, earum
-            praesentium?..
+          <p data-aos="fade-up" class="bigp">EPSYCHE DESIGNS</p>
+          <p data-aos="fade-up" class="projstory">
+            Everything Psychology(EPSYCHE Ng) is a non profit oragnization that 
+            brings together great minds studying and interested in Psychology, I am a part of the 
+            graphic team for the organization and I have worked on several designs for the organization.
           </p>
 
-          <div class="viewbtn">
+          <div data-aos="fade-up" class="viewbtn">
             <Link to="/psychedesigns" class="viewshota">
               <button class="viewshotabtn">
-                <p class="viewshotp">View Shots</p>
+                <p class="viewshotp">View Designs</p>
                 <div class="shotarrow">
                   <img src={btnArrow} alt="arrow" />
                   <img src={btnArrow} alt="arrow" />
@@ -68,18 +69,18 @@ const Projects = () => {
 
       <div class="projndpics2">
         <div class="abtproj2">
-          <p class="bigp">SIMPLE AND CLASSY EGG DESIGNS</p>
-          <p class="projstory">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            aperiam quae doloremque corporis iste voluptatum quia optio incidunt
-            ipsa, officiis nesciunt eos ut, fugiat ad alias rem enim, earum
-            praesentium?..
+          <p data-aos="fade-up" class="bigp">NAPS DESIGNS</p>
+          <p data-aos="fade-up"  class="projstory">
+            As the graphic team lead for NIGERIAN ASSOCIATION OF PSYCHOLOGY STUDENTS, I have 
+            overseen and directed creation of different designs for the asociation for relatively
+            broadcasting across the various platforms used by te association. I have also designed
+            several designs for the association.
           </p>
 
-          <div class="viewbtn">
+          <div data-aos="fade-up" class="viewbtn">
             <Link to="/eggdesigns" class="viewshota">
               <button class="viewshotabtn">
-                <p class="viewshotp">View Shots</p>
+                <p class="viewshotp">View Designs</p>
                 <div class="shotarrow">
                   <img src={btnArrow} alt="arrow" />
                   <img src={btnArrow} alt="arrow" />
@@ -96,18 +97,17 @@ const Projects = () => {
 
       <div class="projndpics">
         <div class="abtproj">
-          <p class="bigp">LOGO DESIGNS</p>
-          <p class="projstory">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            aperiam quae doloremque corporis iste voluptatum quia optio incidunt
-            ipsa, officiis nesciunt eos ut, fugiat ad alias rem enim, earum
-            praesentium?..
+          <p data-aos="fade-up" class="bigp">LOGO DESIGNS</p>
+          <p data-aos="fade-up" class="projstory">
+           Logo Design is one important aspect of Graphic/Visual Design and of course
+            I am a creative Logo designer who creates simple and brand centered Logo to help
+            brands identity. Click the link to see some of my Logo designs.
           </p>
 
-          <div class="viewbtn">
+          <div data-aos="fade-up" class="viewbtn">
             <Link to="/logodesigns" class="viewshota">
               <button class="viewshotabtn">
-                <p class="viewshotp">View Shots</p>
+                <p class="viewshotp">View Designs</p>
                 <div class="shotarrow">
                   <img src={btnArrow} alt="arrow" />
                   <img src={btnArrow} alt="arrow" />
@@ -123,18 +123,19 @@ const Projects = () => {
 
       <div class="projndpics2">
         <div class="abtproj2">
-          <p class="bigp">MOCKUP DESIGNS</p>
-          <p class="projstory">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            aperiam quae doloremque corporis iste voluptatum quia optio incidunt
-            ipsa, officiis nesciunt eos ut, fugiat ad alias rem enim, earum
-            praesentium?..
+          <p data-aos="fade-up" class="bigp">MOCKUP DESIGNS</p>
+          <p data-aos="fade-up" class="projstory">
+            Mockup Design is a way of revealing the exact and expected 
+            outcome of every design to the client to enable them have an advance view of 
+            waht and how their designs will look like in real life printout. I am experiened in 
+            creating designs and designs Mockup for brands.
+
           </p>
 
-          <div class="viewbtn">
+          <div data-aos="fade-up" class="viewbtn">
             <Link to="/mockupdesigns" class="viewshota">
               <button class="viewshotabtn">
-                <p class="viewshotp">View Shots</p>
+                <p class="viewshotp">View Designs</p>
                 <div class="shotarrow">
                   <img src={btnArrow} alt="arrow" />
                   <img src={btnArrow} alt="arrow" />
@@ -150,18 +151,17 @@ const Projects = () => {
 
       <div class="projndpics2">
         <div class="abtproj2">
-          <p class="bigp">PSYCHOWIZARD VENTURE DESIGNS</p>
-          <p class="projstory">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            aperiam quae doloremque corporis iste voluptatum quia optio incidunt
-            ipsa, officiis nesciunt eos ut, fugiat ad alias rem enim, earum
-            praesentium?..
+          <p data-aos="fade-up" class="bigp">PSYCHOWIZARD DESIGNS</p>
+          <p data-aos="fade-up" class="projstory">
+            As a volunteer graphic designer for Psychowizard, I 
+            have created multiple designs for the organization that help convey necessary
+            information to the intended audience. 
           </p>
 
-          <div class="viewbtn">
+          <div data-aos="fade-up" class="viewbtn">
             <Link to="/psychowizdesigns" class="viewshota">
               <button class="viewshotabtn">
-                <p class="viewshotp">View Shots</p>
+                <p class="viewshotp">View Designs</p>
                 <div class="shotarrow">
                   <img src={btnArrow} alt="arrow" />
                   <img src={btnArrow} alt="arrow" />
@@ -177,18 +177,19 @@ const Projects = () => {
 
       <div class="projndpics">
         <div class="abtproj">
-          <p class="bigp">SIMPLE RANDOM DESIGNS</p>
-          <p class="projstory">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            aperiam quae doloremque corporis iste voluptatum quia optio incidunt
-            ipsa, officiis nesciunt eos ut, fugiat ad alias rem enim, earum
-            praesentium?..
+          <p data-aos="fade-up" class="bigp">SIMPLE RANDOM DESIGNS</p>
+          <p data-aos="fade-up" class="projstory">
+            Of course, I have various clients that reach out to me to help them with 
+            nice and simple designs, I deliver quality and high resolution designs as usual
+            considering and tailoring my designs to meet the expected 
+            outcome of the client. Click the button to see some of the selected random designs.
+
           </p>
 
-          <div class="viewbtn">
+          <div data-aos="fade-up" class="viewbtn">
             <Link to="/randomdesigns" class="viewshota">
               <button class="viewshotabtn">
-                <p class="viewshotp">View Shots</p>
+                <p class="viewshotp">View Designs</p>
                 <div class="shotarrow">
                   <img src={btnArrow} alt="arrow" />
                   <img src={btnArrow} alt="arrow" />

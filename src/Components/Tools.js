@@ -8,13 +8,13 @@ const Tools = () => {
   return (
     <div className="toolspane" id="tools">
       <div className="toolsp">
-        <p className="firsttoolp">
+        <p data-aos="fade-up" className="firsttoolp">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
           officia veniam iusto cumque placeat facilis sunt aperiam commodi quas
           consequuntur vel ducimus, quae, suscipit, dolorem corporis ipsum ad
           quia totam!
         </p>
-        <p className="sectoolp">
+        <p data-aos="fade-up" className="sectoolp">                  
           In addition to my design work, I am committed to staying up-to-date
           with the latest design trends and technologies. I am always eager to
           learn and improve my skills and seek out new challenges to push my
@@ -22,9 +22,9 @@ const Tools = () => {
         </p>
       </div>
 
-      <div className="linethrough"></div>
+      <div data-aos="fade-up" className="linethrough"></div>
 
-      <div className="toolsimages">
+      <div data-aos="fade-up" className="toolsimages">
         <div className="toolicons">
           <img src={CanvaImg} alt="pslogo" />
           <p className="iconname">CANVA</p>

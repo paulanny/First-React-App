@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 import NavBar from '../Components/NavBar';
 import Hero from '../Components/Hero';
 import SelectedProjsTexts from '../Components/SelectedProjsTexts';
@@ -8,6 +11,11 @@ import BackdropPattern from '../Components/BackdropPattern';
 // import MobileMenu from '../Components/MobileMenu';
 
 const Home = () => {
+    useEffect(()=> {
+        Aos.init({duration:1000,
+            easing: 'ease',
+            delay:0, });
+          }, [])
     return (
         <div>
         <NavBar />
