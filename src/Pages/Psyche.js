@@ -31,7 +31,7 @@ const Psyche = () => {
       </div>
 
       <section class="otherdes">
-        <div data-aos="fade-right" class="desslides">
+        <div data-aos="fade-up" class="desslides">
           <div class="desdiv">
             <img class="kaapitdes" src={Psycheone} alt="psychowiz designs" />
           </div>
@@ -45,7 +45,7 @@ const Psyche = () => {
           </div>
         </div>
 
-        <div data-aos="fade-left" class="desslides1">
+        <div data-aos="fade-up" class="desslides1">
           <div class="desdiv">
             <img class="kaapitdes" src={Psychetwo} alt="psychowiz designs" />
           </div>

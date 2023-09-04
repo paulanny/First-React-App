@@ -30,7 +30,7 @@ const KGshot = () => {
       </div>
 
       <section class="otherdes">
-        <div data-aos="fade-right" class="desslides">
+        <div data-aos="fade-up" class="desslides">
           <div class="desdiv">
             <img
               className="kaapitdes"
@@ -53,7 +53,7 @@ const KGshot = () => {
 
         </div>
 
-        <div data-aos="fade-left" class="desslides1">
+        <div data-aos="fade-up" class="desslides1">
           <div class="desdiv">
             <img class="kaapitdes" src={KGStudiotwo} alt="kaapit designs" />
           </div>
