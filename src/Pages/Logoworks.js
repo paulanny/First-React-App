@@ -1,6 +1,6 @@
 import NavBar from "../Components/NavBar";
 import "./KGshot.css";
-import Proj4Img from "../Assets/proj4.png";
+import logohero from "../Assets/logo images/logohero.png";
 import LogoImagesone from "../Assets/logo images/1.jpg";
 import LogoImagestwo from "../Assets/logo images/2.jpg";
 import LogoImagesthree from "../Assets/logo images/3.jpg";
@@ -21,7 +21,7 @@ const Logoworks = () => {
           </p>
         </div>
         <div class="projectimgkg">
-          <img src={Proj4Img} alt="project1" />
+          <img src={logohero} alt="project1" />
         </div>
       </div>
 

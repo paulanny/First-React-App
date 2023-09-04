@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import "./Projects.css";
 import btnArrow from "../Assets/shotarrow.png";
-import Proj1Img from "../Assets/proj1.png";
-import Proj2Img from "../Assets/incivil.png";
-import Proj3Img from "../Assets/proj3.png";
-import Proj4Img from "../Assets/proj4.png";
+import Proj1Img from "../Assets/image2/kaapit hero.png";
+import Proj2Img from "../Assets/psyche/epsycheero.png";
+import Proj3Img from "../Assets/eggimages/naps hero.png";
+import Proj4Img from "../Assets/logo images/logohero.png";
 import Proj5Img from "../Assets/proj5.png";
 import Proj6Img from "../Assets/proj6.png";
 import Proj7Img from "../Assets/proj7.png";
@@ -72,8 +72,8 @@ const Projects = () => {
           <p data-aos="fade-up" class="bigp">NAPS DESIGNS</p>
           <p data-aos="fade-up"  class="projstory">
             As the graphic team lead for NIGERIAN ASSOCIATION OF PSYCHOLOGY STUDENTS, I have 
-            overseen and directed creation of different designs for the asociation for relatively
-            broadcasting across the various platforms used by te association. I have also designed
+            overseen and directed creation of different designs for the association for relatively
+            broadcasting across the various platforms used by the association. I have also designed
             several designs for the association.
           </p>
 

@@ -38,7 +38,7 @@ const Hero = () => {
                         <img src={arrowImg} alt="jumparrow"/>
                     </div>
                 </div>
-                <div data-aos="fade-left" class="headimg">
+                <div data-aos="fade-up" class="headimg">
                     <img src={MyHeroImg} alt="bannersection"/>
                 </div>
             </div>

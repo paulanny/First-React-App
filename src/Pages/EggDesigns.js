@@ -1,7 +1,7 @@
 import './Mockup.css';
 import "../Components/SecondProj.css";
 import NavBar from '../Components/NavBar';
-import Proj3Img from "../Assets/proj3.png";
+import Proj3Img from "../Assets/eggimages/naps hero.png";
 import Eggone from "../Assets/eggimages/1.jpg";
 import Eggtwo from "../Assets/eggimages/2.jpg";
 import Eggthree from "../Assets/eggimages/3.jpg";

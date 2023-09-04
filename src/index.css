@@ -13,7 +13,90 @@ body {
   margin: 0;
   background-color: #120024;
   font-family: 'Fira Sans Condensed', sans-serif;
-  
-    
 }
 
+.loader   {
+  width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Logobob img  {
+  width: 40px;
+  animation: img-anim 1.2s ease-in-out infinite;
+}
+
+@keyframes img-anim {
+
+  0% {
+    width: 45px;
+  }
+
+  30% {
+    width: 50px;
+  }
+
+  50% {
+    width: 55px;
+  }
+
+  80% {
+    width: 45px;
+  }
+
+  100% {
+    width: 40px;
+  }
+}
+
+.loader p {
+  color:black;
+  font-family: 'firs sans condensed', sans-serif;
+  font-weight: 500;
+}
+
+.spanp  {
+  margin-top: 10px;
+}
+
+
+.spanp span {
+animation: width-anim 1.2s ease-in-out;
+width:0px;
+background-color:#d6d93b;
+border: 1px solid #d6d93b;
+border-radius: 4px;
+height: 20px;
+padding: 5px;
+color:black;
+  font-family: 'firs sans condensed', sans-serif;
+  font-weight: 600;
+/* position: absolute; */
+}
+
+@keyframes width-anim {
+
+  0% {
+    width: 10px;
+  }
+
+  30% {
+    width: 50px;
+  }
+
+  50% {
+    width: 90px;
+  }
+
+  80% {
+    width: 120px;
+  }
+
+  100% {
+    width: 0px;
+  }
+}

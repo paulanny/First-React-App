@@ -2,7 +2,7 @@
 // import "../Components/Header.css"
 import NavBar from '../Components/NavBar';
 import "./KGshot.css";
-import Proj1Img from "../Assets/proj1.png";
+import kaapithero from "../Assets/image2/kaapit hero.png";
 import KGStudioone from "../Assets/image2/1.jpg";
 import KGStudiotwo from "../Assets/image2/2.jpg";
 import KGStudiothree from "../Assets/image2/3.jpg";
@@ -25,7 +25,7 @@ const KGshot = () => {
           </p>
         </div>
         <div class="projectimgkg">
-          <img src={Proj1Img} alt="project1" />
+          <img src={kaapithero} alt="project1" />
         </div>
       </div>
 

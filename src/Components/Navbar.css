@@ -283,3 +283,19 @@ a span {
     }
   } */
 }
+
+@media (max-width: 600px) {
+.logoimg  {
+  width: 25px;
+}
+
+.NavBar {
+  padding: 30px 20px;
+}
+
+.NavBar .MobileNavigation .Hamburger {
+  width: 30px;
+}
+
+}
+

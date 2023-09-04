@@ -3,7 +3,7 @@ import "./Mockup.css";
 import "../Components/SecondProj.css";
 // import LogoImage from "../Assets/myLogo.png";
 import NavBar from "../Components/NavBar";
-import Proj2Img from "../Assets/incivil.png";
+import epsychero from "../Assets/psyche/epsycheero.png";
 import Psycheone from "../Assets/psyche/1.png";
 import Psychetwo from "../Assets/psyche/2.png";
 import Psychethree from "../Assets/psyche/3.png";
@@ -26,7 +26,7 @@ const Psyche = () => {
           </p>
         </div>
         <div class="projectimg3">
-          <img src={Proj2Img} alt="project1" />
+          <img src={epsychero} alt="project1" />
         </div>
       </div>
 
