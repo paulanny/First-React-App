@@ -12,7 +12,7 @@ const Randomdesigns = () => {
   return (
     <div>
       <NavBar />
-      <div class="projndpics">
+      <div class="projndpics4">
         <div class="abtproj">
           <p data-aos="fade-up" class="bigp">RANDOM DESIGNS</p>
           <p data-aos="fade-up" class="projstory">
