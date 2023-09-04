@@ -20,6 +20,11 @@
   .bgtest span {
     height: calc(12.5vw);
   }
+
+  .bgtest {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
 }
 
 @media (max-width: 600px) {
