@@ -1,5 +1,5 @@
 .projndpics3 {
-    background: rgb(24, 2, 47);
+    background: rgb(24, 2, 47, 0.5);
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
     padding: 48px 0px 0px 48px;
@@ -35,10 +35,27 @@
     margin-left: 85px;
 }
 
+.projndpics4 {
+  background: rgb(24, 2, 47, 0.5);
+  border: 1px solid rgba(150, 140, 127, 0.3);
+  border-radius: 16px;
+  padding: 48px 0px 0px 48px;
+  display: flex;
+  flex-direction: column;
+  margin: 32px auto;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  min-height: 2px;
+  align-items: flex-end;
+  width: 90%;
+  overflow: hidden;
+}
+
+
 
 @media (max-width:1000px) {
     .projndpics3 {
-        background: rgb(24, 2, 47);
+        background: rgb(24, 2, 47, 0.5);
         border: 1px solid rgba(150, 140, 127, 0.3);
         border-radius: 16px;
         padding: 48px 0px 0px 48px;
@@ -73,6 +90,15 @@
     /* margin-right: -2px; */
 }
   }
+
+  @media (max-width:600px)  {
+    .projndpics4  {
+      padding: 25px 0px 0px 25px;
+      margin-top: 85px;
+    }
+  }
+    
+  
   @media (max-width:550px) {
     .projndpics3 {
       background: rgb(24, 2, 47, 0.5);
@@ -88,6 +114,11 @@
       align-items: flex-end;
       width: 90%;
       overflow: hidden;
+  }
+
+  .projndpics4  {
+    padding: 25px 0px 0px 25px;
+    margin-top: 85px;
   }
   
   .abtproj3 {

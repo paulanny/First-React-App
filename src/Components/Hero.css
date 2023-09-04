@@ -129,11 +129,28 @@
     .deetndimg {
         justify-content: center;
         align-items: center;
-        margin: auto;
+        margin: 40px auto;
         display: flex;
         padding: 20px 8px;
         flex-direction: column-reverse;
     }
+
+    .detailsp   {
+        font-size: 14px;
+        line-height: 205%;
+        margin-top: 25px;
+      }
+
+    .headimg  {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    display: flex;
+  }
+  .headimg img {
+    width: 90%;
+  }
 
     .learnimg img {
         max-width: 150px;

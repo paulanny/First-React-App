@@ -26,4 +26,9 @@
   .bgtest span {
     height: calc(20vw);
   }
+
+  .bgtest {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
 }

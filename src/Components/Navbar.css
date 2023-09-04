@@ -297,5 +297,44 @@ a span {
   width: 30px;
 }
 
+.NavBar .MobileNavigation .HamburgerC{
+  width:30px;
+  top:1%;
+}
+
+.NavBar a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  width: 100%;
+  font-family: "fira sans condensed", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.NavBar .MobileNavigation a:nth-child(odd) {
+  padding-left: 40px;
+}
+
+}
+
+@media (max-width: 310px) {
+.NavBar .MobileNavigation a:nth-child(even) {
+    background: linear-gradient(to right, #d6d93b 0%, #ffff 50%, #d6d93b 100%);
+    background-size: 200% auto;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: mobileNavA 3s linear infinite;
+    padding-left: 100px;
+}
+
+.NavBar a {
+  font-size:18px;
+}
 }
 

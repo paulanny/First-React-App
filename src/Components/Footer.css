@@ -358,7 +358,7 @@
   }
   
   footer {
-    padding: 30px 30px;
+    padding: 30px 10px;
   }
   
   .viewshotplg {
@@ -447,26 +447,27 @@
     /* color: white; */
     font-family: 'fira sans condensed', sans-serif;
     margin-bottom: 30px;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 800;
     line-height: 140.2%;
     animation: move-bg 8s infinite linear;
   }
   
   .letworksmallp {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 219.2%;
     width: 100%;
     color: white;
     font-family: 'fira sans condensed', sans-serif;
     margin-top: 1.5em;
     margin-bottom: 50px;
+    text-align: left;
   }
   }
   
   @media (max-width:290px) {
     .viewshotplg {
-      font-size: 12px;
+      font-size: 10px;
       font-weight: 600;
       margin-right: 4px;
       margin-top: 0px !important;
@@ -479,7 +480,7 @@
     display: block;
     stroke: currentcolor;
     color: rgb(214, 217, 59);
-    height: 20px;
+    height: 13px;
   }
   
   .divsoc {
@@ -497,7 +498,11 @@
   }
   
   .divsoc img {
-    width: 15px;
+    width: 13px;
+  }
+
+  .referencep p {
+    font-size: 12px;
   }
   }
   

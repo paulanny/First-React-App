@@ -332,7 +332,7 @@
         justify-content: space-between;
         min-height: 2px;
         align-items: flex-end;
-        width: 90%;
+        width: 100%;
         overflow: hidden;
     }
     
@@ -347,12 +347,19 @@
         font-weight: 300;
         font-size: 17px;
         line-height: 219.2%;
-        letter-spacing: 0.08em;
         margin-top: 24px;
         margin-bottom: 3em;
         color: white;
         font-family: 'fira sans condensed', sans-serif;
       }
+
+      .bigp {
+        color: white;
+        font-size: 30px;
+        font-family: 'fira sans condensed', sans-serif;
+        font-weight: 800;
+        width: 90%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -460,9 +467,7 @@
       .bigp {
         color: white;
         font-size: 30px;
-        font-family: "Raleway", sans-serif;
         font-weight: 800;
-        width: 80%;
     }
  }
       
@@ -478,7 +483,6 @@
         font-weight: 300;
         font-size: 14px;
         line-height: 219.2%;
-        letter-spacing: 0.08em;
         margin-top: 24px;
         margin-bottom: 3em;
         color: white;
