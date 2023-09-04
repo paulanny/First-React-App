@@ -67,7 +67,7 @@ const Randomdesigns = () => {
         </div>
       </section>
 
-      <p data-aos="fade-up" class="selecteddesp">End of Selected Random Designs</p>
+      <p class="selecteddesp">End of Selected Random Designs</p>
       <BackdropPattern />
     </div>
   );
