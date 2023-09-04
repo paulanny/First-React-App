@@ -263,6 +263,9 @@
   }
   
   @media (max-width:650px)  {
+     footer {
+      padding: 10px 20px;
+  }
     .sendmessage {
       width: 100%;
       display: flex;
@@ -297,7 +300,7 @@
   
   @media (max-width:550px) {
     footer {
-      padding: 30px 10px;
+      padding: 10px 20px;
   }
   
   .letwork {
@@ -358,7 +361,7 @@
   }
   
   footer {
-    padding: 30px 10px;
+    padding: 10px 20px;
   }
   
   .viewshotplg {
