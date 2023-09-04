@@ -30,26 +30,26 @@ const EggDesigns = () => {
 
       <section class="otherdes">
         <div  class="desslides">
-          <div data-aos="fade-right" class="desdiv">
+          <div class="desdiv">
             <img class="kaapitdes" src={Eggone} alt="psychowiz designs" />
           </div>
 
-          <div data-aos="fade-right" class="desdiv">
+          <div class="desdiv">
             <img class="kaapitdes" src={Eggthree} alt="psychowiz designs" />
           </div>
 
-          <div data-aos="fade-right" class="desdiv">
+          <div class="desdiv">
             <img class="kaapitdes" src={Eggthree} alt="psychowiz designs" />
           </div>
 
         </div>
 
         <div class="desslides1">
-          <div data-aos="fade-left" class="desdiv">
+          <div class="desdiv">
             <img class="kaapitdes" src={Eggtwo} alt="psychowiz designs" />
           </div>
 
-          <div data-aos="fade-left" class="desdiv">
+          <div class="desdiv">
             <img class="kaapitdes" src={Eggfour} alt="psychowiz designs" />
           </div>
 
