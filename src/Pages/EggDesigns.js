@@ -29,34 +29,34 @@ const EggDesigns = () => {
       </div>
 
       <section class="otherdes">
-        <div data-aos="fade-right" class="desslides">
-          <div class="desdiv">
+        <div  class="desslides">
+          <div data-aos="fade-right" class="desdiv">
             <img class="kaapitdes" src={Eggone} alt="psychowiz designs" />
           </div>
 
-          <div class="desdiv">
+          <div data-aos="fade-right" class="desdiv">
             <img class="kaapitdes" src={Eggthree} alt="psychowiz designs" />
           </div>
 
-          <div class="desdiv">
+          <div data-aos="fade-right" class="desdiv">
             <img class="kaapitdes" src={Eggthree} alt="psychowiz designs" />
           </div>
 
         </div>
 
         <div class="desslides1">
-          <div data-aos="left" class="desdiv">
+          <div data-aos="fade-left" class="desdiv">
             <img class="kaapitdes" src={Eggtwo} alt="psychowiz designs" />
           </div>
 
-          <div class="desdiv">
+          <div data-aos="fade-left" class="desdiv">
             <img class="kaapitdes" src={Eggfour} alt="psychowiz designs" />
           </div>
 
         </div>
       </section>
 
-      <p data-aos="fade-up" class="selecteddesp">End of Selected Fola's Egg Designs</p>
+      <p class="selecteddesp">End of Selected NAPS Designs</p>
       <BackdropPattern />
     </div>
   );
