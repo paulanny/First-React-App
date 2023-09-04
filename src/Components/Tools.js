@@ -6,7 +6,7 @@ import PhotoshopImg from "../Assets/photoshop.png";
 
 const Tools = () => {
   return (
-    <div className="toolspane" id="tools">
+    <div className="toolspane">
       <div className="toolsp">
         <p data-aos="fade-up" className="firsttoolp">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
