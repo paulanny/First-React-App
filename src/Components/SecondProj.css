@@ -24,6 +24,30 @@
     width: 50%;
 }
 
+.projectimg4 {
+  width: 60%;
+}
+
+.abtproj4 {
+  width: 50%;
+  padding-right: 48px;
+  padding-bottom: 48px;
+}
+
+.projectimg4 img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+  background-size: cover;
+  background-position: 50% center;
+  object-position: left top;
+  display: flex;
+  /* position: absolute;
+    left: 0;
+    bottom: 0; */
+  margin-left: 129px;
+}
+
 .projectimg3 img {
     width: 100%;
     object-fit: cover;
@@ -89,6 +113,34 @@
     margin-left: 95px;
     /* margin-right: -2px; */
 }
+
+.projectimg4 {
+  width: 100%;
+}
+
+.projndpics4 {
+  background: rgb(24, 2, 47);
+  border: 1px solid rgba(150, 140, 127, 0.3);
+  border-radius: 16px;
+  padding: 48px 0px 0px 48px;
+  display: flex;
+  flex-direction: column;
+  margin: 32px auto;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  min-height: 2px;
+  align-items: flex-end;
+  width: 100%;
+  overflow: hidden;
+}
+
+.abtproj4 {
+  width: 100%;
+  padding-right: 48px;
+  padding-bottom: 48px;
+}
+
+
   }
 
   @media (max-width:600px)  {
@@ -96,11 +148,16 @@
       padding: 25px 0px 0px 25px;
       margin-top: 85px;
     }
+
+    .projndpics3  {
+      padding: 25px 0px 0px 25px;
+      margin-top: 85px;
+    }
   }
     
   
   @media (max-width:550px) {
-    .projndpics3 {
+    .projndpics3, .projndpics4 {
       background: rgb(24, 2, 47, 0.5);
       border: 1px solid rgba(150, 140, 127, 0.3);
       border-radius: 16px;
@@ -151,8 +208,23 @@
   .projectimg3 {
     width: 100%;
   }
+
+  .projectimg4 {
+    width: 100%;
+  }
   
   .projectimg3 img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    background-size: cover;
+    background-position: 50% center;
+    object-position: left top;
+    display: flex;
+    margin-left: 85px;
+  }
+
+  .projectimg4 img {
     width: 100%;
     object-fit: cover;
     height: 250px;
@@ -175,11 +247,33 @@
     display: flex;
     margin-left: 55px;
     }
+
+    .projectimg4 img {
+      width: 100%;
+    object-fit: cover;
+    height: 250px;
+    background-size: cover;
+    background-position: 50% center;
+    object-position: left top;
+    display: flex;
+    margin-left: 55px;
+    }
   }
   
   
   @Media (max-width:290px) {
     .projectimg3 img {
+      width: 100%;
+      object-fit: cover;
+      height: 250px;
+      background-size: cover;
+      background-position: 50% center;
+      object-position: left top;
+      display: flex;
+      margin-left: 10px;
+    }
+
+    .projectimg4 img {
       width: 100%;
       object-fit: cover;
       height: 250px;

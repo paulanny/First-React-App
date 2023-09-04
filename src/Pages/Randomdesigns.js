@@ -13,7 +13,7 @@ const Randomdesigns = () => {
     <div>
       <NavBar />
       <div class="projndpics4">
-        <div class="abtproj">
+        <div class="abtproj4">
           <p data-aos="fade-up" class="bigp">RANDOM DESIGNS</p>
           <p data-aos="fade-up" class="projstory">
             {" "}
@@ -24,7 +24,7 @@ const Randomdesigns = () => {
             selected random designs.
           </p>
         </div>
-        <div class="projectimgkg">
+        <div class="projectimg4">
           <img src={Proj7Img} alt="project1" />
         </div>
       </div>
