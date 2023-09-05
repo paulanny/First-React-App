@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import "./Projects.css";
 import btnArrow from "../Assets/shotarrow.png";
-import Proj1Img from "../Assets/image2/kaapit hero.png";
-import Proj2Img from "../Assets/psyche/epsycheero.png";
-import Proj3Img from "../Assets/eggimages/naps hero.png";
+import Proj1Img from "../Assets/image2/kaapit herosmall.png";
+import Proj2Img from "../Assets/psyche/epsycherosmall.png";
+import Proj3Img from "../Assets/eggimages/naps herosmall.png";
 import Proj4Img from "../Assets/logo images/logohero.png";
-import Proj5Img from "../Assets/proj5.png";
-import Proj6Img from "../Assets/proj6.png";
-import Proj7Img from "../Assets/proj7.png";
+import Proj5Img from "../Assets/proj5small.png";
+import Proj6Img from "../Assets/proj6small.png";
+import Proj7Img from "../Assets/proj7small.png";
 
 const Projects = () => {
   return (

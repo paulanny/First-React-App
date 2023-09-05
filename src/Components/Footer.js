@@ -47,7 +47,7 @@ const Footer = () => {
       <div data-aos="fade-up" class="tributendsocials">
         <div class="socials">
           <div class="divsoc">
-            <a class="soca">
+            <a href="https://github.com/paulanny" class="soca">
               <img src={Github} alt="twitter" />
             </a>
           </div>

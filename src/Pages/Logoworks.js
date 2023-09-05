@@ -2,8 +2,8 @@ import NavBar from "../Components/NavBar";
 import "./KGshot.css";
 import logohero from "../Assets/logo images/logohero.png";
 import LogoImagesone from "../Assets/logo images/1.jpg";
-import LogoImagestwo from "../Assets/logo images/2.jpg";
-import LogoImagesthree from "../Assets/logo images/3.jpg";
+import LogoImagestwo from "../Assets/logo images/3.jpg";
+import LogoImagesthree from "../Assets/logo images/3.png";
 import LogoImagesfour from "../Assets/logo images/4.jpg";
 import LogoImagesfive from "../Assets/logo images/5.png";
 import BackdropPattern from "../Components/BackdropPattern";
@@ -32,7 +32,7 @@ const Logoworks = () => {
           </div>
 
           <div class="desdiv">
-            <img class={LogoImagesthree} alt="kaapit designs" />
+          <img class="kaapitdes" src={LogoImagesthree} alt="kaapit designs" />
           </div>
 
           <div class="desdiv">

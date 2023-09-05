@@ -1,10 +1,10 @@
 import "./KGshot.css";
-import Proj7Img from "../Assets/proj7.png";
-import RandomImagesone from "../Assets/random images/1.jpg";
-import RandomImagestwo from "../Assets/random images/2.jpg";
-import RandomImagesthree from "../Assets/random images/3.jpg";
-import RandomImagesfour from "../Assets/random images/4.jpg";
-import RandomImagesfive from "../Assets/random images/5.jpg";
+import Proj7Img from "../Assets/proj7small.png";
+import RandomImagesone from "../Assets/random images/1.png";
+import RandomImagestwo from "../Assets/random images/2.png";
+import RandomImagesthree from "../Assets/random images/3.png";
+import RandomImagesfour from "../Assets/random images/4.png";
+import RandomImagesfive from "../Assets/random images/5.png";
 import BackdropPattern from "../Components/BackdropPattern";
 import NavBar from "../Components/NavBar";
 

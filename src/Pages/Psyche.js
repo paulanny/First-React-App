@@ -3,7 +3,7 @@ import "./Mockup.css";
 import "../Components/SecondProj.css";
 // import LogoImage from "../Assets/myLogo.png";
 import NavBar from "../Components/NavBar";
-import epsychero from "../Assets/psyche/epsycheero.png";
+import epsychero from "../Assets/psyche/epsycherosmall.png";
 import Psycheone from "../Assets/psyche/1.png";
 import Psychetwo from "../Assets/psyche/2.png";
 import Psychethree from "../Assets/psyche/3.png";

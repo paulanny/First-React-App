@@ -2,8 +2,9 @@ import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import Typewriter from './Typewriter';
-import MyHeroImg from '../Assets/myimage.png';
+import MyHeroImg from '../Assets/myimagesmall.png';
 import arrowImg from '../Assets/arrow.png';
+import ResumePdf from "../Assets/Animashaun Paul Resume.pdf";
 import './Hero.css';
 
 
@@ -31,9 +32,12 @@ const Hero = () => {
 
                     <div class="learnimg">
                         <p data-aos="fade-up" class="learningp">Learn more
-                            <a class="abouta"> about me </a>
+                            <a href={ResumePdf}
+                             target="_blank" 
+                             rel="noreferrer"
+                             class="abouta"> about me </a>
                              or jump straight to
-                            <a class="abouta"> my work</a>
+                            <a href='#projects' class="abouta"> my work</a>
                         </p>
                         <img src={arrowImg} alt="jumparrow"/>
                     </div>

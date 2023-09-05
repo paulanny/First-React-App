@@ -1,11 +1,11 @@
 import './Mockup.css';
 import "../Components/SecondProj.css";
 import NavBar from '../Components/NavBar';
-import Proj5Img from '../Assets/proj5.png';
-import Mockone from "../Assets/mockup images/1.jpg"
-import Mocktwo from "../Assets/mockup images/2.jpg";
-import Mockthree from "../Assets/mockup images/3.jpg";
-import Mockfour from "../Assets/mockup images/4.jpg";
+import Proj5Img from '../Assets/proj5small.png';
+import Mockone from "../Assets/mockup images/1.png"
+import Mocktwo from "../Assets/mockup images/2.png";
+import Mockthree from "../Assets/mockup images/3.png";
+import Mockfour from "../Assets/mockup images/4.png";
 import Mockfive from "../Assets/mockup images/5.png";
 import BackdropPattern from '../Components/BackdropPattern';
 const Mockup = () => {

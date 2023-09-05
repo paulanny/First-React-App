@@ -1,9 +1,9 @@
 import "./Mockup.css";
 import "../Components/SecondProj.css";
-import Proj6Img from "../Assets/proj6.png";
-import Psychowizone from "../Assets/psychowiz design/1.jpg";
+import Proj6Img from "../Assets/proj6small.png";
+import Psychowizone from "../Assets/psychowiz design/1.png";
 import Psychowiztwo from "../Assets/psychowiz design/2.png";
-import Psychowizthree from "../Assets/psychowiz design/3.jpg";
+import Psychowizthree from "../Assets/psychowiz design/3.png";
 import Psychowizfour from "../Assets/psychowiz design/4.jpg";
 import Psychowizfive from "../Assets/psychowiz design/5.jpg";
 import NavBar from "../Components/NavBar";

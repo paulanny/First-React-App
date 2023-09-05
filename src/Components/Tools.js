@@ -9,12 +9,14 @@ const Tools = () => {
     <div className="toolspane">
       <div className="toolsp">
         <p data-aos="fade-up" className="firsttoolp">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
-          officia veniam iusto cumque placeat facilis sunt aperiam commodi quas
-          consequuntur vel ducimus, quae, suscipit, dolorem corporis ipsum ad
-          quia totam!
+          In my 2+ years of graphic design, I've undertaken diverse projects,
+          meticulously crafting templates with a keen eye for detail. Leveraging
+          my background in the field, I prioritize creating simple,
+          attractive and unique designs. I seamlessly integrate design tools like
+          CorelDRAW, Photoshop, Canva and Figma to bring my creative vision to
+          life, ensuring a top-notch and maximum resolution output.
         </p>
-        <p data-aos="fade-up" className="sectoolp">                  
+        <p data-aos="fade-up" className="sectoolp">
           In addition to my design work, I am committed to staying up-to-date
           with the latest design trends and technologies. I am always eager to
           learn and improve my skills and seek out new challenges to push my

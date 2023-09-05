@@ -47,10 +47,6 @@ const KGshot = () => {
             <img class="kaapitdes" src={KGStudiofive} alt="kaapit designs" />
           </div>
 
-          <div class="desdiv">
-            <img class="kaapitdes" src={KGStudiofive} alt="kaapit designs" />
-          </div>
-
         </div>
 
         <div data-aos="fade-up" class="desslides1">
