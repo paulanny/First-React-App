@@ -12,7 +12,9 @@ const Footer = () => {
     <footer id="contact">
       <div class="letwork">
         <div class="letworkp">
-          <p data-aos="fade-up" class="letworkbigp">LET'S BUILD SOMETHING TOGETHER</p>
+          <p data-aos="fade-up" class="letworkbigp">
+            LET'S BUILD SOMETHING TOGETHER
+          </p>
           <p data-aos="fade-up" class="letworksmallp">
             Do you consider me a suitable pore partner for your next adventure?
             or you're interested in collaborating on a design project and
@@ -29,7 +31,7 @@ const Footer = () => {
           </div>
 
           <div class="viewbtnlg">
-            <a href="#" class="viewshotalg">
+            <a href="mailto:paulanimashaun20@gmail.com" class="viewshotalg">
               <button class="viewshotabtnlg">
                 <p class="viewshotplg">Send Message</p>
                 <div class="shotarrow">
@@ -48,29 +50,28 @@ const Footer = () => {
         <div class="socials">
           <div class="divsoc">
             <a href="https://github.com/paulanny" class="soca">
-              <img src={Github} alt="twitter" />
+              <img src={Github} alt="github" />
             </a>
           </div>
 
           <div class="divsoc">
-            <a class="soca">
-              <img src={Gmail} alt="twitter" />
+            <a href="mailto:paulanimashaun20@gmail.com" class="soca">
+              <img src={Gmail} alt="gmail" />
             </a>
           </div>
 
           <div class="divsoc">
-            <a class="soca">
-              {" "}
-              <img src={Instagram} alt="twitter" />
+            <a href="https://www.instagram.com/grace_beneficiary" class="soca">
+              <img src={Instagram} alt="instagram" />
             </a>
           </div>
           <div class="divsoc">
-            <a class="soca">
-              <img src={LinkedIn} alt="twitter" />
+            <a href="www.linkedin.com/in/animashaun-paul" class="soca">
+              <img src={LinkedIn} alt="Linkedin" />
             </a>
           </div>
           <div class="divsoc">
-            <a class="soca">
+            <a href="https://twitter.com/animashaun_paul" class="soca">
               <img src={Twitter} alt="twitter" />
             </a>
           </div>
@@ -81,7 +82,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
+  );
 };
 
 export default Footer;
