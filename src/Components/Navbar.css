@@ -48,7 +48,8 @@
     2,
     47,
     0.8
-  ); /* Change to the desired background color */
+  ); 
+  height:100px;
 }
 
 .NavBar .MobileNavigation {
