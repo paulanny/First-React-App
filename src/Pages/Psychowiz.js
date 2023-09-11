@@ -3,8 +3,8 @@ import "../Components/SecondProj.css";
 import Proj6Img from "../Assets/proj6small.png";
 import Psychowizone from "../Assets/psychowiz design/1.png";
 import Psychowiztwo from "../Assets/psychowiz design/2.png";
-import Psychowizthree from "../Assets/psychowiz design/3.png";
-import Psychowizfour from "../Assets/psychowiz design/4.jpg";
+import Psychowizthree from "../Assets/psychowiz design/3.jpg";
+import Psychowizfour from "../Assets/psychowiz design/3.png";
 import Psychowizfive from "../Assets/psychowiz design/5.jpg";
 import NavBar from "../Components/NavBar";
 import BackdropPattern from "../Components/BackdropPattern";
@@ -65,7 +65,7 @@ const Psychowiz = () => {
         </div>
       </section>
 
-      <p data-aos="fade-up" class="selecteddesp">End of Selected Psychowizard Designs</p>
+      <p class="selecteddesp">End of Selected Psychowizard Designs</p>
       <BackdropPattern />
     </div>
   );

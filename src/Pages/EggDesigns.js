@@ -1,12 +1,12 @@
 import './Mockup.css';
 import "../Components/SecondProj.css";
 import NavBar from '../Components/NavBar';
-import Proj3Img from "../Assets/eggimages/naps hero.png";
-import Eggone from "../Assets/eggimages/1.jpg";
-import Eggtwo from "../Assets/eggimages/2.jpg";
-import Eggthree from "../Assets/eggimages/3.jpg";
-import Eggfour from "../Assets/eggimages/4.jpg";
-// import Eggfive from "../Assets/eggimages/5.jpg";
+import Proj3Img from "../Assets/eggimages/naps herosmall.png";
+import Eggone from "../Assets/eggimages/2.jpg";
+import Eggtwo from "../Assets/eggimages/3.jpg";
+import Eggthree from "../Assets/eggimages/4.jpg";
+import Eggfour from "../Assets/eggimages/5.png";
+import Eggfive from "../Assets/eggimages/6.jpg";
 import BackdropPattern from '../Components/BackdropPattern';
 
 const EggDesigns = () => {
@@ -39,7 +39,7 @@ const EggDesigns = () => {
           </div>
 
           <div class="desdiv">
-            <img class="kaapitdes" src={Eggthree} alt="psychowiz designs" />
+            <img class="kaapitdes" src={Eggfive} alt="psychowiz designs" />
           </div>
 
         </div>

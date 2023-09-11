@@ -8,7 +8,6 @@ import Projects from "../Components/Projects";
 import Tools from "../Components/Tools";
 import Footer from "../Components/Footer";
 import BackdropPattern from "../Components/BackdropPattern";
-// import MobileMenu from '../Components/MobileMenu';
 
 const Home = () => {
   useEffect(() => {

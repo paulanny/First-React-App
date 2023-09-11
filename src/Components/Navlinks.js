@@ -10,12 +10,6 @@ const NavLinks = (props) => {
   };
   return (
     <div>
-      {/* <div className="linkbg">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div> */}
       <div className='Navlinksa'>
       <motion.a
         href="#about"

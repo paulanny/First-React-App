@@ -1,13 +1,11 @@
-// import LogoImage from "../Assets/myLogo.png";
-// import "../Components/Header.css"
 import NavBar from '../Components/NavBar';
 import "./KGshot.css";
-import kaapithero from "../Assets/image2/kaapit hero.png";
-import KGStudioone from "../Assets/image2/1.jpg";
-import KGStudiotwo from "../Assets/image2/2.jpg";
-import KGStudiothree from "../Assets/image2/3.jpg";
-import KGStudiofour from "../Assets/image2/4.jpg";
-import KGStudiofive from "../Assets/image2/5.jpg";
+import kaapithero from "../Assets/image2/kaapit herosmall.png";
+import KGStudioone from "../Assets/image2/6.jpg";
+import KGStudiotwo from "../Assets/image2/1.png";
+import KGStudiothree from "../Assets/image2/4.jpg";
+import KGStudiofour from "../Assets/image2/5.jpg";
+import KGStudiofive from "../Assets/image2/1.jpg";
 import BackdropPattern from "../Components/BackdropPattern";
 
 const KGshot = () => {

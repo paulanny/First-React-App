@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import BackdropPattern from "./Components/BackdropPattern";
-// import Typewriter from './Components/Typewriter';
 import Logoimg from '../src/Assets/myLogo.png';
 import { Routes, Route } from "react-router-dom";
 import KGshot from "./Pages/KGShot";
@@ -32,7 +31,6 @@ const App = () => {
           </div>
           <div className="spanp">
             <p> <TypeEffect text="Paul_Anny Designs" delay={100} /> </p>
-            {/* <p> <Typewriter text="Paul_Anny Designs" delay={100} infinite/></p> */}
           </div>{" "}
         </div>
       ) : (

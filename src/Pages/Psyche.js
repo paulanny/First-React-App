@@ -1,7 +1,5 @@
 import "./Mockup.css";
-// import "../Components/Header.css"
 import "../Components/SecondProj.css";
-// import LogoImage from "../Assets/myLogo.png";
 import NavBar from "../Components/NavBar";
 import epsychero from "../Assets/psyche/epsycherosmall.png";
 import Psycheone from "../Assets/psyche/1.png";

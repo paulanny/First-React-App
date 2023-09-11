@@ -1,10 +1,10 @@
 import NavBar from "../Components/NavBar";
 import "./KGshot.css";
-import logohero from "../Assets/logo images/logohero.png";
-import LogoImagesone from "../Assets/logo images/1.jpg";
+import logohero from "../Assets/logo images/proj1.png";
+import LogoImagesone from "../Assets/logo images/2.jpg";
 import LogoImagestwo from "../Assets/logo images/3.jpg";
 import LogoImagesthree from "../Assets/logo images/3.png";
-import LogoImagesfour from "../Assets/logo images/4.jpg";
+import LogoImagesfour from "../Assets/logo images/9.jpg";
 import LogoImagesfive from "../Assets/logo images/5.png";
 import BackdropPattern from "../Components/BackdropPattern";
 const Logoworks = () => {
@@ -51,7 +51,7 @@ const Logoworks = () => {
         </div>
       </section>
 
-      <p data-aos="fade-up" class="selecteddesp">End of Selected Logo Designs</p>
+      <p class="selecteddesp">End of Selected Logo Designs</p>
       <BackdropPattern />
     </div>
   );
