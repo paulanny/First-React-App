@@ -105,7 +105,7 @@
     align-items: center;
     margin: auto;
     display: flex;
-    padding: 20px 50px;
+    padding: 20px 30px;
     flex-direction: column-reverse;
   }
 
@@ -125,7 +125,7 @@
   .deetndimg {
     justify-content: center;
     align-items: center;
-    margin: 40px auto;
+    margin: 80px auto;
     display: flex;
     padding: 20px 8px;
     flex-direction: column-reverse;

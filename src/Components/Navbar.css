@@ -32,7 +32,7 @@
 }
 
 .logoimg {
-  width: 30px;
+  width: 40px;
   display: flex;
   min-height: 2px;
   -webkit-box-align: center;
@@ -43,6 +43,7 @@
 .NavBar.scrolled {
   background-color: rgb(24, 2, 47, 0.8);
   height: 100px;
+  padding:30px 50px;
 }
 
 .NavBar .MobileNavigation {
@@ -104,20 +105,21 @@ a span {
   }
 
   .NavBar .MobileNavigation .Hamburger {
-    position: absolute;
+    position: fixed;
     right: 5%;
+    top: 53px;
     cursor: pointer;
     z-index: 1000;
     transition: all 3s ease;
   }
 
   .NavBar .MobileNavigation .HamburgerC {
-    position: absolute;
+    position: fixed;
     right: 5%;
     cursor: pointer;
     z-index: 1000;
     transition: all 3s ease;
-    top: 2%;
+    top: 53px;
   }
 
   .NavBar .MobileNavigation a:nth-child(even) {
@@ -163,8 +165,8 @@ a span {
   .logoimg {
     position: fixed;
     z-index: 100;
-    top: 1%;
-    width: 40px;
+    top: 4%;
+    width: 50px;
   }
 
   .linkbg {
@@ -213,20 +215,21 @@ a span {
 
 @media (max-width: 600px) {
   .logoimg {
-    width: 25px;
+    width: 30px;
   }
 
   .NavBar {
-    padding: 30px 20px;
+    padding: 30px 30px;
   }
 
   .NavBar .MobileNavigation .Hamburger {
-    width: 30px;
+    width: 25px;
+    top:40px;
   }
 
   .NavBar .MobileNavigation .HamburgerC {
-    width: 30px;
-    top: 1%;
+    width: 25px;
+    top:40px;
   }
 
   .NavBar a {
