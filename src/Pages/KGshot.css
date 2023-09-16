@@ -5,20 +5,20 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   justify-content: center;
   margin-top: 5em;
   max-width: 50%;
+  padding-right: 15px;
 }
 
 .desslides1 {
   margin: auto;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   justify-content: center;
   margin-top: 15em;
   max-width: 50%;
+  padding-left: 15px;
 }
 .projectimgkg img {
   width: 100%;
@@ -35,7 +35,7 @@ div .kaapitdes {
   align-items: center;
   display: flex;
   margin: auto;
-  width: 90%;
+  width: 100%;
   border: 3px solid rgba(150, 140, 127, 0.3);
   border-radius: 7px;
 }
@@ -58,6 +58,7 @@ div .kaapitdes {
 .desdiv {
   margin-top: 60px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -85,6 +86,16 @@ div .kaapitdes {
     width: 100%;
     padding-right: 48px;
     padding-bottom: 48px;
+  }
+
+  .desslides    {
+    padding-right: 15px;
+
+  }
+
+  .desslides1   {
+    padding-left: 15px;
+    
   }
 
   .projectimgkg img {
@@ -117,6 +128,15 @@ div .kaapitdes {
     overflow: hidden;
   }
 
+  .desslides    {
+    padding-right: 0px;
+
+  }
+
+  .desslides1   {
+    padding-left: 0px;
+    
+  }
   .abtproj {
     width: 100%;
     padding-right: 0px;
@@ -139,13 +159,15 @@ div .kaapitdes {
     flex-direction: column;
     justify-content: center;
     margin-top: 5em;
-    max-width: 90%;
+    max-width: 100%;
+    
   }
 
   .otherdes {
     display: flex;
     margin: auto;
     flex-direction: column;
+    width: 90%;
   }
 
   .desslides1 {
@@ -154,7 +176,8 @@ div .kaapitdes {
     flex-direction: column;
     justify-content: center;
     margin-top: 0em;
-    max-width: 90%;
+    max-width: 100%;
+    
   }
 
   .selecteddesp {
