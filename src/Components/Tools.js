@@ -3,6 +3,9 @@ import CanvaImg from "../Assets/canva-icon.png";
 import CorelDrawImg from "../Assets/corel-draw-icon.png";
 import FigmaImg from "../Assets/figma.png";
 import PhotoshopImg from "../Assets/photoshop.png";
+import AdobeIllustrator from "../Assets/ai.png";
+import Pixellab from "../Assets/pixellab.png";
+import Picsart from "../Assets/picsart.png";
 
 const Tools = () => {
   return (
@@ -27,21 +30,33 @@ const Tools = () => {
       <div data-aos="fade-up" className="linethrough"></div>
 
       <div data-aos="fade-up" className="toolsimages">
+      <div className="toolicons">
+          <img src={PhotoshopImg} alt="pslogo" />
+          <p className="iconname">ADOBE PHOTOSHOP</p>
+        </div>
         <div className="toolicons">
-          <img src={CanvaImg} alt="pslogo" />
-          <p className="iconname">CANVA</p>
+          <img src={AdobeIllustrator} alt="pslogo" />
+          <p className="iconname">ADOBE ILLUSTRATOR</p>
         </div>
         <div className="toolicons">
           <img src={CorelDrawImg} alt="pslogo" />
           <p className="iconname">COREL DRAW</p>
         </div>
         <div className="toolicons">
+          <img src={CanvaImg} alt="pslogo" />
+          <p className="iconname">CANVA</p>
+        </div>
+        <div className="toolicons">
           <img src={FigmaImg} alt="pslogo" />
           <p className="iconname">FIGMA</p>
         </div>
         <div className="toolicons">
-          <img src={PhotoshopImg} alt="pslogo" />
-          <p className="iconname">PHOTOSHOP</p>
+          <img src={Pixellab} alt="pslogo" />
+          <p className="iconname">PIXELLAB</p>
+        </div>
+        <div className="toolicons">
+          <img src={Picsart} alt="pslogo" />
+          <p className="iconname">PICSART</p>
         </div>
       </div>
     </div>

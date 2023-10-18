@@ -26,7 +26,7 @@
     width: 1px;
     background: rgba(255, 255, 255, 0.12);
     /* border: px solid white; */
-    height: 450px;
+    height: 650px;
     margin-left: 60px;
   }
 
@@ -41,7 +41,7 @@
   }
 
   .toolicons    {
-    width: 45%;
+    width: 30%;
     margin: 25px auto;
     display: flex;
     flex-direction: column;
@@ -54,12 +54,12 @@
     font-family: 'raleway', sans-serif;
     color: white;
     font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 0.10em;
+    font-size: 14px;
+    text-align: center;
   }
   .toolicons img {
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    height: 45%;
     border: 3px solid rgba(150, 140, 127, 0.3);
     border-radius: 50%;
     margin-bottom: 20px;
@@ -106,7 +106,7 @@
 }
 
 .toolicons {
-  width: 25%;
+  width: 30%;
   margin: 25px auto;
   display: flex;
   flex-direction: column;
@@ -125,17 +125,9 @@
   }
 
   @media (max-width:550px) {
-    /* .toolsp {
-      color: white;
-      font-family: 'raleway', sans-serif;
-      font-size: 18px;
-      width: 100%;
-      line-height: 219.2%;
-      padding: 0px 3px;
-  } */
 
   .toolicons {
-    width: 35%;
+    width: 30%;
     margin: 25px auto;
     display: flex;
     flex-direction: column;
