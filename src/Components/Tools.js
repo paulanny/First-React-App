@@ -16,7 +16,7 @@ const Tools = () => {
           meticulously crafting templates with a keen eye for detail. Leveraging
           my background in the field, I prioritize creating simple,
           attractive and unique designs. I seamlessly integrate design tools like 
-          CorelDRAW,Picsart, Pixellab, Photoshop, Canva, and Figma to bring my creative vision to life, 
+          CorelDRAW, Picsart, Pixellab, Photoshop, Canva, and Figma to bring my creative vision to life, 
           ensuring a top-notch, high-resolution output.
           Additionally, I possess expertise in Adobe Creative Suite, encompassing Illustrator and photoshop.
         </p>
