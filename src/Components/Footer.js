@@ -66,7 +66,7 @@ const Footer = () => {
             </a>
           </div>
           <div class="divsoc">
-            <a href="www.linkedin.com/in/animashaun-paul" class="soca">
+            <a href="https://www.linkedin.com/in/animashaun-paul/" class="soca">
               <img src={LinkedIn} alt="Linkedin" />
             </a>
           </div>
