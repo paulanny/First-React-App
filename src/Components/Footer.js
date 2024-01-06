@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
 
           <div class="divsoc">
-            <a href="https://www.instagram.com/grace_beneficiary" class="soca">
+            <a href="https://www.instagram.com/paul_anny01/" class="soca">
               <img src={Instagram} alt="instagram" />
             </a>
           </div>
