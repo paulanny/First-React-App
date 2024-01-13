@@ -215,6 +215,63 @@ const Projects = () => {
           <img src={Proj7Img} alt="project1" />
         </div>
       </div>
+
+      <div class="projndpics2">
+        <div class="abtproj2">
+          <p data-aos="fade-up" class="bigp">
+            MOCKUP DESIGNS
+          </p>
+          <p data-aos="fade-up" class="projstory">
+            Mockup Design is a way of revealing the exact and expected outcome
+            of every design to the client to enable them have an advance view of
+            waht and how their designs will look like in real life printout. I
+            am experiened in creating designs and designs Mockup for brands.
+          </p>
+
+          <div data-aos="fade-up" class="viewbtn">
+            <Link to="/mockupdesigns" class="viewshota">
+              <button class="viewshotabtn">
+                <p class="viewshotp">View Designs</p>
+                <div class="shotarrow">
+                  <img src={btnArrow} alt="arrow" />
+                  <img src={btnArrow} alt="arrow" />
+                </div>
+              </button>
+            </Link>
+          </div>
+        </div>
+        <div class="projectimg2">
+          <img src={Proj5Img} alt="project1" />
+        </div>
+      </div>
+
+      <div class="projndpics2">
+        <div class="abtproj2">
+          <p data-aos="fade-up" class="bigp">
+            PSYCHOWIZARD DESIGNS
+          </p>
+          <p data-aos="fade-up" class="projstory">
+            As a volunteer graphic designer for Psychowizard, I have created
+            multiple designs for the organization that help convey necessary
+            information to the intended audience.
+          </p>
+
+          <div data-aos="fade-up" class="viewbtn">
+            <Link to="/psychowizdesigns" class="viewshota">
+              <button class="viewshotabtn">
+                <p class="viewshotp">View Designs</p>
+                <div class="shotarrow">
+                  <img src={btnArrow} alt="arrow" />
+                  <img src={btnArrow} alt="arrow" />
+                </div>
+              </button>
+            </Link>
+          </div>
+        </div>
+        <div class="projectimg2">
+          <img src={Proj6Img} alt="project1" />
+        </div>
+      </div>
     </section>
   );
 };
