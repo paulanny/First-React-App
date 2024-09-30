@@ -4,7 +4,7 @@ import './Updatestexts.css'
 const Updatestexts = () => {
   return (
     <div class="updatetxt">
-      <p> The website is currently being updated!</p>
+      <p> Portfolio update in progress. Previous works are still available.</p>
     </div>
   )
 }
