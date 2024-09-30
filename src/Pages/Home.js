@@ -1,16 +1,18 @@
-import { useEffect } from 'react';
-import 'aos/dist/aos.css';
-import NavBar from '../Components/NavBar';
-import Hero from '../Components/Hero';
-import SelectedProjsTexts from '../Components/SelectedProjsTexts';
-import Projects from '../Components/Projects';
-import Tools from '../Components/Tools';
-import Footer from '../Components/Footer';
-import BackdropPattern from '../Components/BackdropPattern';
+import { useEffect } from 'react'
+import 'aos/dist/aos.css'
+import NavBar from '../Components/NavBar'
+import Hero from '../Components/Hero'
+import SelectedProjsTexts from '../Components/SelectedProjsTexts'
+import Projects from '../Components/Projects'
+import Tools from '../Components/Tools'
+import Footer from '../Components/Footer'
+import Updatestexts from '../Components/Updatestexts'
+import BackdropPattern from '../Components/BackdropPattern'
 
 const Home = () => {
   return (
     <div>
+      <Updatestexts />
       <NavBar />
       <Hero />
       <SelectedProjsTexts
@@ -28,6 +30,6 @@ const Home = () => {
       <Footer />
       <BackdropPattern />
     </div>
-  );
-};
-export default Home;
+  )
+}
+export default Home
