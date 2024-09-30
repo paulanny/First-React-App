@@ -1,17 +1,79 @@
-import { Link } from "react-router-dom";
-import "./Projects.css";
-import btnArrow from "../Assets/shotarrow.png";
-import Proj1Img from "../Assets/image2/kaapit herosmall.png";
-import Proj2Img from "../Assets/psyche/epsycherosmall.png";
-import Proj3Img from "../Assets/eggimages/naps herosmall.png";
-import Proj4Img from "../Assets/logo images/proj1.png";
-import Proj5Img from "../Assets/proj5small.png";
-import Proj6Img from "../Assets/proj6small.png";
-import Proj7Img from "../Assets/proj7small.png";
+import { Link } from 'react-router-dom'
+import './Projects.css'
+import btnArrow from '../Assets/shotarrow.png'
+import Proj1Img from '../Assets/image2/kaapit herosmall.png'
+import Proj2Img from '../Assets/psyche/epsycherosmall.png'
+import Proj3Img from '../Assets/eggimages/naps herosmall.png'
+import Gtext from '../Assets/gtext.png'
+import Tiesmart from '../Assets/Tiesmart.png'
+import Proj4Img from '../Assets/logo images/proj1.png'
+import Proj5Img from '../Assets/proj5small.png'
+import Proj6Img from '../Assets/proj6small.png'
+import Proj7Img from '../Assets/proj7small.png'
 
 const Projects = () => {
   return (
     <section class="allprojects">
+      <div class="projndpics2">
+        <div class="abtproj2">
+          <p data-aos="fade-up" class="bigp">
+            GTEXT DESIGNS
+          </p>
+          <p data-aos="fade-up" class="projstory">
+            I worked as part of the graphic design team at GText, a real estate
+            brand, where I created social media flyers, thumbnails, promo
+            designs, and ensured consistency of branding elements across all
+            promotional materials.
+          </p>
+
+          <div data-aos="fade-up" class="viewbtn">
+            <Link to="/gtextdesigns" class="viewshota">
+              <button class="viewshotabtn">
+                <p class="viewshotp">View Designs</p>
+                <div class="shotarrow">
+                  <img src={btnArrow} alt="arrow" />
+                  <img src={btnArrow} alt="arrow" />
+                </div>
+              </button>
+            </Link>
+          </div>
+        </div>
+        <div class="projectimg2">
+          <img src={Gtext} alt="project1" />
+        </div>
+      </div>
+
+      <div class="projndpics2">
+        <div class="abtproj2">
+          <p data-aos="fade-up" class="bigp">
+            Tiesmart
+          </p>
+          <p data-aos="fade-up" class="projstory">
+            As part of the branding team for Tiesmart, I contributed to the
+            development of key visual elements, including a logo featuring the
+            infinity symbol to represent connection and continuity. I also
+            worked on various other deliverables, such as social media graphics,
+            promotional materials, and ensuring consistency across all branding
+            assets and platforms.
+          </p>
+
+          <div data-aos="fade-up" class="viewbtn">
+            <Link to="/tiesmart" class="viewshota">
+              <button class="viewshotabtn">
+                <p class="viewshotp">View Designs</p>
+                <div class="shotarrow">
+                  <img src={btnArrow} alt="arrow" />
+                  <img src={btnArrow} alt="arrow" />
+                </div>
+              </button>
+            </Link>
+          </div>
+        </div>
+        <div class="projectimg2">
+          <img src={Tiesmart} alt="project1" />
+        </div>
+      </div>
+
       <div class="projndpics">
         <div class="abtproj">
           <p data-aos="fade-up" class="bigp">
@@ -273,7 +335,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects

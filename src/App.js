@@ -1,37 +1,42 @@
-import React, { useState, useEffect } from "react";
-import BackdropPattern from "./Components/BackdropPattern";
-import Logoimg from '../src/Assets/myLogo.png';
-import { Routes, Route } from "react-router-dom";
-import KGshot from "./Pages/KGShot";
-import Logoworks from "./Pages/Logoworks";
-import Mockup from "./Pages/Mockup";
-import Psyche from "./Pages/Psyche";
-import Psychowiz from "./Pages/Psychowiz";
-import EggDesigns from "./Pages/EggDesigns";
-import Randomdesigns from "./Pages/Randomdesigns";
-import Home from "./Pages/Home";
-import TypeEffect from "./Components/TypeEffect";
+import React, { useState, useEffect } from 'react'
+import BackdropPattern from './Components/BackdropPattern'
+import Logoimg from '../src/Assets/myLogo.png'
+import { Routes, Route } from 'react-router-dom'
+import KGshot from './Pages/KGShot'
+import Logoworks from './Pages/Logoworks'
+import Mockup from './Pages/Mockup'
+import Psyche from './Pages/Psyche'
+import Psychowiz from './Pages/Psychowiz'
+import EggDesigns from './Pages/EggDesigns'
+import Randomdesigns from './Pages/Randomdesigns'
+import Home from './Pages/Home'
+import TypeEffect from './Components/TypeEffect'
+import Tiesmart from './Pages/Tiesmart'
+import Gtext from './Pages/Gtext'
 
 const App = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false)
   useEffect(() => {
-    setLoading(true);
+    setLoading(true)
     setTimeout(() => {
-      setLoading(false);
-    }, 4000);
-  }, []);
+      setLoading(false)
+    }, 4000)
+  }, [])
 
   return (
     <div>
       {loading ? (
         <div className="loader">
-          {" "}
+          {' '}
           <div className="Logobob">
             <img src={Logoimg} alt="This is the Logo" />;
           </div>
           <div className="spanp">
-            <p> <TypeEffect text="Paul_Anny Designs" delay={100} /> </p>
-          </div>{" "}
+            <p>
+              {' '}
+              <TypeEffect text="Paul_Anny Designs" delay={100} />{' '}
+            </p>
+          </div>{' '}
         </div>
       ) : (
         <Routes>
@@ -43,11 +48,13 @@ const App = () => {
           <Route path="/psychowizdesigns" element={<Psychowiz />} />
           <Route path="/eggdesigns" element={<EggDesigns />} />
           <Route path="/randomdesigns" element={<Randomdesigns />} />
+          <Route path="/tiesmart" element={<Tiesmart />} />
+          <Route path="/gtextdesigns" element={<Gtext />} />
         </Routes>
       )}
       <BackdropPattern />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App

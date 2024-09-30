@@ -1,5 +1,5 @@
 .projndpics3 {
-  background: rgb(24, 2, 47, 0.5);
+  background: #141212;
   border: 1px solid rgba(150, 140, 127, 0.3);
   border-radius: 16px;
   padding: 48px 0px 0px 48px;
@@ -60,7 +60,7 @@
 }
 
 .projndpics4 {
-  background: rgb(24, 2, 47, 0.5);
+  background: #141212;
   border: 1px solid rgba(150, 140, 127, 0.3);
   border-radius: 16px;
   padding: 48px 0px 0px 48px;
@@ -77,7 +77,7 @@
 
 @media (max-width: 1000px) {
   .projndpics3 {
-    background: rgb(24, 2, 47, 0.5);
+    background: #141212;
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
     padding: 48px 0px 0px 48px;
@@ -116,7 +116,7 @@
   }
 
   .projndpics4 {
-    background: rgb(24, 2, 47);
+    background: #141212;
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
     padding: 48px 0px 0px 48px;
@@ -153,7 +153,7 @@
 @media (max-width: 550px) {
   .projndpics3,
   .projndpics4 {
-    background: rgb(24, 2, 47, 0.5);
+    background: #141212;
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
     padding: 20px 0px 0px 20px;

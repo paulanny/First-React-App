@@ -11,7 +11,7 @@
 }
 
 .bgtest span {
-  background: rgb(24, 5, 41);
+  background: rgb(17, 16, 18);
   display: block;
   border-radius: 10px;
 }
@@ -24,7 +24,7 @@
   .bgtest {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-}
+  }
 }
 
 @media (max-width: 600px) {
@@ -35,5 +35,5 @@
   .bgtest {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-}
+  }
 }

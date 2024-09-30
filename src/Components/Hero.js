@@ -1,10 +1,10 @@
-import { useEffect } from 'react';
-import 'aos/dist/aos.css';
-import Typewriter from './Typewriter';
-import MyHeroImg from '../Assets/myimagesmall.png';
-import arrowImg from '../Assets/arrow.png';
-import ResumePdf from '../Assets/Animashaun Paul Resume.pdf';
-import './Hero.css';
+import { useEffect } from 'react'
+import 'aos/dist/aos.css'
+import Typewriter from './Typewriter'
+import MyHeroImg from '../Assets/myimagesmall.png'
+import arrowImg from '../Assets/arrow.png'
+import ResumePdf from '../Assets/Animashaun Paul Resume.pdf'
+import './Hero.css'
 
 const Hero = () => {
   return (
@@ -18,7 +18,7 @@ const Hero = () => {
           <p data-aos="fade-up" class="detailsp">
             {' '}
             A passionate and creative <strong>GRAPHIC DESIGNER</strong> with
-            over 2 years of experience in the industry. With a strong background
+            over 4 years of experience in the industry. With a strong background
             in branding, logo creation, digital design, or illustration, I have
             a proven track record of creating impactful designs that engage and
             captivate audiences. I strive to understand the client's goals and
@@ -51,7 +51,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

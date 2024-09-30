@@ -41,9 +41,9 @@
 }
 
 .NavBar.scrolled {
-  background-color: rgb(24, 2, 47, 0.8);
+  background-color: rgba(16, 16, 16, 0.8);
   height: 160px;
-  padding:30px 50px;
+  padding: 30px 50px;
 }
 
 .NavBar .MobileNavigation {
@@ -224,19 +224,19 @@ a span {
 
   .NavBar .MobileNavigation .Hamburger {
     width: 25px;
-    top:40px;
+    top: 40px;
   }
 
   .NavBar .MobileNavigation .HamburgerC {
     width: 25px;
-    top:40px;
+    top: 40px;
   }
 
   .NavBar.scrolled {
     background-color: rgb(24, 2, 47, 0.8);
     height: 100px;
     padding: 30px 20px;
-}
+  }
 
   .NavBar a {
     color: white;
@@ -255,8 +255,6 @@ a span {
     padding-left: 40px;
   }
 }
-
-
 
 @media (max-width: 450px) {
   .Navlinksa {
