@@ -1,50 +1,47 @@
-.Mobilenavbackground  {
-      background-color: black;
-      height: 100vh;
-      width: 400px;
-      /* display: none; */
+.Mobilenavbackground {
+  background-color: black;
+  height: 100vh;
+  width: 400px;
+  /* display: none; */
 }
 
 .Mobilenavbackground .Hamburger-close {
-   color: white;
-    position: absolute;
-    right: 5%;
-    top: 10%;
+  color: white;
+  position: absolute;
+  right: 5%;
+  top: 10%;
 }
 
 .Mobilenavbarul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /* width: 60px; */
-  }
-  
-  .Mobilenavbara {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    /* gap: 20px; */
-  }
-  
-  .Mobilenavbara a {
-    display: block;
-    padding: 15px;
-    font-size: 14px;
-    font-family: "Raleway", sans-serif;
-    /* background-color: #dddddd; */
-    cursor: pointer;
-    /* border: 1px solid rgb(23, 15, 46); */
-    border-radius: 7px;
-    text-decoration: none;
-    color: white;
-  }
-  
-  .Mobilenavbara a:hover {
-    background-color: rgb(21, 21, 63);
-  }
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* width: 60px; */
+}
 
-  
+.Mobilenavbara {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  /* gap: 20px; */
+}
+
+.Mobilenavbara a {
+  display: block;
+  padding: 15px;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  /* background-color: #dddddd; */
+  cursor: pointer;
+  /* border: 1px solid rgb(23, 15, 46); */
+  border-radius: 7px;
+  text-decoration: none;
+  color: white;
+}
+
+.Mobilenavbara a:hover {
+  background-color: rgb(28, 28, 32);
+}
