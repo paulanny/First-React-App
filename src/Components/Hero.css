@@ -6,8 +6,6 @@
   justify-content: center;
   align-items: center;
   margin: 100px auto;
-  /* display: flex; */
-  /* padding: 20px 50px; */
 }
 
 .headimg {
@@ -16,16 +14,15 @@
   align-items: center;
   display: flex;
   position: absolute;
-  height: 100vh; /* Make sure the container takes the full viewport height */
+  height: 100vh;
   top: 0;
   right: 0;
-  /* Adjust the left to control centering if needed */
 }
 
 .headimg img {
-  height: 100%; /* Full height of the container */
-  width: auto; /* Maintain aspect ratio (let width adjust automatically) */
-  object-fit: cover; /* Ensures image covers the area without distortion */
+  height: 100%;
+  width: auto;
+  object-fit: cover;
 }
 
 .headerp {
@@ -33,10 +30,9 @@
 }
 
 .bigintro {
-  font-weight: 700;
-  font-size: 100px;
+  font-weight: 400;
+  font-size: 160px;
   color: white;
-  /* margin: 30px 0px; */
   line-height: 100%;
   letter-spacing: 0.0001em;
 }
@@ -66,26 +62,28 @@
 .learningp {
   font-size: 18px;
   color: white;
+  font-family: 'Fira Sans Condensed';
 }
 .bannersection {
   position: relative;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns for text and image */
-  align-items: center; /* Vertically centers content in the section */
-  z-index: 1; /* Ensure the content is above the background */
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  z-index: 1;
   padding: 20px 40px;
 }
 
 .selfdetails {
   padding: 20px;
-  z-index: 2; /* Ensure the text is above the background */
+  z-index: 2;
   position: relative;
+  font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .bigintro {
-  font-weight: 800;
-  font-size: 100px;
+  font-weight: 400;
+  font-size: 150px;
   color: white;
   margin: 30px 0;
 }
@@ -94,9 +92,9 @@
   font-size: 15px;
   color: white;
   opacity: 0.6;
+  font-family: 'Fira Sans Condensed';
 }
 
-/* Learn more section */
 .learnimg {
   margin-top: 20px;
 }
@@ -105,28 +103,27 @@
   font-size: 18px;
 }
 
-/* Background Image */
 .headimg {
   position: absolute;
-  height: 100%; /* Full height of the section */
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 0; /* Make sure the image is behind the text */
+  z-index: 0;
   right: 0;
 }
 
 .headimg img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensure the image covers the entire area without distortion */
-  opacity: 0.8; /* Slight transparency if needed */
+  object-fit: cover;
+  opacity: 0.8;
 }
 
 @media (max-width: 1200px) {
   .bigintro {
-    font-weight: 800;
-    font-size: 90px;
+    font-weight: 400;
+    font-size: 130px;
     color: white;
     margin: 30px 0;
   }
@@ -134,20 +131,13 @@
 
 @media (max-width: 1120px) {
   .bigintro {
-    font-weight: 800;
-    font-size: 75px;
+    font-weight: 400;
+    font-size: 120px;
     color: white;
     margin: 30px 0;
   }
 }
-@media (max-width: 1030px) {
-  .bigintro {
-    font-weight: 800;
-    font-size: 65px;
-    color: white;
-    margin: 30px 0;
-  }
-}
+
 @media (max-width: 1000px) {
   .bannersection {
     position: relative;
@@ -167,11 +157,11 @@
   }
   .headimg {
     position: relative;
-    height: 100%; /* Full height of the section */
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 0; /* Make sure the image is behind the text */
+    z-index: 0;
     right: 0;
     top: 0;
   }
@@ -184,8 +174,6 @@
   }
   .selfdetails {
     width: 100%;
-    font-family: 'Roc_Grotesk', sans-serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: 219.2%;
     margin-top: 35px;
@@ -193,7 +181,6 @@
     color: white;
     padding: 0px 20px;
     position: relative;
-    text-align: center;
   }
 
   .learnimg img {
@@ -228,7 +215,7 @@
   }
 
   .bigintro {
-    font-weight: 800;
+    font-weight: 400;
     font-size: 100px;
     color: white;
     margin: 5px 0;
@@ -241,8 +228,8 @@
 
 @media (max-width: 810px) {
   .bigintro {
-    font-weight: 800;
-    font-size: 60px;
+    font-weight: 400;
+    font-size: 90px;
     color: white;
     margin: 5px 0;
   }
@@ -267,9 +254,12 @@
   }
 
   .detailsp {
-    font-size: 14px;
     line-height: 205%;
     margin-top: 25px;
+    font-family: 'Fira Sans Condensed';
+    font-weight: 100;
+    opacity: 0.6;
+    font-size: 10px;
   }
 
   .learnimg img {
@@ -280,11 +270,12 @@
     height: 55px;
     position: absolute;
     right: -50px;
+    overflow: hidden;
   }
 
   .bigintro {
-    font-weight: 800;
-    font-size: 45px;
+    font-weight: 400;
+    font-size: 70px;
     color: white;
     margin: 5px 0;
   }
@@ -304,18 +295,30 @@
   }
 
   .bigintro {
-    font-weight: 800;
-    font-size: 40px;
+    font-weight: 400;
+    font-size: 55px;
     color: white;
     margin: 5px 0;
-  }
-  .detailsp {
-    font-size: 14px;
-    line-height: 205%;
+    text-align: center;
   }
 
   .learningp {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 430px) {
+  .learningp {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .bigintro {
+    font-weight: 400;
+    font-size: 45px;
+    color: white;
+    margin: 5px 0;
+    text-align: center;
   }
 }
 
@@ -329,7 +332,7 @@
   }
 
   .bigintro {
-    font-weight: 800;
+    font-weight: 400;
     font-size: 30px;
     color: white;
     margin: 5px 0;
