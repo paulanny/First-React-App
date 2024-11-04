@@ -278,7 +278,7 @@
     margin-top: 25px;
     font-family: 'Fira Sans Condensed';
     font-weight: 100;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .learnimg img {
@@ -305,12 +305,21 @@
   .learningp {
     font-size: 15px;
   }
+  .selfdetails {
+    width: 100%;
+    font-size: 18px;
+    line-height: 219.2%;
+    margin-top: -45px;
+    margin-bottom: 10px;
+    color: white;
+    position: relative;
+  }
 }
 
 @media (max-width: 500px) {
   .bigintro {
     font-weight: 400;
-    font-size: 55px;
+    font-size: 65px;
     color: white;
     margin: 5px 0;
     text-align: center;
@@ -333,9 +342,9 @@
 }
 
 @media (max-width: 450px) {
-  .selfdetails {
+  /* .selfdetails {
     margin-top: 35px;
-  }
+  } */
 
   .bigintro {
     font-weight: 400;
@@ -358,7 +367,7 @@
 
   .bigintro {
     font-weight: 400;
-    font-size: 45px;
+    font-size: 55px;
     color: white;
     margin: 5px 0;
     text-align: center;
@@ -367,11 +376,11 @@
 
 @media (max-width: 290px) {
   .detailsp {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .learningp {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .bigintro {

@@ -22,7 +22,7 @@ const SocialMediaPage = () => {
       <div class="projndpics3">
         <div class="abtproj3">
           <p data-aos="fade-up" class="bigp">
-            Branding
+            Branding Designs
           </p>
           <p data-aos="fade-up" class="projstory">
             As a brand designer, I specialize in creating visual identities that

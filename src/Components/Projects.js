@@ -13,7 +13,7 @@ const Projects = () => {
       <div class="projndpics">
         <div class="abtproj">
           <p data-aos="fade-up" class="bigp">
-            Social Media
+            Social Media Designs
           </p>
           <p data-aos="fade-up" class="projstory">
             As a social media designer, I create visually engaging content that
@@ -48,7 +48,7 @@ const Projects = () => {
       <div class="projndpics">
         <div class="abtproj">
           <p data-aos="fade-up" class="bigp">
-            Print Designs
+            Print Media Designs
           </p>
           <p data-aos="fade-up" class="projstory">
             As a print designer, I focus on crafting tangible visuals that make

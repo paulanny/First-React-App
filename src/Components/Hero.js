@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import 'aos/dist/aos.css'
 import Typewriter from './Typewriter'
-import MyHeroImg from '../Assets/myimagesmall.jpg'
+import MyHeroImg from '../Assets/HeroImage.png'
 import arrowImg from '../Assets/arrow.png'
 import ResumePdf from '../Assets/Paul Anny Resume.pdf'
 import './Hero.css'

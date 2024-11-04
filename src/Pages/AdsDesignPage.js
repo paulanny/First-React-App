@@ -22,7 +22,7 @@ const AdsDesignPage = () => {
       <div class="projndpics3">
         <div class="abtproj3">
           <p data-aos="fade-up" class="bigp">
-            ADS Designs
+            Ads Designs
           </p>
           <p data-aos="fade-up" class="projstory">
             Ads Design In my work as an ads designer, I aim to create impactful

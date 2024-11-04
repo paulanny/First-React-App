@@ -11,7 +11,7 @@ import pd6 from '../Assets/PrintDesigns/print6.png'
 import pd7 from '../Assets/PrintDesigns/print7.png'
 import pd8 from '../Assets/PrintDesigns/print8.png'
 import pd9 from '../Assets/PrintDesigns/print9.png'
-import pd10 from '../Assets/PrintDesigns/print10.png'
+import pd10 from '../Assets/PrintDesigns/print11.png'
 import BackdropPattern from '../Components/BackdropPattern'
 
 const PrintDesigns = () => {

@@ -24,12 +24,14 @@
   position: absolute;
   right: 50px;
   top: 0;
+  overflow: hidden;
 }
 
 .sideimg2 img {
   width: 400px;
   position: absolute;
   left: 20px;
+  overflow: hidden;
 }
 
 .hiretext {

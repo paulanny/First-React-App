@@ -19,7 +19,7 @@ const Mockup = () => {
       <NavBar />
       <div class="projndpics3">
         <div class="abtproj3">
-          <p class="bigp">MOCKUP DESIGNS</p>
+          <p class="bigp">Mockup Designs</p>
           <p data-aos="fade-up" class="projstory">
             In mockup design, I bring concepts to life by creating realistic
             previews of branding, product, and packaging designs. Mockups are
