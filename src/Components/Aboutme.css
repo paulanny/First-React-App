@@ -105,7 +105,7 @@
   width: 60%;
   margin-top: 80px;
   line-height: 30px;
-  font-family: 'Fira-sans' sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
 }
 
 .allaboutme {
@@ -163,6 +163,7 @@
     margin-top: 130px;
     font-size: 13px;
     font-weight: 200;
+    font-family: 'Bricolage Grotesque', sans-serif !important;
   }
 
   .sideimg img {

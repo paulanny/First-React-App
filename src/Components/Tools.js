@@ -34,31 +34,31 @@ const Tools = () => {
       <div data-aos="fade-up" className="toolsimages">
         <div className="toolicons">
           <img src={PhotoshopImg} alt="pslogo" />
-          <p className="iconname">ADOBE PHOTOSHOP</p>
+          <p className="iconname">Adobe Photoshop</p>
         </div>
         <div className="toolicons">
           <img src={AdobeIllustrator} alt="pslogo" />
-          <p className="iconname">ADOBE ILLUSTRATOR</p>
+          <p className="iconname">Adobe Illustrator</p>
         </div>
         <div className="toolicons">
           <img src={CorelDrawImg} alt="pslogo" />
-          <p className="iconname">COREL DRAW</p>
+          <p className="iconname">Corel Draw</p>
         </div>
         <div className="toolicons">
           <img src={CanvaImg} alt="pslogo" />
-          <p className="iconname">CANVA</p>
+          <p className="iconname">Canva</p>
         </div>
         <div className="toolicons">
           <img src={FigmaImg} alt="pslogo" />
-          <p className="iconname">FIGMA</p>
+          <p className="iconname">Figma</p>
         </div>
         <div className="toolicons">
           <img src={Pixellab} alt="pslogo" />
-          <p className="iconname">PIXELLAB</p>
+          <p className="iconname">Pixellab</p>
         </div>
         <div className="toolicons">
           <img src={Picsart} alt="pslogo" />
-          <p className="iconname">PICSART</p>
+          <p className="iconname">Picsart</p>
         </div>
       </div>
     </div>

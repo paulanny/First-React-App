@@ -21,7 +21,7 @@ const Footer = () => {
             learning more about my design services? please don't hesitate to
             reach out by taking a minute to tell me about your project, I'd be
             happy to chat with you! I am presently AVAILABLE for any jobs
-            involving graphics.
+            involving design.
           </p>
         </div>
 
