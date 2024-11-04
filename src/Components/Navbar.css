@@ -284,7 +284,7 @@ a span {
 
   .NavBar.scrolled {
     background-color: rgba(16, 16, 16, 0.8);
-    /* height: 100px; */
+    height: 100px;
     padding: 20px 30px;
   }
 
