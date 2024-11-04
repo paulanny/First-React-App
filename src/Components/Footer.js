@@ -1,11 +1,11 @@
-import "./Footer.css";
-import Arrow from "../Assets/arroww.png";
-import shotArrow from "../Assets/shotarrow.png";
-import Github from "../Assets/github-mark-white.png";
-import Instagram from "../Assets/instagram.png";
-import LinkedIn from "../Assets/linkin.png";
-import Twitter from "../Assets/twitter.png";
-import Gmail from "../Assets/gmail.png";
+import './Footer.css'
+import Arrow from '../Assets/arroww.png'
+import shotArrow from '../Assets/shotarrow.png'
+import Github from '../Assets/github-mark-white.png'
+import Instagram from '../Assets/instagram.png'
+import LinkedIn from '../Assets/linkin.png'
+import Twitter from '../Assets/twitter.png'
+import Gmail from '../Assets/gmail.png'
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
       <div class="letwork">
         <div class="letworkp">
           <p data-aos="fade-up" class="letworkbigp">
-            LET'S BUILD SOMETHING TOGETHER
+            Let's Build Something Together!
           </p>
           <p data-aos="fade-up" class="letworksmallp">
             Do you consider me a suitable pore partner for your next adventure?
@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
