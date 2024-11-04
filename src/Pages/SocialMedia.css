@@ -1,0 +1,206 @@
+.projectimgkg {
+  width: 50%;
+}
+.desslides {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5em;
+  max-width: 50%;
+  padding-right: 15px;
+}
+
+.desslides1 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15em;
+  max-width: 50%;
+  padding-left: 15px;
+}
+.projectimgkg img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+  background-size: cover;
+  background-position: 50% center;
+  object-position: left top;
+  display: flex;
+  margin-left: 129px;
+}
+
+div .kaapitdes {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  border: 3px solid rgba(150, 140, 127, 0.3);
+  border-radius: 7px;
+}
+
+.selecteddesp {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: rgba(150, 140, 127, 0.3);
+  font-weight: 600;
+  margin: 47px auto 65px auto;
+}
+
+.otherdes {
+  display: flex;
+  margin: auto;
+  width: 90%;
+}
+
+.desdiv {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .projectimgkg {
+    width: 100%;
+  }
+
+  .projndpics {
+    background: rgb(24, 2, 47);
+    border: 1px solid rgba(150, 140, 127, 0.3);
+    border-radius: 16px;
+    padding: 48px 0px 0px 48px;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 2px;
+    align-items: flex-end;
+    width: 95%;
+    overflow: hidden;
+  }
+
+  .abtproj {
+    width: 100%;
+    padding-right: 48px;
+    padding-bottom: 48px;
+  }
+
+  .desslides {
+    padding-right: 15px;
+  }
+
+  .desslides1 {
+    padding-left: 15px;
+  }
+
+  .projectimgkg img {
+    width: 100%;
+    object-fit: cover;
+    height: 381px;
+    background-size: cover;
+    background-position: 50% center;
+    object-position: left top;
+    display: flex;
+    margin-left: 95px;
+    /* margin-right: -2px; */
+  }
+}
+
+@media (max-width: 550px) {
+  .projndpics {
+    background: rgb(24, 2, 47);
+    border: 1px solid rgba(150, 140, 127, 0.3);
+    border-radius: 16px;
+    padding: 48px 0px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 2px;
+    align-items: flex-end;
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .desslides {
+    padding-right: 0px;
+  }
+
+  .desslides1 {
+    padding-left: 0px;
+  }
+  .abtproj {
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: 48px;
+  }
+  .projstory {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 219.2%;
+    padding-right: 6px;
+    margin-top: 24px;
+    margin-bottom: 3em;
+    color: white;
+    font-family: 'fira sans condensed', sans-serif;
+  }
+
+  .desslides {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5em;
+    max-width: 100%;
+  }
+
+  .otherdes {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .desslides1 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0em;
+    max-width: 100%;
+  }
+
+  .selecteddesp {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: rgba(150, 140, 127, 0.3);
+    font-weight: 600;
+    margin: 47px auto 65px auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .projectimgkg img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    background-size: cover;
+    background-position: 50% center;
+    object-position: left top;
+    display: flex;
+    margin-left: 55px;
+  }
+
+  .bigp {
+    color: white;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    width: 80%;
+  }
+}

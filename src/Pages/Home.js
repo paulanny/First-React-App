@@ -6,7 +6,6 @@ import SelectedProjsTexts from '../Components/SelectedProjsTexts'
 import Projects from '../Components/Projects'
 import Tools from '../Components/Tools'
 import Footer from '../Components/Footer'
-import Updatestexts from '../Components/Updatestexts'
 import BackdropPattern from '../Components/BackdropPattern'
 import Aboutme from '../Components/Aboutme'
 import CarouselAuto from '../Components/CarouselAuto'
@@ -14,15 +13,9 @@ import CarouselAuto from '../Components/CarouselAuto'
 const Home = () => {
   return (
     <div>
-      <Updatestexts />
       <NavBar />
       <Hero />
       <Aboutme />
-      <SelectedProjsTexts
-        id="projects"
-        title="Quicky"
-        description="Sneak Peak"
-      />
       <CarouselAuto />
       <SelectedProjsTexts
         id="projects"

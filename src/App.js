@@ -2,17 +2,13 @@ import React, { useState, useEffect } from 'react'
 import BackdropPattern from './Components/BackdropPattern'
 import Logoimg from '../src/Assets/myLogo.png'
 import { Routes, Route } from 'react-router-dom'
-import KGshot from './Pages/KGShot'
-import Logoworks from './Pages/Logoworks'
 import Mockup from './Pages/Mockup'
-import Psyche from './Pages/Psyche'
-import Psychowiz from './Pages/Psychowiz'
-import EggDesigns from './Pages/EggDesigns'
-import Randomdesigns from './Pages/Randomdesigns'
+import BrandDesignsPage from './Pages/BrandDesignsPage'
 import Home from './Pages/Home'
 import TypeEffect from './Components/TypeEffect'
-import Tiesmart from './Pages/Tiesmart'
-import Gtext from './Pages/Gtext'
+import PrintDesigns from './Pages/PrintDesigns'
+import SocialMediaPage from './Pages/SocialMediaPage'
+import AdsDesignPage from './Pages/AdsDesignPage'
 
 const App = () => {
   const [loading, setLoading] = useState(false)
@@ -41,15 +37,11 @@ const App = () => {
       ) : (
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/kaapitshot" element={<KGshot />} />
-          <Route path="/logodesigns" element={<Logoworks />} />
           <Route path="/mockupdesigns" element={<Mockup />} />
-          <Route path="/psychedesigns" element={<Psyche />} />
-          <Route path="/psychowizdesigns" element={<Psychowiz />} />
-          <Route path="/eggdesigns" element={<EggDesigns />} />
-          <Route path="/randomdesigns" element={<Randomdesigns />} />
-          <Route path="/tiesmart" element={<Tiesmart />} />
-          <Route path="/gtextdesigns" element={<Gtext />} />
+          <Route path="/adsdesigns" element={<AdsDesignPage />} />
+          <Route path="/branddesignspage" element={<BrandDesignsPage />} />
+          <Route path="/socialmediapage" element={<SocialMediaPage />} />
+          <Route path="/printdesigns" element={<PrintDesigns />} />
         </Routes>
       )}
       <BackdropPattern />

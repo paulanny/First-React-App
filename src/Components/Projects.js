@@ -1,93 +1,35 @@
 import { Link } from 'react-router-dom'
 import './Projects.css'
 import btnArrow from '../Assets/shotarrow.png'
-import Proj1Img from '../Assets/image2/kaapit herosmall.png'
-import Proj2Img from '../Assets/psyche/epsycherosmall.png'
-import Proj3Img from '../Assets/eggimages/naps herosmall.png'
-import Gtext from '../Assets/gtext.png'
-import Tiesmart from '../Assets/Tiesmart.png'
-import Proj4Img from '../Assets/logo images/proj1.png'
-import Proj5Img from '../Assets/proj5small.png'
-import Proj6Img from '../Assets/proj6small.png'
-import Proj7Img from '../Assets/proj7small.png'
+import SocialMedia from '../Assets/SocialMedia.png'
+import Brand from '../Assets/brand.png'
+import Printdesign from '../Assets/Print Design.png'
+import Mockup from '../Assets/mockupdesigns.png'
+import Ads from '../Assets/Ads.png'
 
 const Projects = () => {
   return (
     <section class="allprojects">
-      <div class="projndpics2">
-        <div class="abtproj2">
-          <p data-aos="fade-up" class="bigp">
-            GTEXT DESIGNS
-          </p>
-          <p data-aos="fade-up" class="projstory">
-            I worked as part of the graphic design team at GText, a real estate
-            brand, where I created social media flyers, thumbnails, promo
-            designs, and ensured consistency of branding elements across all
-            promotional materials.
-          </p>
-
-          <div data-aos="fade-up" class="viewbtn">
-            <Link to="/gtextdesigns" class="viewshota">
-              <button class="viewshotabtn">
-                <p class="viewshotp">View Designs</p>
-                <div class="shotarrow">
-                  <img src={btnArrow} alt="arrow" />
-                  <img src={btnArrow} alt="arrow" />
-                </div>
-              </button>
-            </Link>
-          </div>
-        </div>
-        <div class="projectimg2">
-          <img src={Gtext} alt="project1" />
-        </div>
-      </div>
-
-      <div class="projndpics2">
-        <div class="abtproj2">
-          <p data-aos="fade-up" class="bigp">
-            Tiesmart
-          </p>
-          <p data-aos="fade-up" class="projstory">
-            As part of the branding team for Tiesmart, I contributed to the
-            development of key visual elements, including a logo featuring the
-            infinity symbol to represent connection and continuity. I also
-            worked on various other deliverables, such as social media graphics,
-            promotional materials, and ensuring consistency across all branding
-            assets and platforms.
-          </p>
-
-          <div data-aos="fade-up" class="viewbtn">
-            <Link to="/tiesmart" class="viewshota">
-              <button class="viewshotabtn">
-                <p class="viewshotp">View Designs</p>
-                <div class="shotarrow">
-                  <img src={btnArrow} alt="arrow" />
-                  <img src={btnArrow} alt="arrow" />
-                </div>
-              </button>
-            </Link>
-          </div>
-        </div>
-        <div class="projectimg2">
-          <img src={Tiesmart} alt="project1" />
-        </div>
-      </div>
-
       <div class="projndpics">
         <div class="abtproj">
           <p data-aos="fade-up" class="bigp">
-            KAAPIT GRAPHICS DESIGNS
+            Social Media
           </p>
           <p data-aos="fade-up" class="projstory">
-            As a Freelance graphic designer and one of the co-founders of KAAPIT
-            GRAPHIC STUDIO, I have worked on series of designs for the brand,
-            starting from the brand's Logo design to other attractive and
-            appealing social media post designs. click the button below to view
-            some of the selected designs.
+            As a social media designer, I create visually engaging content that
+            helps brands connect with their audience across digital platforms.
+            My work includes designing graphics for posts, stories, and
+            promotional campaigns, each crafted...
+            {/* to
+            align with brand aesthetics and resonate with target audiences. This
+            section features some of my social media design projects,
+            highlighting my ability to balance eye-catching visuals with
+            consistent brand messaging to drive engagement and build a strong
+            online presence. */}
           </p>
+
           <div data-aos="fade-up" class="viewbtn">
-            <Link to="/kaapitshot" class="viewshota">
+            <Link to="/socialmediapage" class="viewshota">
               <button class="viewshotabtn">
                 <p class="viewshotp">View Designs</p>
                 <div class="shotarrow">
@@ -99,83 +41,26 @@ const Projects = () => {
           </div>
         </div>
         <div class="projectimg">
-          <img src={Proj1Img} alt="project1" />
-        </div>
-      </div>
-
-      <div class="projndpics2">
-        <div class="abtproj2">
-          <p data-aos="fade-up" class="bigp">
-            EPSYCHE DESIGNS
-          </p>
-          <p data-aos="fade-up" class="projstory">
-            Everything Psychology(EPSYCHE Ng) is a non profit oragnization that
-            brings together great minds studying and interested in Psychology, I
-            am a part of the graphic team for the organization and I have worked
-            on several designs for the organization.
-          </p>
-
-          <div data-aos="fade-up" class="viewbtn">
-            <Link to="/psychedesigns" class="viewshota">
-              <button class="viewshotabtn">
-                <p class="viewshotp">View Designs</p>
-                <div class="shotarrow">
-                  <img src={btnArrow} alt="arrow" />
-                  <img src={btnArrow} alt="arrow" />
-                </div>
-              </button>
-            </Link>
-          </div>
-        </div>
-        <div class="projectimg2">
-          <img src={Proj2Img} alt="project1" />
-        </div>
-      </div>
-
-      <div class="projndpics2">
-        <div class="abtproj2">
-          <p data-aos="fade-up" class="bigp">
-            NAPS DESIGNS
-          </p>
-          <p data-aos="fade-up" class="projstory">
-            As the graphic team lead for NIGERIAN ASSOCIATION OF PSYCHOLOGY
-            STUDENTS, I have overseen and directed creation of different designs
-            for the association for relatively broadcasting across the various
-            platforms used by the association. I have also designed several
-            designs for the association.
-          </p>
-
-          <div data-aos="fade-up" class="viewbtn">
-            <Link to="/eggdesigns" class="viewshota">
-              <button class="viewshotabtn">
-                <p class="viewshotp">View Designs</p>
-                <div class="shotarrow">
-                  <img src={btnArrow} alt="arrow" />
-                  <img src={btnArrow} alt="arrow" />
-                </div>
-              </button>
-            </Link>
-          </div>
-        </div>
-        <div class="projectimg2">
-          <img src={Proj3Img} alt="project1" />
+          <img src={SocialMedia} alt="project1" />
         </div>
       </div>
 
       <div class="projndpics">
         <div class="abtproj">
           <p data-aos="fade-up" class="bigp">
-            LOGO DESIGNS
+            Print Designs
           </p>
           <p data-aos="fade-up" class="projstory">
-            Logo Design is one important aspect of Graphic/Visual Design and of
-            course I am a creative Logo designer who creates simple and brand
-            centered Logo to help brands identity. Click the link to see some of
-            my Logo designs.
+            As a print designer, I focus on crafting tangible visuals that make
+            a lasting impact. My print design work spans projects like
+            brochures, posters, business cards, and packaging—each tailored to
+            convey a brand’s message with clarity and style...
+            {/* showcases a variety of print designs, highlighting my attention to
+            detail, use of typography, and skill in creating layouts that are
+            both visually appealing and functional in physical formats. */}
           </p>
-
           <div data-aos="fade-up" class="viewbtn">
-            <Link to="/logodesigns" class="viewshota">
+            <Link to="/printdesigns" class="viewshota">
               <button class="viewshotabtn">
                 <p class="viewshotp">View Designs</p>
                 <div class="shotarrow">
@@ -187,20 +72,58 @@ const Projects = () => {
           </div>
         </div>
         <div class="projectimg">
-          <img src={Proj4Img} alt="project1" />
+          <img src={Printdesign} alt="project1" />
         </div>
       </div>
 
-      <div class="projndpics2">
-        <div class="abtproj2">
+      <div class="projndpics">
+        <div class="abtproj">
           <p data-aos="fade-up" class="bigp">
-            MOCKUP DESIGNS
+            Brand Designs
           </p>
           <p data-aos="fade-up" class="projstory">
-            Mockup Design is a way of revealing the exact and expected outcome
-            of every design to the client to enable them have an advance view of
-            waht and how their designs will look like in real life printout. I
-            am experiened in creating designs and designs Mockup for brands.
+            As a brand designer, I specialize in creating visual identities that
+            communicate a brand’s story and values. With experience working on
+            diverse branding projects, I design essential elements such as
+            logos, social media assets, promotional...
+            {/* cohesive
+            style guides to bring brands to life across platforms. This section
+            showcases some of my brand design work, where each project
+            demonstrates a commitment to unique, impactful, and visually
+            consistent branding. */}
+          </p>
+
+          <div data-aos="fade-up" class="viewbtn">
+            <Link to="/branddesignspage" class="viewshota">
+              <button class="viewshotabtn">
+                <p class="viewshotp">View Designs</p>
+                <div class="shotarrow">
+                  <img src={btnArrow} alt="arrow" />
+                  <img src={btnArrow} alt="arrow" />
+                </div>
+              </button>
+            </Link>
+          </div>
+        </div>
+        <div class="projectimg">
+          <img src={Brand} alt="project1" />
+        </div>
+      </div>
+
+      <div class="projndpics">
+        <div class="abtproj">
+          <p data-aos="fade-up" class="bigp">
+            Mockup Designs
+          </p>
+          <p data-aos="fade-up" class="projstory">
+            In mockup design, I bring concepts to life by creating realistic
+            previews of branding, product, and packaging designs. Mockups are
+            essential for visualizing how designs will look in real-world
+            settings, whether on products, print materials, or digital...
+            {/* screens.
+            This section showcases some of my mockup work, illustrating how I
+            use lifelike visuals to present design concepts, helping clients
+            envision their brand’s full potential before production. */}
           </p>
 
           <div data-aos="fade-up" class="viewbtn">
@@ -215,54 +138,31 @@ const Projects = () => {
             </Link>
           </div>
         </div>
-        <div class="projectimg2">
-          <img src={Proj5Img} alt="project1" />
-        </div>
-      </div>
-
-      <div class="projndpics2">
-        <div class="abtproj2">
-          <p data-aos="fade-up" class="bigp">
-            PSYCHOWIZARD DESIGNS
-          </p>
-          <p data-aos="fade-up" class="projstory">
-            As a volunteer graphic designer for Psychowizard, I have created
-            multiple designs for the organization that help convey necessary
-            information to the intended audience.
-          </p>
-
-          <div data-aos="fade-up" class="viewbtn">
-            <Link to="/psychowizdesigns" class="viewshota">
-              <button class="viewshotabtn">
-                <p class="viewshotp">View Designs</p>
-                <div class="shotarrow">
-                  <img src={btnArrow} alt="arrow" />
-                  <img src={btnArrow} alt="arrow" />
-                </div>
-              </button>
-            </Link>
-          </div>
-        </div>
-        <div class="projectimg2">
-          <img src={Proj6Img} alt="project1" />
+        <div class="projectimg">
+          <img src={Mockup} alt="project1" />
         </div>
       </div>
 
       <div class="projndpics">
         <div class="abtproj">
           <p data-aos="fade-up" class="bigp">
-            SIMPLE RANDOM DESIGNS
+            Ads Design
           </p>
           <p data-aos="fade-up" class="projstory">
-            Of course, I have various clients that reach out to me to help them
-            with nice and simple designs, I deliver quality and high resolution
-            designs as usual considering and tailoring my designs to meet the
-            expected outcome of the client. Click the button to see some of the
-            selected random designs.
+            In my work as an ads designer, I aim to create impactful visuals
+            that leave a memorable impression. My design experience spans
+            various advertising formats, such as brochures, posters, business
+            cards, and packaging, each crafted to clearly ...
+            {/* communicate a
+            brand’s message with style. This portfolio section showcases my
+            ability to blend eye-catching design with strategic messaging. I
+            focus on detail, typography, and layout, ensuring each ad design is
+            not only visually appealing but also functional, effectively
+            reaching audiences through physical media. */}
           </p>
 
           <div data-aos="fade-up" class="viewbtn">
-            <Link to="/randomdesigns" class="viewshota">
+            <Link to="/adsdesigns" class="viewshota">
               <button class="viewshotabtn">
                 <p class="viewshotp">View Designs</p>
                 <div class="shotarrow">
@@ -274,64 +174,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="projectimg">
-          <img src={Proj7Img} alt="project1" />
-        </div>
-      </div>
-
-      <div class="projndpics2">
-        <div class="abtproj2">
-          <p data-aos="fade-up" class="bigp">
-            MOCKUP DESIGNS
-          </p>
-          <p data-aos="fade-up" class="projstory">
-            Mockup Design is a way of revealing the exact and expected outcome
-            of every design to the client to enable them have an advance view of
-            waht and how their designs will look like in real life printout. I
-            am experiened in creating designs and designs Mockup for brands.
-          </p>
-
-          <div data-aos="fade-up" class="viewbtn">
-            <Link to="/mockupdesigns" class="viewshota">
-              <button class="viewshotabtn">
-                <p class="viewshotp">View Designs</p>
-                <div class="shotarrow">
-                  <img src={btnArrow} alt="arrow" />
-                  <img src={btnArrow} alt="arrow" />
-                </div>
-              </button>
-            </Link>
-          </div>
-        </div>
-        <div class="projectimg2">
-          <img src={Proj5Img} alt="project1" />
-        </div>
-      </div>
-
-      <div class="projndpics2">
-        <div class="abtproj2">
-          <p data-aos="fade-up" class="bigp">
-            PSYCHOWIZARD DESIGNS
-          </p>
-          <p data-aos="fade-up" class="projstory">
-            As a volunteer graphic designer for Psychowizard, I have created
-            multiple designs for the organization that help convey necessary
-            information to the intended audience.
-          </p>
-
-          <div data-aos="fade-up" class="viewbtn">
-            <Link to="/psychowizdesigns" class="viewshota">
-              <button class="viewshotabtn">
-                <p class="viewshotp">View Designs</p>
-                <div class="shotarrow">
-                  <img src={btnArrow} alt="arrow" />
-                  <img src={btnArrow} alt="arrow" />
-                </div>
-              </button>
-            </Link>
-          </div>
-        </div>
-        <div class="projectimg2">
-          <img src={Proj6Img} alt="project1" />
+          <img src={Ads} alt="project1" />
         </div>
       </div>
     </section>

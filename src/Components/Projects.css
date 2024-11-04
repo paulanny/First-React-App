@@ -10,70 +10,58 @@
   background: #141212;
   border: 1px solid rgba(150, 140, 127, 0.3);
   border-radius: 16px;
-  padding: 48px 0px 0px 48px;
+  padding: 48px;
   color: white;
   display: flex;
-  margin: 32px 0px;
-  -webkit-box-pack: justify;
+  margin: 32px 0;
   justify-content: space-between;
-  min-height: 2px;
   align-items: flex-end;
   overflow: hidden;
   width: 100%;
+  position: relative;
+}
+
+.projndpics:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 .projectimg {
   width: 60%;
+  position: absolute;
+  z-index: 1;
+  /* top: -50px; */
+  right: -50px;
+  bottom: -20px;
 }
 
+/* Image styling for odd items */
 .projectimg img {
-  width: 100%;
+  width: 90%;
   object-fit: cover;
-  height: 400px;
+  /* height: 400px; */
   background-size: cover;
   background-position: 50% center;
   object-position: left top;
   display: flex;
-  /* position: absolute;
-      left: 0;
-      bottom: 0; */
-  margin-left: 129px;
+  margin-left: 180px;
+  /* margin-left: 129px; */
 }
 
-.projndpics2 {
-  background: #141212;
-  border: 1px solid rgba(150, 140, 127, 0.3);
-  border-radius: 16px;
-  padding: 40px 0px 0px 32px;
-  color: white;
-  display: block;
-  margin: 32px 0px;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  min-height: 2px;
-  align-items: flex-end;
-  width: 47%;
+/* Styling for images in even-numbered .projndpics to extrude from top left */
+.projndpics:nth-child(even) .projectimg {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 60%;
+  height: auto;
+  z-index: 0;
 }
 
-.abtproj2 {
-  padding-right: 32px;
-  padding-bottom: 56px;
-  width: 100%;
-}
-
-.projectimg2 {
-  width: 100%;
-}
-
-.projectimg2 img {
-  width: 100%;
-  object-fit: cover;
-  height: 350px;
-  background-size: cover;
-  background-position: 50% center;
-  object-position: left top;
-  display: flex;
-  margin-left: 85px;
+.projndpics:nth-child(even) .projectimg img {
+  object-position: top left;
+  /* height: 400px; */
+  margin-left: -100px;
+  width: 90%;
 }
 
 .bigp {
@@ -96,6 +84,11 @@
   width: 50%;
   padding-right: 48px;
   padding-bottom: 48px;
+}
+
+.viewbtn {
+  position: relative;
+  z-index: 200;
 }
 
 .viewshotp {
@@ -219,23 +212,6 @@
   }
 
   .projndpics {
-    background: #141212;
-    border: 1px solid rgba(150, 140, 127, 0.3);
-    border-radius: 16px;
-    padding: 48px 0px 0px 48px;
-    display: flex;
-    flex-direction: column;
-    margin: 32px auto;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    min-height: 2px;
-    align-items: flex-end;
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .projndpics2 {
-    background: #141212;
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
     padding: 48px 0px 0px 48px;
@@ -251,21 +227,49 @@
   }
 
   .abtproj {
+    margin-top: 300px;
+  }
+
+  .projndpics:nth-child(odd) .abtproj {
     width: 100%;
     padding-right: 48px;
     padding-bottom: 48px;
+    margin-bottom: 350px;
+    margin-top: 0px;
   }
 
   .projectimg img {
-    width: 100%;
+    width: 80%;
     object-fit: cover;
-    height: 381px;
     background-size: cover;
     background-position: 50% center;
     object-position: left top;
     display: flex;
-    margin-left: 95px;
-    /* margin-right: -2px; */
+    margin-left: 220px;
+  }
+  .projndpics:nth-child(even) .projectimg {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 110%;
+    height: auto;
+    z-index: 0;
+  }
+
+  .projndpics:nth-child(even) .projectimg img {
+    margin-left: -220px;
+    width: 80%;
+  }
+}
+@media (max-width: 700px) {
+  .projectimg img {
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: 50% center;
+    object-position: left top;
+    display: flex;
+    margin-left: 50px;
   }
 }
 
@@ -280,23 +284,6 @@
   }
 
   .projndpics {
-    background: #141212;
-    border: 1px solid rgba(150, 140, 127, 0.3);
-    border-radius: 16px;
-    padding: 48px 0px 0px 25px;
-    display: flex;
-    flex-direction: column;
-    margin: 32px auto;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    min-height: 2px;
-    align-items: flex-end;
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .projndpics2 {
-    background: #141212;
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
     padding: 48px 0px 0px 25px;
@@ -319,8 +306,8 @@
   }
 
   .projstory {
-    font-weight: 300;
-    font-size: 17px;
+    font-weight: 200;
+    font-size: 14px;
     line-height: 219.2%;
     margin-top: 24px;
     margin-bottom: 3em;
@@ -342,6 +329,12 @@
     width: 100%;
     padding-right: 15px;
     padding-bottom: 60px;
+  }
+
+  .projectimg {
+    width: 110%;
+    right: -20px;
+    bottom: -20px;
   }
 
   .viewshotp {
@@ -389,59 +382,30 @@
   .projectimg img {
     width: 100%;
     object-fit: cover;
-    height: 250px;
     background-size: cover;
     background-position: 50% center;
     object-position: left top;
     display: flex;
-    margin-left: 85px;
+    margin-left: 2px;
   }
 
-  .abtproj2 {
-    width: 100%;
-    padding-right: 15px;
-    padding-bottom: 60px;
-  }
-
-  .projectimg2 img {
-    width: 100%;
-    object-fit: cover;
-    height: 250px;
-    background-size: cover;
-    background-position: 50% center;
-    object-position: left top;
-    display: flex;
-    margin-left: 85px;
-  }
-}
-
-@media (max-width: 450px) {
-  .projectimg img {
-    width: 100%;
-    object-fit: cover;
-    height: 250px;
-    background-size: cover;
-    background-position: 50% center;
-    object-position: left top;
-    display: flex;
-    margin-left: 55px;
-  }
-
-  .projectimg2 img {
-    width: 100%;
-    object-fit: cover;
-    height: 250px;
-    background-size: cover;
-    background-position: 50% center;
-    object-position: left top;
-    display: flex;
-    margin-left: 55px;
+  .projndpics:nth-child(even) .projectimg img {
+    width: 110%;
+    margin-left: -2px;
+    top: -5px;
+    left: 0px;
   }
 
   .bigp {
     color: white;
     font-size: 30px;
     font-weight: 800;
+  }
+}
+
+@media (max-width: 500px) {
+  .projectimg img {
+    margin-left: 40px;
   }
 }
 
@@ -454,7 +418,7 @@
   }
 
   .projstory {
-    font-weight: 300;
+    font-weight: 200;
     font-size: 14px;
     line-height: 219.2%;
     margin-top: 24px;
@@ -481,16 +445,5 @@
     background-position: 50% center;
     object-position: left top;
     display: flex;
-  }
-
-  .projectimg2 img {
-    width: 100%;
-    object-fit: cover;
-    height: 250px;
-    background-size: cover;
-    background-position: 50% center;
-    object-position: left top;
-    display: flex;
-    margin-left: 10px;
   }
 }

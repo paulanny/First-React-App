@@ -1,7 +1,4 @@
 import 'aos/dist/aos.css'
-import arrowImg from '../Assets/arrow.png'
-import ResumePdf from '../Assets/Animashaun Paul Resume.pdf'
-import Arrow from '../Assets/arroww.png'
 import shotArrow from '../Assets/shotarrow.png'
 import './Aboutme.css'
 import SideImg from '../Assets/sideimg.png'

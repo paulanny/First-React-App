@@ -4,6 +4,7 @@
   height: 100%; /* Ensure the parent has a defined height */
   border-color: #4b5563;
   width: 100%;
+  margin-top: 50px;
 }
 
 .carousel-track {
