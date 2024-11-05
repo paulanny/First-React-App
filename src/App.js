@@ -44,7 +44,9 @@ const App = () => {
           <Route path="/printdesigns" element={<PrintDesigns />} />
         </Routes>
       )}
-      <div class="ray"></div>
+      <div className="raydiv">
+        <div class="ray"></div>
+      </div>
       <BackdropPattern />
     </div>
   )

@@ -282,14 +282,15 @@
   }
 
   .learnimg img {
-    max-width: 150px;
+    /* max-width: 150px;
     justify-content: flex-end;
     margin-top: -0px;
     margin-left: 0px;
     height: 55px;
     position: absolute;
     right: -50px;
-    overflow: hidden;
+    overflow: hidden; */
+    display: none;
   }
 
   .bigintro {

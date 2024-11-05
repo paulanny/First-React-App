@@ -39,7 +39,9 @@ const Hero = () => {
                 my work
               </a>
             </p>
-            <img src={arrowImg} alt="jumparrow" />
+            <div>
+              <img src={arrowImg} alt="jumparrow" />
+            </div>
           </div>
         </div>
         <div data-aos="fade-up" class="headimg">

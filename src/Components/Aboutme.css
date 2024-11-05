@@ -185,9 +185,9 @@
 
 @media (max-width: 640px) {
   .sideimg img {
-    width: 200px;
+    width: 150px;
     position: absolute;
-    right: -100px;
+    right: -50px;
     z-index: 100;
     top: 0;
   }
@@ -195,9 +195,9 @@
 
 @media (max-width: 450px) {
   .sideimg img {
-    width: 150px;
+    width: 130px;
     position: absolute;
-    right: -100px;
+    right: -50px;
     z-index: 100;
     top: 0;
   }
@@ -218,7 +218,7 @@
   }
 
   .sideimg img {
-    width: 190px;
+    width: 130px;
   }
   .aboutmep {
     font-size: 12px;
