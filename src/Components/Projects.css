@@ -214,25 +214,28 @@
   .projndpics {
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
-    padding: 48px 0px 0px 48px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     margin: 32px auto;
     -webkit-box-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: auto;
     min-height: 2px;
-    align-items: flex-end;
-    width: 100%;
+    /* align-items: flex-end; */
+    /* width: 100%; */
     overflow: hidden;
   }
 
   .abtproj {
     margin-top: 300px;
+    padding-right: 0px;
   }
 
   .projndpics:nth-child(odd) .abtproj {
     width: 100%;
-    padding-right: 48px;
+    /* padding-right: 0px; */
     padding-bottom: 48px;
     margin-bottom: 350px;
     margin-top: 0px;
@@ -292,15 +295,15 @@
   .projndpics {
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
-    padding: 48px 0px 0px 25px;
+    /* padding: 48px 0px 0px 25px; */
     display: flex;
     flex-direction: column;
     margin: 32px auto;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+    /* -webkit-box-pack: justify;
+    justify-content: space-between; */
     min-height: 2px;
-    align-items: flex-end;
-    width: 100%;
+    /* align-items: flex-end; */
+    /* width: 100%; */
     overflow: hidden;
   }
 
@@ -308,7 +311,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 20px 30px;
   }
 
   .projstory {
@@ -319,6 +322,7 @@
     margin-bottom: 3em;
     color: white;
     font-family: 'fira sans condensed', sans-serif;
+    text-align: justify;
   }
 
   .bigp {
@@ -333,7 +337,7 @@
 @media (max-width: 500px) {
   .abtproj {
     width: 100%;
-    padding-right: 15px;
+    /* padding-right: 15px; */
     padding-bottom: 60px;
   }
 

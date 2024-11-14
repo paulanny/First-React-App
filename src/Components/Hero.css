@@ -63,8 +63,9 @@
 .learningp {
   font-size: 18px;
   color: white;
-  font-family: 'Bricolage Grotesque', sans-serif;
+ font-family: 'fira sans condensed', sans-serif;
 }
+
 .bannersection {
   position: relative;
   height: 100vh;
@@ -282,14 +283,6 @@
   }
 
   .learnimg img {
-    /* max-width: 150px;
-    justify-content: flex-end;
-    margin-top: -0px;
-    margin-left: 0px;
-    height: 55px;
-    position: absolute;
-    right: -50px;
-    overflow: hidden; */
     display: none;
   }
 
