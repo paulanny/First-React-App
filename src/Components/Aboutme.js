@@ -8,7 +8,7 @@ const Aboutme = () => {
     <div className="allaboutme">
       <div className="coloredsess">
         <div className="hiretext">
-          <p className="coloredabout">About me</p>
+          {/* <p className="coloredabout">About me</p> */}
           <p className="catchphrase">
             I consistently deliver results that exceed expectations.
           </p>

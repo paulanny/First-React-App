@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import './Mockup.css'
 import '../Components/SecondProj.css'
 import NavBar from '../Components/NavBar'
@@ -13,14 +14,104 @@ import Mockeight from '../Assets/Mockups/Mockup8.png'
 import Mocknine from '../Assets/Mockups/Mockup9.png'
 import Mockten from '../Assets/Mockups/Mockup10.png'
 import BackdropPattern from '../Components/BackdropPattern'
+// const Mockup = () => {
+//   return (
+//     <div>
+//       <NavBar />
+//       <div class="projndpics3">
+//         <div class="abtproj3">
+//           <p class="bigp">Mockup Designs</p>
+//           <p data-aos="fade-up" class="projstory">
+//             In mockup design, I bring concepts to life by creating realistic
+//             previews of branding, product, and packaging designs. Mockups are
+//             essential for visualizing how designs will look in real-world
+//             settings, whether on products, print materials, or digital screens.
+//             This section showcases some of my mockup work, illustrating how I
+//             use lifelike visuals to present design concepts, helping clients
+//             envision their brand’s full potential before production.
+//           </p>
+//         </div>
+//         <div class="projectimg3">
+//           <img src={Mockupimg} alt="project1" />
+//         </div>
+//       </div>
+
+//       <section class="otherdes">
+//         <div data-aos="fade-up" class="desslides">
+//           <div class="desdiv">
+//             <img class="kaapitdes" src={Mockone} alt="mockup designs" />
+//           </div>
+
+//           <div class="desdiv">
+//             <img class="kaapitdes" src={Mockthree} alt="mockup designs" />
+//           </div>
+
+//           <div class="desdiv">
+//             <img class="kaapitdes" src={Mockfive} alt="mockup designs" />
+//           </div>
+
+//           <div class="desdiv">
+//             <img class="kaapitdes" src={Mockseven} alt="mockup designs" />
+//           </div>
+
+//           <div class="desdiv">
+//             <img class="kaapitdes" src={Mocknine} alt="mockup designs" />
+//           </div>
+//         </div>
+
+//         <div data-aos="fade-up" class="desslides1">
+//           <div class="desdiv">
+//             <img class="kaapitdes" src={Mocktwo} alt="mockup designs" />
+//           </div>
+
+//           <div class="desdiv">
+//             <img class="kaapitdes" src={Mockfour} alt="mockup designs" />
+//           </div>
+//           <div class="desdiv">
+//             <img class="kaapitdes" src={Mocksix} alt="mockup designs" />
+//           </div>
+
+//           <div class="desdiv">
+//             <img class="kaapitdes" src={Mockeight} alt="mockup designs" />
+//           </div>
+
+//           <div class="desdiv">
+//             <img class="kaapitdes" src={Mockten} alt="mockup designs" />
+//           </div>
+//         </div>
+//       </section>
+
+//       <p data-aos="fade-up" class="selecteddesp">
+//         End of Selected Mockups Designs
+//       </p>
+//       <BackdropPattern />
+//     </div>
+//   )
+// }
+
+// export default Mockup
+
 const Mockup = () => {
+  const [isModalOpen, setModalOpen] = useState(false)
+  const [selectedImage, setSelectedImage] = useState('')
+
+  const openModal = (imageUrl) => {
+    setSelectedImage(imageUrl)
+    setModalOpen(true)
+  }
+
+  const closeModal = () => {
+    setModalOpen(false)
+    setSelectedImage('')
+  }
+
   return (
     <div>
       <NavBar />
-      <div class="projndpics3">
-        <div class="abtproj3">
-          <p class="bigp">Mockup Designs</p>
-          <p data-aos="fade-up" class="projstory">
+      <div className="projndpics3">
+        <div className="abtproj3">
+          <p className="bigp">Mockup Designs</p>
+          <p data-aos="fade-up" className="projstory">
             In mockup design, I bring concepts to life by creating realistic
             previews of branding, product, and packaging designs. Mockups are
             essential for visualizing how designs will look in real-world
@@ -30,59 +121,63 @@ const Mockup = () => {
             envision their brand’s full potential before production.
           </p>
         </div>
-        <div class="projectimg3">
+        <div className="projectimg3">
           <img src={Mockupimg} alt="project1" />
         </div>
       </div>
 
-      <section class="otherdes">
-        <div data-aos="fade-up" class="desslides">
-          <div class="desdiv">
-            <img class="kaapitdes" src={Mockone} alt="mockup designs" />
-          </div>
-
-          <div class="desdiv">
-            <img class="kaapitdes" src={Mockthree} alt="mockup designs" />
-          </div>
-
-          <div class="desdiv">
-            <img class="kaapitdes" src={Mockfive} alt="mockup designs" />
-          </div>
-
-          <div class="desdiv">
-            <img class="kaapitdes" src={Mockseven} alt="mockup designs" />
-          </div>
-
-          <div class="desdiv">
-            <img class="kaapitdes" src={Mocknine} alt="mockup designs" />
-          </div>
+      <section className="otherdes">
+        <div data-aos="fade-up" className="desslides">
+          {[Mockone, Mockthree, Mockfive, Mockseven, Mocknine].map(
+            (imgSrc, index) => (
+              <div className="desdiv" key={index}>
+                <img
+                  className="kaapitdes"
+                  src={imgSrc}
+                  alt="mockup designs"
+                  onClick={() => openModal(imgSrc)}
+                />
+              </div>
+            )
+          )}
         </div>
 
-        <div data-aos="fade-up" class="desslides1">
-          <div class="desdiv">
-            <img class="kaapitdes" src={Mocktwo} alt="mockup designs" />
-          </div>
-
-          <div class="desdiv">
-            <img class="kaapitdes" src={Mockfour} alt="mockup designs" />
-          </div>
-          <div class="desdiv">
-            <img class="kaapitdes" src={Mocksix} alt="mockup designs" />
-          </div>
-
-          <div class="desdiv">
-            <img class="kaapitdes" src={Mockeight} alt="mockup designs" />
-          </div>
-
-          <div class="desdiv">
-            <img class="kaapitdes" src={Mockten} alt="mockup designs" />
-          </div>
+        <div data-aos="fade-up" className="desslides1">
+          {[Mocktwo, Mockfour, Mocksix, Mockeight, Mockten].map(
+            (imgSrc, index) => (
+              <div className="desdiv" key={index}>
+                <img
+                  className="kaapitdes"
+                  src={imgSrc}
+                  alt="mockup designs"
+                  onClick={() => openModal(imgSrc)}
+                />
+              </div>
+            )
+          )}
         </div>
       </section>
 
-      <p data-aos="fade-up" class="selecteddesp">
+      <p data-aos="fade-up" className="selecteddesp">
         End of Selected Mockups Designs
       </p>
+
+      {/* Modal for zoom effect */}
+      {isModalOpen && (
+        <div className="modal-overlay" onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={selectedImage}
+              alt="Zoomed mockup design"
+              className="zoomed-image"
+            />
+            <button className="close-button" onClick={closeModal}>
+              Close
+            </button>
+          </div>
+        </div>
+      )}
+
       <BackdropPattern />
     </div>
   )
