@@ -142,9 +142,9 @@
   }
 
   .sideimg img {
-    width: 300px;
+    width: 200px;
     position: absolute;
-    right: -200px;
+    right: -20px;
     z-index: 100;
     top: 0;
   }
@@ -168,7 +168,7 @@
   .sideimg img {
     width: 200px;
     position: absolute;
-    right: -150px;
+    right: -15px;
     z-index: 100;
     top: 0;
   }
@@ -185,7 +185,7 @@
   .sideimg img {
     width: 150px;
     position: absolute;
-    right: -50px;
+    right: -5px;
     z-index: 100;
     top: 0;
   }
@@ -215,7 +215,7 @@
   }
 
   .sideimg img {
-    width: 130px;
+    width: 120px;
   }
   .aboutmep {
     font-size: 14px;
@@ -224,6 +224,6 @@
 
 @media (max-width: 395px) {
   .sideimg img {
-    width: 160px;
+    width: 100px;
   }
 }

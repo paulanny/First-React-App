@@ -63,7 +63,7 @@
 .learningp {
   font-size: 18px;
   color: white;
- font-family: 'fira sans condensed', sans-serif;
+  font-family: 'fira sans condensed', sans-serif;
 }
 
 .bannersection {
@@ -362,6 +362,26 @@
   .bigintro {
     font-weight: 400;
     font-size: 55px;
+    color: white;
+    margin: 5px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .bigintro {
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+    margin: 5px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .bigintro {
+    font-weight: 400;
+    font-size: 45px;
     color: white;
     margin: 5px 0;
     text-align: center;
