@@ -1,7 +1,7 @@
 .selectedptxt {
   margin-top: 50px;
   margin-bottom: 20px;
-  padding: 0px 60px;
+  padding: 0px 50px;
 }
 
 .selectwhite {
@@ -18,6 +18,13 @@
   color: rgba(155, 138, 171, 0.3);
   margin-top: -10px;
   margin-bottom: 0px;
+}
+@media (max-width: 768px) {
+  .selectedptxt {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 0px 24px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -38,7 +45,6 @@
   .selectedptxt {
     margin-top: 50px;
     margin-bottom: 20px;
-    padding: 0px 30px;
   }
 }
 

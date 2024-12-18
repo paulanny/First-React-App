@@ -269,23 +269,20 @@ a span {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .NavBar {
-    padding: 20px 30px;
+    padding: 20px 24px;
   }
-
-  /* .NavBar .MobileNavigation .Hamburger {
-    top: 40px;
-  } */
-
-  .NavBar .MobileNavigation .HamburgerC {
-    top: 30px;
-  }
-
   .NavBar.scrolled {
     background-color: rgba(16, 16, 16, 0.8);
     height: 100px;
-    padding: 20px 30px;
+    padding: 20px 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .NavBar .MobileNavigation .HamburgerC {
+    top: 30px;
   }
 
   .NavBar a {

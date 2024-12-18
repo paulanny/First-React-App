@@ -109,7 +109,7 @@
 }
 
 .allaboutme {
-  padding: 20px 30px;
+  padding: 20px 50px;
 }
 
 .coloredabout {
@@ -156,6 +156,12 @@
     top: 20px;
   }
 }
+
+@media (max-width: 768px) {
+  .allaboutme {
+    padding: 20px 24px;
+  }
+}
 @media (max-width: 720px) {
   .aboutmep {
     width: 100%;
@@ -178,6 +184,9 @@
     font-weight: 400;
     margin-top: -20px;
     width: 85%;
+  }
+  .allaboutme {
+    margin-top: 0px;
   }
 }
 

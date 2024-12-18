@@ -148,7 +148,6 @@
     flex-direction: column;
     align-items: center;
     z-index: 1;
-    padding: 20px 40px;
     margin-top: 20px;
   }
 
@@ -261,6 +260,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .bannersection {
+    padding: 20px 24px;
+  }
+}
+
 @media (max-width: 550px) {
   .deetndimg {
     justify-content: center;
@@ -336,10 +341,6 @@
 }
 
 @media (max-width: 450px) {
-  /* .selfdetails {
-    margin-top: 35px;
-  } */
-
   .bigintro {
     font-weight: 400;
     font-size: 55px;
