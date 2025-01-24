@@ -1,9 +1,9 @@
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 import 'aos/dist/aos.css'
-import Typewriter from './Typewriter'
+// import Typewriter from './Typewriter'
 import MyHeroImg from '../Assets/HeroImage.png'
 import arrowImg from '../Assets/arrow.png'
-import ResumePdf from '../Assets/Paul Anny Resume.pdf'
+import ResumePdf from '../Assets/CreativeDesigner.pdf'
 import './Hero.css'
 
 const Hero = () => {

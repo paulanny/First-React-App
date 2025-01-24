@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import ResumePdf from '../Assets/Paul Anny Resume.pdf'
+import ResumePdf from '../Assets/CreativeDesigner.pdf'
 
 const NavLinks = (props) => {
   const animationFrom = { opacity: 0, y: -40 }
