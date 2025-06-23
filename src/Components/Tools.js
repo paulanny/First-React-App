@@ -12,14 +12,16 @@ const Tools = () => {
     <div className="toolspane">
       <div className="toolsp">
         <p data-aos="fade-up" className="firsttoolp">
-          In my 4+ years of graphic design, I've undertaken diverse projects,
-          meticulously crafting templates with a keen eye for detail. Leveraging
-          my background in the field, I prioritize creating simple, attractive
-          and unique designs. I seamlessly integrate design tools like
-          CorelDRAW, Picsart, Pixellab, Photoshop, Canva, and Figma to bring my
-          creative vision to life, ensuring a top-notch, high-resolution output.
-          Additionally, I possess expertise in Adobe Creative Suite,
-          encompassing Illustrator and photoshop.
+          With over four years of experience in graphic design, I have worked on
+          a wide range of projects that reflect both versatility and precision.
+          My approach is rooted in crafting clean, compelling, and distinctive
+          designs that are both functional and visually appealing. I combine
+          creativity with technical skill, utilizing tools such as CorelDRAW,
+          Picsart, Pixellab, Canva, and Figma to bring each concept to life with
+          clarity and impact. My proficiency also extends to the Adobe Creative
+          Suite, including Illustrator and Photoshop, ensuring every design
+          meets professional standards with high-resolution quality and
+          attention to detail.
         </p>
         <p data-aos="fade-up" className="sectoolp">
           In addition to my design work, I am committed to staying up-to-date

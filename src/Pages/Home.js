@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 import 'aos/dist/aos.css'
 import NavBar from '../Components/NavBar'
 import Hero from '../Components/Hero'
@@ -9,6 +9,8 @@ import Footer from '../Components/Footer'
 import BackdropPattern from '../Components/BackdropPattern'
 import Aboutme from '../Components/Aboutme'
 import CarouselAuto from '../Components/CarouselAuto'
+import Brands from '../Components/Brands'
+import { homeCardDetails } from '../Components/homeCarousel'
 
 const Home = () => {
   return (
@@ -16,10 +18,17 @@ const Home = () => {
       <NavBar />
       <Hero />
       <Aboutme />
-      <CarouselAuto />
+      <CarouselAuto cardDetails={homeCardDetails} />
       <SelectedProjsTexts
         id="projects"
-        title="SELECTED DESIGNS"
+        title="SELECTED BRAND DESIGN"
+        description="Branding"
+      />
+      <Brands />
+
+      <SelectedProjsTexts
+        id="projects"
+        title="SELECTED SM DESIGNS"
         description="Designs"
       />
       <Projects />

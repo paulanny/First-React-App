@@ -1,4 +1,4 @@
-.projectimgkg {
+/* .projectimgkg {
   width: 50%;
 }
 .desslides {
@@ -69,21 +69,17 @@ div .kaapitdes {
   .projndpics {
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
-    /* padding: 48px 0px 0px 48px; */
     display: flex;
     flex-direction: column;
     margin: 32px auto;
-    /* -webkit-box-pack: justify; */
-    /* justify-content: space-between; */
     min-height: 2px;
-    /* align-items: flex-end; */
-    /* width: 95%; */
+
     overflow: hidden;
   }
 
   .abtproj {
     width: 100%;
-    /* padding-right: 48px; */
+
     padding-bottom: 48px;
   }
 
@@ -111,15 +107,13 @@ div .kaapitdes {
   .projndpics {
     border: 1px solid rgba(150, 140, 127, 0.3);
     border-radius: 16px;
-    /* padding: 48px 0px 0px 25px; */
+
     display: flex;
     flex-direction: column;
     margin: 32px auto;
-    /* -webkit-box-pack: justify;
-    justify-content: space-between; */
+
     min-height: 2px;
-    /* align-items: flex-end; */
-    /* width: 90%; */
+
     overflow: hidden;
   }
 
@@ -199,5 +193,149 @@ div .kaapitdes {
     font-family: 'Bricolage Grotesque', sans-serif !important;
     font-weight: 800;
     width: 80%;
+  }
+} */
+
+/* Modernized Gallery Layout for Social Media Designs */
+/* Modernized Gallery Layout with Auto Scroll for Social Media Designs */
+/* Modernized Two-Line Alternating Auto Scroll Gallery */
+.otherdes {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  margin: auto;
+  width: 100%;
+  animation: fadeInGallery 1.2s ease-in-out;
+}
+
+/* Modernized Vertical Alternating Auto Scroll Gallery */
+.otherdes {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  margin: auto;
+  width: 100%;
+  height: 600px;
+  animation: fadeInGallery 1.2s ease-in-out;
+  overflow: hidden;
+}
+
+@keyframes fadeInGallery {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.desscroll-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  animation: scroll-vertical 30s linear infinite;
+}
+
+.desscroll-row.reverse {
+  animation: scroll-vertical-reverse 30s linear infinite;
+}
+
+@keyframes scroll-vertical {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scroll-vertical-reverse {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(50%);
+  }
+}
+
+.desdiv {
+  flex: 0 0 auto;
+  width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+.desdiv:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(255, 217, 102, 0.2);
+}
+
+.kaapitdes {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border: 2px solid rgba(214, 217, 59, 0.1);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.kaapitdes:hover {
+  border-color: rgba(214, 217, 59, 0.4);
+}
+
+.selecteddesp {
+  text-align: center;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+  font-size: 18px;
+  color: rgba(150, 140, 127, 0.3);
+  font-weight: 600;
+  margin: 3rem auto 5rem auto;
+}
+
+@media (max-width: 768px) {
+  .otherdes {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .desscroll-row,
+  .desscroll-row.reverse {
+    flex-direction: row;
+    animation: scroll-horizontal 40s linear infinite;
+    gap: 1.5rem;
+  }
+
+  @keyframes scroll-horizontal {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .desdiv {
+    width: 240px;
+  }
+
+  .kaapitdes {
+    height: auto;
+  }
+
+  .selecteddesp {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .otherdes {
+    max-width: 1400px;
   }
 }

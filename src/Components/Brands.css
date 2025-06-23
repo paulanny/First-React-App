@@ -1,0 +1,253 @@
+/* Projects.css */
+
+.brandsec {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  margin-top: 35px;
+}
+
+.brandsec > div {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.brandimg {
+  position: relative;
+}
+
+.brandimg img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.branddiv:nth-child(2),
+.branddiv:nth-child(5) {
+  padding-bottom: 3rem;
+  margin-top: -2rem;
+}
+
+.branddiv:nth-child(3),
+.branddiv:nth-child(6) {
+  padding-bottom: 6rem;
+  margin-top: -4rem;
+}
+
+.brandprojectname {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.brandindustry {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.brandviewbtn {
+  opacity: 0;
+  transform: translateY(40px); /* Start lower */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+
+  /* Existing styles */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+}
+
+.brandimg:hover .brandviewbtn {
+  opacity: 1;
+  transform: translateY(0); /* Slide up to normal position */
+  pointer-events: auto;
+}
+
+.brandviewshotp {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 4px;
+  margin-top: 0px !important;
+  line-height: unset !important;
+  color: #d6d93b;
+  margin-bottom: 0;
+}
+
+.brandsec > div:hover .brandviewbtn {
+  opacity: 1;
+}
+
+.brandviewshota {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.brandviewshotabtn {
+  background-color: transparent;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  min-height: 2px;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 140px;
+  height: 50px;
+  outline: none;
+  border: none;
+  color: #d6d93b;
+  position: relative;
+  cursor: pointer;
+  font-family: 'fira sans condensed', sans-serif;
+}
+
+.brandviewshotabtn::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 32px;
+  height: 50px;
+  background: rgba(214, 217, 59, 0.27);
+  border-radius: 5px;
+  transition: width 1s cubic-bezier(0.24, 0.97, 0.75, 0.2) 0s;
+}
+
+.brandviewshotabtn:hover::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 160px;
+  height: 50px;
+  background: rgba(214, 217, 59, 0.27);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.brandshotarrow {
+  display: flex;
+  margin-left: 10px;
+}
+
+.brandviewshotp {
+  font-weight: bold;
+  margin: 0;
+}
+
+.brandshotarrow img {
+  width: 10px;
+  display: block;
+  stroke: currentcolor;
+  color: rgb(214, 217, 59);
+  height: 15px;
+}
+
+.brandshotarrow img {
+  height: 12px;
+}
+
+.brandshotarrow img:first-child {
+  animation-name: firsts;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  margin-right: 3px;
+}
+
+.brandshotarrow img:last-child {
+  animation-name: seconds;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes firsts {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes seconds {
+  100% {
+    opacity: 1;
+  }
+
+  0% {
+    opacity: 0.7;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.brandimg img {
+  transition: filter 0.3s ease;
+}
+
+.brandimg:hover img {
+  filter: brightness(0.6);
+}
+
+@media (min-width: 768px) {
+  .brandsec {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .branddiv {
+    margin-bottom: 25px;
+  }
+
+  /* .brandsec > div:nth-child(2),
+  .brandsec > div:nth-child(5) {
+    transform: translateY(-30px);
+  } */
+
+  /* .brandsec > div:nth-child(3),
+  .brandsec > div:nth-child(6) {
+    transform: translateY(-60px);
+  } */
+}
+
+@media (max-width: 767px) {
+  .brandsec {
+    grid-template-columns: 1fr;
+  }
+
+  .branddiv:nth-child(2),
+  .branddiv:nth-child(5) {
+    padding-bottom: 0rem;
+    margin-top: 0rem;
+  }
+  .branddiv:nth-child(3),
+  .branddiv:nth-child(6) {
+    padding-bottom: 0rem;
+    margin-top: 0rem;
+  }
+}

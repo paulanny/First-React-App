@@ -1,0 +1,24 @@
+// import img1 from '../Assets/CarouselImages/20.png'
+import img2 from '../Assets/CarouselImages/1.jpg'
+import img4 from '../Assets/CarouselImages/12.jpg'
+import img7 from '../Assets/CarouselImages/15.png'
+import img8 from '../Assets/CarouselImages/11.jpg'
+import new1 from '../Assets/CarouselImages/new1.jpg'
+import new2 from '../Assets/CarouselImages/new2.jpg'
+import new3 from '../Assets/CarouselImages/new3.png'
+import new4 from '../Assets/CarouselImages/new4.jpg'
+import new5 from '../Assets/CarouselImages/new5.jpg'
+import newsha from '../Assets/CarouselImages/newsha.png'
+
+export const hillCardDetails = () => ({
+  0: { imgUrl: new1, title: 'Text 1' },
+  1: { imgUrl: img2, title: 'Text 2' },
+  2: { imgUrl: new2, title: 'Text 3' },
+  3: { imgUrl: img4, title: 'Text 4' },
+  4: { imgUrl: new3, title: 'Text 5' },
+  5: { imgUrl: new4, title: 'Text 6' },
+  6: { imgUrl: img7, title: 'Text 7' },
+  7: { imgUrl: img8, title: 'Text 1' },
+  8: { imgUrl: newsha, title: 'Text 2' },
+  9: { imgUrl: new5, title: 'Text 2' },
+})

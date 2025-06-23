@@ -17,9 +17,11 @@ const Hero = () => {
           </p>
           <p data-aos="fade-up" class="detailsp">
             {' '}
-            Hey, Welcome to Paul Anny's Design Portfolio where you get to know
-            more about me and my design journey. I am definitely the best fit
-            for your next project, scroll through to strengthen your conviction!
+            Hey there! Welcome to Paul Anny’s Design Portfolio, your gateway to
+            exploring my creative journey and design expertise. From branding to
+            bold visuals, this space showcases the passion and precision behind
+            every project. I am confident I am the right fit for your next
+            creative endeavor. Scroll through and see why.
           </p>
           <div class="learnimg">
             <p data-aos="fade-up" class="learningp">

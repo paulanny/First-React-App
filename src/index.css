@@ -4,6 +4,26 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+@font-face {
+  font-family: 'Nexa';
+  src: url('./Font/NEXALIGHT.OTF') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('./Font/NEXA-EXTRALIGHT.TTF') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('./Font/NEXABOLD.OTF') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 .raydiv {
   position: absolute;

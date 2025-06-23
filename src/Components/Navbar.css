@@ -32,7 +32,7 @@
 }
 
 .logoimg {
-  width: 100px;
+  width: 60px;
   display: flex;
   min-height: 2px;
   -webkit-box-align: center;
@@ -221,8 +221,8 @@ a span {
   .logoimg {
     position: fixed;
     z-index: 100;
-    top: 4%;
-    width: 80px;
+    top: 3%;
+    width: 50px;
   }
 
   .linkbg {
