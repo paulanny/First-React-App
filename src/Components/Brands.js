@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import './Brands.css'
 import btnArrow from '../Assets/shotarrow.png'
 import Hillemisaries from '../Assets/Brands/projhillemissariesdisplay.png'
+import Abeke from '../Assets/Brands/Abeke/abekecover.png'
 import Tiesmart from '../Assets/Brands/projtiesmartdisplay.png'
 import Weoutside from '../Assets/Brands/projweoutsidedisplay.png'
 import Adedola from '../Assets/Brands/projACdisplay.png'
@@ -11,6 +12,27 @@ import Ramblings from '../Assets/Brands/projramblingsdisplay.png'
 const Brands = () => {
   return (
     <section class="brandsec">
+      <div className="branddiv">
+        <div className="brandimg">
+          <img src={Abeke} alt="project1" />
+          <div className="brandviewbtn">
+            <div>
+              <p className="brandprojectname">Abeke's Cravings</p>
+              <p className="brandindustry">Fast Food & Pastries</p>
+            </div>
+            <Link to="/abekepage" className="brandviewshota">
+              <button className="brandviewshotabtn">
+                <p className="brandviewshotp">View Designs</p>
+                <div className="brandshotarrow">
+                  <img src={btnArrow} alt="arrow" />
+                  <img src={btnArrow} alt="arrow" />
+                </div>
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+
       <div className="branddiv">
         <div className="brandimg">
           <img src={Hillemisaries} alt="project1" />

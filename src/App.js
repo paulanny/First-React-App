@@ -15,6 +15,7 @@ import Weoutside from './Pages/WeoutsideBrand'
 import Tiesmart from './Pages/Tiesmart'
 import Ramblings from './Pages/Ranblings'
 import Adedola from './Pages/Adedola'
+import Abeke from './Pages/Abeke'
 
 const App = () => {
   const [loading, setLoading] = useState(false)
@@ -54,6 +55,7 @@ const App = () => {
           <Route path="/tiesmartpage" element={<Tiesmart />} />
           <Route path="/ramblingspage" element={<Ramblings />} />
           <Route path="/adedolapage" element={<Adedola />} />
+          <Route path="/abekepage" element={<Abeke />} />
         </Routes>
       )}
       {/* <div className="raydiv">
