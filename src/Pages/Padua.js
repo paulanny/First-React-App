@@ -21,8 +21,8 @@ import { paduaCarouselData } from '../Components/PaduaCarousel'
 import SelectedProjsTexts from '../Components/SelectedProjsTexts'
 import ProjectCard from '../Components/projectcard'
 import Thethumb from '../Assets/Brands/thumbnails/hillemissariesthumb.png'
-import tiesmartThumb from '../Assets/Brands/thumbnails/tiesmartthumb.png'
-import weoutsideThumb from '../Assets/Brands/thumbnails/weoutsidethumb.png'
+import adedolaThumb from '../Assets/Brands/thumbnails/adedolathumb.png'
+import ramblingsThumb from '../Assets/Brands/thumbnails/ramblingsthumb.png'
 // import Tiesmart from './Tiesmart'
 
 const Padua = () => {
@@ -94,7 +94,7 @@ const Padua = () => {
 
       {/* Visual Showcase */}
       <section className="design-gallery">
-        {[bd3, bd13, bd14, bd12, bd15, bd6, bd17].map((img, i) => (
+        {[bd3, bd13, bd5, bd14, bd12, bd15, bd6, bd17].map((img, i) => (
           <div className="design-image" key={i}>
             <img src={img} alt={`Design ${i + 1}`} />
           </div>
@@ -103,8 +103,8 @@ const Padua = () => {
 
       <SelectedProjsTexts
         id="projects"
-        title="Other Hill Emissaries Designs"
-        description="SM Designs"
+        title="Some More Padua Designs"
+        description="Padua"
       />
       <CarouselAuto cardDetails={paduaCarouselData} />
 
@@ -119,24 +119,20 @@ const Padua = () => {
             description="Education • Brand Identity"
           />
           <ProjectCard
-            to="/tiesmartpage"
-            image={tiesmartThumb}
-            title="Tiesmart"
-            description="E-commerce • Full Branding"
+            to="/adedolapage"
+            image={adedolaThumb}
+            title="Adedola Consulting"
+            description="Consultancy • Full Branding"
           />
           <ProjectCard
-            to="/weoutsidepage"
-            image={weoutsideThumb}
-            title="WeOutside"
-            description="Entertainment • Logo & Visuals"
+            to="/ramblingspage"
+            image={ramblingsThumb}
+            title="Ramblings"
+            description="Podcast • Logo & Visuals"
           />
         </div>
-
-        {/* <Link to="/projects" className="view-all-btn">
-          View All Projects
-        </Link> */}
         <div class="view-all-btn">
-          <a href="mailto:paulanimashaun20@gmail.com" class="viewall">
+          <Link to="/" class="viewall">
             <button class="viewallbtnc">
               <p class="viewallp">View all Projects</p>
               <div class="shotarrow">
@@ -144,8 +140,8 @@ const Padua = () => {
                 <img src={shotArrow} alt="arrow" />
               </div>
             </button>
-          </a>
-        </div>
+          </Link>
+        </div>{' '}
       </section>
       <BackdropPattern />
     </div>

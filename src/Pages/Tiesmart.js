@@ -24,7 +24,7 @@ import { tiesmartCarouselData } from '../Components/TiesmartCarousel'
 import SelectedProjsTexts from '../Components/SelectedProjsTexts'
 import ProjectCard from '../Components/projectcard'
 import paduaThumb from '../Assets/Brands/thumbnails/paduathumb.png'
-import tiesmartThumb from '../Assets/Brands/thumbnails/tiesmartthumb.png'
+import abekeThumb from '../Assets/Brands/Abeke/cravingsthumb.png'
 import weoutsideThumb from '../Assets/Brands/thumbnails/weoutsidethumb.png'
 
 const Tiesmart = () => {
@@ -37,8 +37,8 @@ const Tiesmart = () => {
           <img src={BrandMedia} alt="Hero Mockup" />
         </div>
         <div className="hero-text">
-          <h1>The Hill Emissaries</h1>
-          <p>Education Industry • Branding Identity</p>
+          <h1>Tiesmart</h1>
+          <p>E-Commerce • Branding Identity</p>
         </div>
       </section>
       {/* About Section */}
@@ -103,8 +103,8 @@ const Tiesmart = () => {
 
       <SelectedProjsTexts
         id="projects"
-        title="Other Hill Emissaries Designs"
-        description="SM Designs"
+        title="Some More Designs"
+        description="Tiesmart"
       />
       <CarouselAuto cardDetails={tiesmartCarouselData} />
 
@@ -113,30 +113,29 @@ const Tiesmart = () => {
         <h3>Explore More Projects</h3>
         <div className="project-grid">
           <ProjectCard
-            to="/padua-project"
+            to="/paduapage"
             image={paduaThumb}
             title="Padua"
             description="Mental Health • Brand Identity"
           />
           <ProjectCard
-            to="/tiesmart-project"
-            image={tiesmartThumb}
-            title="Tiesmart"
-            description="E-commerce • Full Branding"
+            to="/abekepage"
+            image={abekeThumb}
+            title="Abeke's Cravings"
+            description="Pastries • Full Branding"
           />
           <ProjectCard
-            to="/weoutside-project"
+            to="/weoutsidepage"
             image={weoutsideThumb}
             title="WeOutside"
             description="Entertainment • Logo & Visuals"
           />
         </div>
-
         {/* <Link to="/projects" className="view-all-btn">
           View All Projects
         </Link> */}
         <div class="view-all-btn">
-          <a href="mailto:paulanimashaun20@gmail.com" class="viewall">
+          <Link to="/" class="viewall">
             <button class="viewallbtnc">
               <p class="viewallp">View all Projects</p>
               <div class="shotarrow">
@@ -144,8 +143,8 @@ const Tiesmart = () => {
                 <img src={shotArrow} alt="arrow" />
               </div>
             </button>
-          </a>
-        </div>
+          </Link>
+        </div>{' '}
       </section>
       <BackdropPattern />
     </div>

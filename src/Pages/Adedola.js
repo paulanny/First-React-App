@@ -23,7 +23,7 @@ import { adedolaCarouselData } from '../Components/AdedolaCarousel'
 import SelectedProjsTexts from '../Components/SelectedProjsTexts'
 import ProjectCard from '../Components/projectcard'
 import paduaThumb from '../Assets/Brands/thumbnails/paduathumb.png'
-import tiesmartThumb from '../Assets/Brands/thumbnails/tiesmartthumb.png'
+import abekeThumb from '../Assets/Brands/Abeke/cravingsthumb.png'
 import weoutsideThumb from '../Assets/Brands/thumbnails/weoutsidethumb.png'
 
 const Adedola = () => {
@@ -56,7 +56,7 @@ const Adedola = () => {
             conversion-focused strategy.
           </p>
         </div>
-        <img src={bd000} alt="About Brand Visual" />
+        <img src={bd3} alt="About Brand Visual" />
       </section>
 
       <section className="brand-about" data-aos="fade-up">
@@ -69,46 +69,41 @@ const Adedola = () => {
             media optimization, and brand clarity across digital platforms.
           </p>
         </div>
-        <img src={bd0} alt="About Brand Visual" />
+        <img src={bd5} alt="About Brand Visual" />
       </section>
 
       <section className="brand-about" data-aos="fade-up">
         <div>
           <h2>Logo Rationale</h2>
           <p>
-            The Adedola Consulting logo features a chess pawn icon paired with
-            modern, minimalist typography. The use of the pawn, often overlooked
-            in the game of chess yet vital for strategic advancement, reflects
-            the brand’s core philosophy: guiding businesses from foundational
-            moves to winning strategies. It symbolizes strategic growth,
-            intentional progression, and the importance of foresight in
-            business. The choice of a clean, geometric typeface complements the
-            icon with a tone of professionalism and clarity, reinforcing the
-            brand’s focus on structure, media precision, and brand elevation.
-            The minimal layout ensures versatility across digital and print
-            platforms, while the black-on-neutral palette underscores authority,
-            dependability, and elegance. Together, the elements establish
-            Adedola Consulting as a brand strategy partner that equips
-            businesses to move smart, win big, and stay visible in competitive
-            markets
+            The Adedola Consulting logo combines a chess pawn icon with clean,
+            minimalist typography to reflect the brand’s strategic and
+            forward-thinking approach. The pawn symbolizes foundational growth
+            and smart progression, while the modern typeface adds
+            professionalism and clarity. Its simplicity ensures adaptability
+            across platforms, and the neutral palette emphasizes authority and
+            elegance. Altogether, the identity positions Adedola Consulting as a
+            trusted partner for strategic brand growth and visibility.
           </p>
         </div>
-        <img src={bd00} alt="About Brand Visual" />
+        <img src={bd18} alt="About Brand Visual" />
       </section>
 
       {/* Visual Showcase */}
       <section className="design-gallery">
-        {[bd12, bd13, bd14, bd3, bd18, bd15, bd20, bd17, bd16].map((img, i) => (
-          <div className="design-image" key={i}>
-            <img src={img} alt={`Design ${i + 1}`} />
-          </div>
-        ))}
+        {[bd15, bd0, bd00, bd000, bd12, bd13, bd14, bd15, bd20, bd17, bd16].map(
+          (img, i) => (
+            <div className="design-image" key={i}>
+              <img src={img} alt={`Design ${i + 1}`} />
+            </div>
+          )
+        )}
       </section>
 
       <SelectedProjsTexts
         id="projects"
-        title="Other Hill Emissaries Designs"
-        description="SM Designs"
+        title="Some More Designs"
+        description="Adedola"
       />
       <CarouselAuto cardDetails={adedolaCarouselData} />
 
@@ -123,10 +118,10 @@ const Adedola = () => {
             description="Mental Health • Brand Identity"
           />
           <ProjectCard
-            to="/tiesmartpage"
-            image={tiesmartThumb}
-            title="Tiesmart"
-            description="E-commerce • Full Branding"
+            to="/abekepage"
+            image={abekeThumb}
+            title="Abeke's Cravings"
+            description="Pastries • Full Branding"
           />
           <ProjectCard
             to="/weoutsidepage"
@@ -135,12 +130,11 @@ const Adedola = () => {
             description="Entertainment • Logo & Visuals"
           />
         </div>
-
         {/* <Link to="/projects" className="view-all-btn">
           View All Projects
         </Link> */}
         <div class="view-all-btn">
-          <a href="mailto:paulanimashaun20@gmail.com" class="viewall">
+          <Link to="/" class="viewall">
             <button class="viewallbtnc">
               <p class="viewallp">View all Projects</p>
               <div class="shotarrow">
@@ -148,8 +142,8 @@ const Adedola = () => {
                 <img src={shotArrow} alt="arrow" />
               </div>
             </button>
-          </a>
-        </div>
+          </Link>
+        </div>{' '}
       </section>
       <BackdropPattern />
     </div>

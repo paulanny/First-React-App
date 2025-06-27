@@ -19,9 +19,9 @@ import CarouselAuto from '../Components/CarouselAuto'
 import { hillEmissariesCarouselData } from '../Components/HillemissariesCarousel'
 import SelectedProjsTexts from '../Components/SelectedProjsTexts'
 import ProjectCard from '../Components/projectcard'
-import paduaThumb from '../Assets/Brands/thumbnails/paduathumb.png'
+import adedolaThumb from '../Assets/Brands/thumbnails/adedolathumb.png'
 import tiesmartThumb from '../Assets/Brands/thumbnails/tiesmartthumb.png'
-import weoutsideThumb from '../Assets/Brands/thumbnails/weoutsidethumb.png'
+import ramblingsThumb from '../Assets/Brands/thumbnails/ramblingsthumb.png'
 
 const Thebrand = () => {
   return (
@@ -98,8 +98,8 @@ const Thebrand = () => {
 
       <SelectedProjsTexts
         id="projects"
-        title="Other Hill Emissaries Designs"
-        description="SM Designs"
+        title="Some More Hill Emissaries Designs"
+        description="Emissaries"
       />
       <CarouselAuto cardDetails={hillEmissariesCarouselData} />
       {/* <section className="client-feedback" data-aos="fade-up">
@@ -115,10 +115,10 @@ const Thebrand = () => {
         <h3>Explore More Projects</h3>
         <div className="project-grid">
           <ProjectCard
-            to="/paduapage"
-            image={paduaThumb}
-            title="Padua"
-            description="Mental Health • Brand Identity"
+            to="/adedolapage"
+            image={adedolaThumb}
+            title="Adedola Consulting"
+            description="Consultancy • Brand Identity"
           />
           <ProjectCard
             to="/tiesmartpage"
@@ -127,18 +127,17 @@ const Thebrand = () => {
             description="E-commerce • Full Branding"
           />
           <ProjectCard
-            to="/weoutsidepage"
-            image={weoutsideThumb}
-            title="WeOutside"
-            description="Entertainment • Logo & Visuals"
+            to="/ramblingspage"
+            image={ramblingsThumb}
+            title="Ramblings"
+            description="Podcast • Logo & Visuals"
           />
         </div>
-
         {/* <Link to="/projects" className="view-all-btn">
           View All Projects
         </Link> */}
         <div class="view-all-btn">
-          <a href="mailto:paulanimashaun20@gmail.com" class="viewall">
+          <Link to="/" class="viewall">
             <button class="viewallbtnc">
               <p class="viewallp">View all Projects</p>
               <div class="shotarrow">
@@ -146,8 +145,8 @@ const Thebrand = () => {
                 <img src={shotArrow} alt="arrow" />
               </div>
             </button>
-          </a>
-        </div>
+          </Link>
+        </div>{' '}
       </section>
       <BackdropPattern />
     </div>

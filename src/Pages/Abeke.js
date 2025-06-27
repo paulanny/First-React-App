@@ -23,9 +23,9 @@ import CarouselAuto from '../Components/CarouselAuto'
 import { abekeCarouselData } from '../Components/AbekeCarousel'
 import SelectedProjsTexts from '../Components/SelectedProjsTexts'
 import ProjectCard from '../Components/projectcard'
+import adedolaThumb from '../Assets/Brands/thumbnails/adedolathumb.png'
 import paduaThumb from '../Assets/Brands/thumbnails/paduathumb.png'
-import tiesmartThumb from '../Assets/Brands/thumbnails/tiesmartthumb.png'
-import weoutsideThumb from '../Assets/Brands/thumbnails/weoutsidethumb.png'
+import thebrandThumb from '../Assets/Brands/thumbnails/hillemissariesthumb.png'
 
 const Abeke = () => {
   return (
@@ -46,15 +46,11 @@ const Abeke = () => {
         <div>
           <h2>About the Brand</h2>
           <p>
-            Adedola Consulting is a dynamic strategy and design consultancy that
-            empowers businesses to scale through intentional branding and
-            optimized social presence. With a focus on creative direction,
-            social media impact, and business identity systems, the firm
-            supports startups and growing ventures in crafting a professional,
-            cohesive, and competitive brand image. As part of the design team, I
-            contributed to building a visual direction that reflects Adedola
-            Consulting’s core strengths—clarity, creativity, and
-            conversion-focused strategy.
+            Abeke’s Cravings is a premium pastry brand serving up handcrafted
+            treats with a touch of elegance and warmth. As the designer, I
+            created a soft, inviting brand identity that reflects its sweet
+            essence — from the charming logo to the warm color palette —
+            capturing the heart of indulgence in every detail
           </p>
         </div>
         <img src={bd20} alt="About Brand Visual" />
@@ -64,10 +60,11 @@ const Abeke = () => {
         <div>
           <h2>Project Goal</h2>
           <p>
-            To develop a modern, professional, and strategy-aligned brand
-            identity that communicates expertise, builds trust, and positions
-            Adedola Consulting as a go-to partner for business growth, social
-            media optimization, and brand clarity across digital platforms.
+            To craft a visually warm and appealing brand identity that captures
+            the essence of Abeke’s Cravings as a passionate pastry brand. The
+            goal was to reflect the homemade quality, creativity, and indulgent
+            nature of its offerings while building a memorable presence across
+            packaging and digital platforms.
           </p>
         </div>
         <img src={bd19} alt="About Brand Visual" />
@@ -77,21 +74,14 @@ const Abeke = () => {
         <div>
           <h2>Logo Rationale</h2>
           <p>
-            The Adedola Consulting logo features a chess pawn icon paired with
-            modern, minimalist typography. The use of the pawn, often overlooked
-            in the game of chess yet vital for strategic advancement, reflects
-            the brand’s core philosophy: guiding businesses from foundational
-            moves to winning strategies. It symbolizes strategic growth,
-            intentional progression, and the importance of foresight in
-            business. The choice of a clean, geometric typeface complements the
-            icon with a tone of professionalism and clarity, reinforcing the
-            brand’s focus on structure, media precision, and brand elevation.
-            The minimal layout ensures versatility across digital and print
-            platforms, while the black-on-neutral palette underscores authority,
-            dependability, and elegance. Together, the elements establish
-            Adedola Consulting as a brand strategy partner that equips
-            businesses to move smart, win big, and stay visible in competitive
-            markets
+            The Abeke’s Cravings logo was crafted using a custom typeface
+            designed to mimic an icy drip effect, capturing the indulgent and
+            tempting nature of sweet cravings. The playful typography visually
+            evokes the freshness and delight of pastries, while the cherry
+            accent adds a final touch of flavor and personality. This
+            distinctive style not only reflects the brand’s fun and inviting
+            essence but also ensures strong recognition and emotional connection
+            with dessert lovers.
           </p>
         </div>
         <img src={bd18} alt="About Brand Visual" />
@@ -110,8 +100,8 @@ const Abeke = () => {
 
       <SelectedProjsTexts
         id="projects"
-        title="Other Hill Emissaries Designs"
-        description="SM Designs"
+        title="Some More Designs"
+        description="Cravings"
       />
       <CarouselAuto cardDetails={abekeCarouselData} />
 
@@ -120,30 +110,29 @@ const Abeke = () => {
         <h3>Explore More Projects</h3>
         <div className="project-grid">
           <ProjectCard
+            to="/adedolapage"
+            image={adedolaThumb}
+            title="Adedola Consulting"
+            description="Consultancy • Brand Design"
+          />
+          <ProjectCard
+            to="/thebrandpage"
+            image={thebrandThumb}
+            title="The Hill Emissaries"
+            description="Education • Full Branding"
+          />
+          <ProjectCard
             to="/paduapage"
             image={paduaThumb}
             title="Padua"
             description="Mental Health • Brand Identity"
           />
-          <ProjectCard
-            to="/tiesmartpage"
-            image={tiesmartThumb}
-            title="Tiesmart"
-            description="E-commerce • Full Branding"
-          />
-          <ProjectCard
-            to="/weoutsidepage"
-            image={weoutsideThumb}
-            title="WeOutside"
-            description="Entertainment • Logo & Visuals"
-          />
         </div>
-
         {/* <Link to="/projects" className="view-all-btn">
           View All Projects
         </Link> */}
         <div class="view-all-btn">
-          <a href="mailto:paulanimashaun20@gmail.com" class="viewall">
+          <Link to="/" class="viewall">
             <button class="viewallbtnc">
               <p class="viewallp">View all Projects</p>
               <div class="shotarrow">
@@ -151,8 +140,8 @@ const Abeke = () => {
                 <img src={shotArrow} alt="arrow" />
               </div>
             </button>
-          </a>
-        </div>
+          </Link>
+        </div>{' '}
       </section>
       <BackdropPattern />
     </div>
