@@ -112,8 +112,8 @@ body {
 
 .loader p {
   color: black;
-  font-family: 'firs sans condensed', sans-serif;
-  font-weight: 500;
+  font-family: 'Nexa', sans-serif;
+  font-weight: 700;
 }
 
 .spanp {
@@ -129,8 +129,8 @@ body {
   height: 20px;
   padding: 5px;
   color: black;
-  font-family: 'firs sans condensed', sans-serif;
-  font-weight: 600;
+  font-family: 'Nexa', sans-serif;
+  font-weight: 700;
   /* position: absolute; */
 }
 

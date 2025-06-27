@@ -1,6 +1,7 @@
 // Thebrand.jsx
 import '../Components/The.css'
 import { Link } from 'react-router-dom'
+import BrandLightbox from '../Components/BrandLightbox'
 import shotArrow from '../Assets/shotarrow.png'
 import NavBar from '../Components/NavBar'
 import BrandMedia from '../Assets/Brands/Abeke/abekehero.png'
@@ -88,7 +89,7 @@ const Abeke = () => {
       </section>
 
       {/* Visual Showcase */}
-      <section className="design-gallery">
+      {/* <section className="design-gallery">
         {[bd5, bd3, bd0, bd00, bd000, bd12, bd13, bd14, bd15, bd17, bd16].map(
           (img, i) => (
             <div className="design-image" key={i}>
@@ -96,6 +97,25 @@ const Abeke = () => {
             </div>
           )
         )}
+      </section> */}
+
+      <section className="design-gallery-section">
+        <h2 className="gallery-title">Brand Visuals</h2>
+        <BrandLightbox
+          images={[
+            bd5,
+            bd3,
+            bd0,
+            bd00,
+            bd000,
+            bd12,
+            bd13,
+            bd14,
+            bd15,
+            bd17,
+            bd16,
+          ]}
+        />
       </section>
 
       <SelectedProjsTexts

@@ -1,6 +1,7 @@
 // Thebrand.jsx
 import '../Components/The.css'
 import { Link } from 'react-router-dom'
+import BrandLightbox from '../Components/BrandLightbox'
 import shotArrow from '../Assets/shotarrow.png'
 import NavBar from '../Components/NavBar'
 import BrandMedia from '../Assets/Brands/Tiesmart/tiesmartheader.png'
@@ -91,7 +92,7 @@ const Tiesmart = () => {
       </section>
 
       {/* Visual Showcase */}
-      <section className="design-gallery">
+      {/* <section className="design-gallery">
         {[bd1, bd2, bd4, bd3, bd7, bd8, bd9, bd10, bd11, bd12, bd13].map(
           (img, i) => (
             <div className="design-image" key={i}>
@@ -99,6 +100,13 @@ const Tiesmart = () => {
             </div>
           )
         )}
+      </section> */}
+
+      <section className="design-gallery-section">
+        <h2 className="gallery-title">Brand Visuals</h2>
+        <BrandLightbox
+          images={[bd1, bd2, bd4, bd3, bd7, bd8, bd9, bd10, bd11, bd12, bd13]}
+        />
       </section>
 
       <SelectedProjsTexts

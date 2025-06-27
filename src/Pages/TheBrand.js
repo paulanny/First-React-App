@@ -2,6 +2,7 @@
 import '../Components/The.css'
 import { Link } from 'react-router-dom'
 import shotArrow from '../Assets/shotarrow.png'
+import BrandLightbox from '../Components/BrandLightbox'
 import NavBar from '../Components/NavBar'
 import header from '../Assets/Brands/HillEmissaries/hill header.png'
 import BrandMedia from '../Assets/Brands/HillEmissaries/material1.png'
@@ -88,12 +89,19 @@ const Thebrand = () => {
       </section>
 
       {/* Visual Showcase */}
-      <section className="design-gallery">
+      {/* <section className="design-gallery">
         {[bd12, bd13, bd14, bd3, bd15, BrandMedia, bd17].map((img, i) => (
           <div className="design-image" key={i}>
             <img src={img} alt={`Design ${i + 1}`} />
           </div>
         ))}
+      </section> */}
+
+      <section className="design-gallery-section">
+        <h2 className="gallery-title">Brand Visuals</h2>
+        <BrandLightbox
+          images={[bd12, bd13, bd14, bd3, bd15, BrandMedia, bd17]}
+        />
       </section>
 
       <SelectedProjsTexts

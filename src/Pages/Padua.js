@@ -2,6 +2,7 @@
 import '../Components/The.css'
 import { Link } from 'react-router-dom'
 import shotArrow from '../Assets/shotarrow.png'
+import BrandLightbox from '../Components/BrandLightbox'
 import NavBar from '../Components/NavBar'
 import BrandMedia from '../Assets/Brands/Padua/paduaheader.png'
 import bd3 from '../Assets/Brands/Padua/padmocks.png'
@@ -23,7 +24,6 @@ import ProjectCard from '../Components/projectcard'
 import Thethumb from '../Assets/Brands/thumbnails/hillemissariesthumb.png'
 import adedolaThumb from '../Assets/Brands/thumbnails/adedolathumb.png'
 import ramblingsThumb from '../Assets/Brands/thumbnails/ramblingsthumb.png'
-// import Tiesmart from './Tiesmart'
 
 const Padua = () => {
   return (
@@ -92,14 +92,11 @@ const Padua = () => {
         <img src={bd16} alt="About Brand Visual" />
       </section>
 
-      {/* Visual Showcase */}
-      <section className="design-gallery">
-        {[bd3, bd13, bd5, bd14, bd12, bd15, bd6, bd17].map((img, i) => (
-          <div className="design-image" key={i}>
-            <img src={img} alt={`Design ${i + 1}`} />
-          </div>
-        ))}
+      <section className="design-gallery-section">
+        <h2 className="gallery-title">Brand Visuals</h2>
+        <BrandLightbox images={[bd3, bd13, bd5, bd14, bd12, bd15, bd6, bd17]} />
       </section>
+      {/* </section> */}
 
       <SelectedProjsTexts
         id="projects"

@@ -94,7 +94,7 @@
   color: #ddd;
   line-height: 1.8;
   margin-bottom: 2rem;
-  font-family: 'fira sans condensed', sans-serif;
+  font-family: 'Nexa', sans-serif;
   animation: fadeInUp 0.7s ease-in-out;
 }
 
@@ -117,8 +117,9 @@
   color: #d6d93b;
   position: relative;
   cursor: pointer;
-  font-family: 'fira sans condensed', sans-serif;
+  font-family: 'Nexa', sans-serif;
   font-size: 14px;
+  font-weight: 700;
 }
 
 .viewshotabtn::before {

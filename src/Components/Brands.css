@@ -27,17 +27,17 @@
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.branddiv:nth-child(2),
+/* .branddiv:nth-child(2),
 .branddiv:nth-child(5) {
   padding-bottom: 3rem;
   margin-top: -2rem;
-}
+} */
 
-.branddiv:nth-child(3),
+/* .branddiv:nth-child(3),
 .branddiv:nth-child(6) {
   padding-bottom: 6rem;
   margin-top: -4rem;
-}
+} */
 
 .brandprojectname {
   font-size: 16px;
@@ -217,7 +217,7 @@
 
 @media (min-width: 768px) {
   .brandsec {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .branddiv {
@@ -240,7 +240,7 @@
     grid-template-columns: 1fr;
   }
 
-  .branddiv:nth-child(2),
+  /* .branddiv:nth-child(2),
   .branddiv:nth-child(5) {
     padding-bottom: 0rem;
     margin-top: 0rem;
@@ -249,5 +249,5 @@
   .branddiv:nth-child(6) {
     padding-bottom: 0rem;
     margin-top: 0rem;
-  }
+  } */
 }

@@ -40,6 +40,10 @@
   max-width: 95%;
 }
 
+.projstory {
+  font-family: 'Nexa', sans-serif;
+}
+
 .projectimg3 {
   flex: 1 1 45%;
   min-width: 250px;

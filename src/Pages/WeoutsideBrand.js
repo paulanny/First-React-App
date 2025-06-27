@@ -1,6 +1,7 @@
 // Thebrand.jsx
 import '../Components/The.css'
 import { Link } from 'react-router-dom'
+import BrandLightbox from '../Components/BrandLightbox'
 import shotArrow from '../Assets/shotarrow.png'
 import NavBar from '../Components/NavBar'
 import BrandMedia from '../Assets/Brands/Weoutside/wehead.png'
@@ -96,7 +97,7 @@ const Weoutside = () => {
       </section>
 
       {/* Visual Showcase */}
-      <section className="design-gallery">
+      {/* <section className="design-gallery">
         {[
           bd18,
           bd12,
@@ -118,6 +119,29 @@ const Weoutside = () => {
             <img src={img} alt={`Design ${i + 1}`} />
           </div>
         ))}
+      </section> */}
+
+      <section className="design-gallery-section">
+        <h2 className="gallery-title">Brand Visuals</h2>
+        <BrandLightbox
+          images={[
+            bd18,
+            bd12,
+            bd13,
+            bd14,
+            bd3,
+
+            bd15,
+            bd19,
+            bd20,
+            bd21,
+            bd22,
+            bd23,
+            bd17,
+            bd16,
+            bd5,
+          ]}
+        />
       </section>
 
       <SelectedProjsTexts

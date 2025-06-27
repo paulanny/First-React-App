@@ -1,6 +1,7 @@
 // Thebrand.jsx
 import '../Components/The.css'
 import { Link } from 'react-router-dom'
+import BrandLightbox from '../Components/BrandLightbox'
 import shotArrow from '../Assets/shotarrow.png'
 import NavBar from '../Components/NavBar'
 import BrandMedia from '../Assets/Brands/Adedola/adedola header.png'
@@ -90,16 +91,33 @@ const Adedola = () => {
       </section>
 
       {/* Visual Showcase */}
-      <section className="design-gallery">
-        {[bd17, bd15, bd0, bd00, bd000, bd12, bd13, bd14, bd15, bd20, bd16].map(
+      {/* <section className="design-gallery">
+        {[bd20, bd15, bd0, bd00, bd000, bd12, bd13, bd14, bd15, bd17, bd16].map(
           (img, i) => (
             <div className="design-image" key={i}>
               <img src={img} alt={`Design ${i + 1}`} />
             </div>
           )
         )}
+      </section> */}
+      <section className="design-gallery-section">
+        <h2 className="gallery-title">Brand Visuals</h2>
+        <BrandLightbox
+          images={[
+            bd20,
+            bd15,
+            bd0,
+            bd00,
+            bd000,
+            bd12,
+            bd13,
+            bd14,
+            bd15,
+            bd17,
+            bd16,
+          ]}
+        />
       </section>
-
       <SelectedProjsTexts
         id="projects"
         title="Some More Designs"

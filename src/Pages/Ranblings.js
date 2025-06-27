@@ -3,6 +3,7 @@ import '../Components/The.css'
 import { Link } from 'react-router-dom'
 import shotArrow from '../Assets/shotarrow.png'
 import NavBar from '../Components/NavBar'
+import BrandLightbox from '../Components/BrandLightbox'
 import BrandMedia from '../Assets/Brands/Ramblings/ramblingsheader.png'
 import bd3 from '../Assets/Brands/Ramblings/ram abt.png'
 import bd1 from '../Assets/Brands/Ramblings/ram mock1.png'
@@ -90,12 +91,16 @@ const Ramblings = () => {
       </section>
 
       {/* Visual Showcase */}
-      <section className="design-gallery">
+      {/* <section className="design-gallery">
         {[bd1, bd2, bd4, bd7, bd8, bd5, bd6, bd9].map((img, i) => (
           <div className="design-image" key={i}>
             <img src={img} alt={`Design ${i + 1}`} />
           </div>
         ))}
+      </section> */}
+      <section className="design-gallery-section">
+        <h2 className="gallery-title">Brand Visuals</h2>
+        <BrandLightbox images={[bd1, bd2, bd4, bd7, bd8, bd5, bd6, bd9]} />
       </section>
 
       <SelectedProjsTexts
