@@ -16,12 +16,11 @@ const Footer = () => {
             Let's Build Something Together!
           </p>
           <p data-aos="fade-up" class="letworksmallp">
-            Do you consider me a suitable pore partner for your next adventure?
-            or you're interested in collaborating on a design project and
-            learning more about my design services? please don't hesitate to
-            reach out by taking a minute to tell me about your project, I'd be
-            happy to chat with you! I am presently AVAILABLE for any jobs
-            involving design.
+            Ready to embark on your next creative adventure or collaborate on a
+            design project? I’d love to hear all about your vision. Let’s chat
+            about how we can bring your ideas to life with thoughtful, effective
+            design solutions. Feel free to reach out—The Psychology Designer is
+            here for you.
           </p>
         </div>
 

@@ -1,341 +1,95 @@
-/* .projectimgkg {
-  width: 50%;
-}
-.desslides {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 5em;
-  max-width: 50%;
-  padding-right: 15px;
+/* General page wrapper for consistent width */
+.page-container {
+  /* max-width: 95%; */
+  margin: 0 auto;
+  /* padding: 2rem 1rem; */
+  box-sizing: border-box;
 }
 
-.desslides1 {
-  margin: auto;
+/* Hero Section */
+.projndpics3 {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 15em;
-  max-width: 50%;
-  padding-left: 15px;
-}
-.projectimgkg img {
-  width: 100%;
-  object-fit: cover;
-  height: 400px;
-  background-size: cover;
-  background-position: 50% center;
-  object-position: left top;
-  display: flex;
-  margin-left: 129px;
-}
-
-div .kaapitdes {
+  flex-wrap: wrap;
   align-items: center;
-  display: flex;
-  margin: auto;
-  width: 100%;
-  border: 3px solid rgba(150, 140, 127, 0.3);
-  border-radius: 7px;
-}
-
-.selecteddesp {
-  text-align: center;
-  font-family: 'Bricolage Grotesque', sans-serif !important;
-  font-size: 18px;
-  color: rgba(150, 140, 127, 0.3);
-  font-weight: 600;
-  margin: 47px auto 65px auto;
-}
-
-.otherdes {
-  display: flex;
-  margin: auto;
-  width: 90%;
-}
-
-.desdiv {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-@media (max-width: 1000px) {
-  .projectimgkg {
-    width: 100%;
-  }
-
-  .projndpics {
-    border: 1px solid rgba(150, 140, 127, 0.3);
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    margin: 32px auto;
-    min-height: 2px;
-
-    overflow: hidden;
-  }
-
-  .abtproj {
-    width: 100%;
-
-    padding-bottom: 48px;
-  }
-
-  .desslides {
-    padding-right: 15px;
-  }
-
-  .desslides1 {
-    padding-left: 15px;
-  }
-
-  .projectimgkg img {
-    width: 100%;
-    object-fit: cover;
-    height: 381px;
-    background-size: cover;
-    background-position: 50% center;
-    object-position: left top;
-    display: flex;
-    margin-left: 95px;
-  }
-}
-
-@media (max-width: 550px) {
-  .projndpics {
-    border: 1px solid rgba(150, 140, 127, 0.3);
-    border-radius: 16px;
-
-    display: flex;
-    flex-direction: column;
-    margin: 32px auto;
-
-    min-height: 2px;
-
-    overflow: hidden;
-  }
-
-  .desslides {
-    padding-right: 0px;
-  }
-
-  .desslides1 {
-    padding-left: 0px;
-  }
-  .abtproj {
-    width: 100%;
-    padding-right: 0px;
-    padding-bottom: 48px;
-  }
-  .projstory {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 219.2%;
-    padding-right: 6px;
-    margin-top: 24px;
-    margin-bottom: 3em;
-    color: white;
-    font-family: 'fira sans condensed', sans-serif;
-  }
-
-  .desslides {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 5em;
-    max-width: 100%;
-  }
-
-  .otherdes {
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  .desslides1 {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 0em;
-    max-width: 100%;
-  }
-
-  .selecteddesp {
-    text-align: center;
-    font-family: 'Bricolage Grotesque', sans-serif !important;
-    font-size: 14px;
-    color: rgba(150, 140, 127, 0.3);
-    font-weight: 600;
-    margin: 47px auto 65px auto;
-  }
-}
-
-@media (max-width: 450px) {
-  .projectimgkg img {
-    width: 100%;
-    object-fit: cover;
-    height: 250px;
-    background-size: cover;
-    background-position: 50% center;
-    object-position: left top;
-    display: flex;
-    margin-left: 55px;
-  }
-
-  .bigp {
-    color: white;
-    font-size: 30px;
-    font-family: 'Bricolage Grotesque', sans-serif !important;
-    font-weight: 800;
-    width: 80%;
-  }
-} */
-
-/* Modernized Gallery Layout for Social Media Designs */
-/* Modernized Gallery Layout with Auto Scroll for Social Media Designs */
-/* Modernized Two-Line Alternating Auto Scroll Gallery */
-.otherdes {
-  display: flex;
-  flex-direction: column;
   gap: 2rem;
-  padding: 4rem 2rem;
-  margin: auto;
-  width: 100%;
-  animation: fadeInGallery 1.2s ease-in-out;
-}
-
-/* Modernized Vertical Alternating Auto Scroll Gallery */
-.otherdes {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  padding: 4rem 2rem;
-  margin: auto;
-  width: 100%;
-  height: 600px;
-  animation: fadeInGallery 1.2s ease-in-out;
-  overflow: hidden;
-}
-
-@keyframes fadeInGallery {
-  0% {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.desscroll-row {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  animation: scroll-vertical 30s linear infinite;
-}
-
-.desscroll-row.reverse {
-  animation: scroll-vertical-reverse 30s linear infinite;
-}
-
-@keyframes scroll-vertical {
-  0% {
-    transform: translateY(0%);
-  }
-  100% {
-    transform: translateY(-50%);
-  }
-}
-
-@keyframes scroll-vertical-reverse {
-  0% {
-    transform: translateY(0%);
-  }
-  100% {
-    transform: translateY(50%);
-  }
-}
-
-.desdiv {
-  flex: 0 0 auto;
-  width: 300px;
+  background-color: #141212;
   border-radius: 12px;
-  overflow: hidden;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  padding: 3rem 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.abtproj3 {
+  flex: 1 1 50%;
+  min-width: 280px;
+}
+
+.abtproj3 .bigp {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f5f5f5;
+  margin-bottom: 1rem;
+}
+
+.abtproj3 .projstory {
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #ccc;
+  margin-top: 1rem;
+  max-width: 95%;
+}
+
+.projectimg3 {
+  flex: 1 1 45%;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.projectimg3 img {
+  width: 100%;
+  margin-left: 0px;
+  /* max-width: 500px; */
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
 }
 
-.desdiv:hover {
-  transform: scale(1.03);
-  box-shadow: 0 10px 25px rgba(255, 217, 102, 0.2);
-}
-
-.kaapitdes {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-  border: 2px solid rgba(214, 217, 59, 0.1);
-  border-radius: 10px;
-  transition: all 0.3s ease;
-}
-
-.kaapitdes:hover {
-  border-color: rgba(214, 217, 59, 0.4);
+/* Gallery section - consistent width with hero */
+.gallery-wrapper {
+  /* max-width: 95%; */
+  margin: 3rem auto;
+  /* padding: 0 1rem; */
 }
 
 .selecteddesp {
   text-align: center;
-  font-family: 'Bricolage Grotesque', sans-serif !important;
-  font-size: 18px;
-  color: rgba(150, 140, 127, 0.3);
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 1rem;
+  color: rgba(150, 140, 127, 0.4);
   font-weight: 600;
-  margin: 3rem auto 5rem auto;
+  margin: 4rem auto 5rem;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
-  .otherdes {
+  .projndpics3 {
     flex-direction: column;
-    height: auto;
+    padding: 2rem 1rem;
   }
 
-  .desscroll-row,
-  .desscroll-row.reverse {
-    flex-direction: row;
-    animation: scroll-horizontal 40s linear infinite;
-    gap: 1.5rem;
+  .abtproj3,
+  .projectimg3 {
+    flex: 1 1 100%;
   }
 
-  @keyframes scroll-horizontal {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
+  .abtproj3 .bigp {
+    font-size: 2rem;
   }
 
-  .desdiv {
-    width: 240px;
-  }
-
-  .kaapitdes {
-    height: auto;
-  }
-
-  .selecteddesp {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .otherdes {
-    max-width: 1400px;
+  .abtproj3 .projstory {
+    font-size: 1rem;
   }
 }

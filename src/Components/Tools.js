@@ -6,28 +6,28 @@ import PhotoshopImg from '../Assets/photoshop.png'
 import AdobeIllustrator from '../Assets/ai.png'
 import Pixellab from '../Assets/pixellab.png'
 import Picsart from '../Assets/picsart.png'
+// import circleTools from './circletools'
 
 const Tools = () => {
   return (
     <div className="toolspane">
       <div className="toolsp">
         <p data-aos="fade-up" className="firsttoolp">
-          With over four years of experience in graphic design, I have worked on
-          a wide range of projects that reflect both versatility and precision.
-          My approach is rooted in crafting clean, compelling, and distinctive
-          designs that are both functional and visually appealing. I combine
-          creativity with technical skill, utilizing tools such as CorelDRAW,
-          Picsart, Pixellab, Canva, and Figma to bring each concept to life with
-          clarity and impact. My proficiency also extends to the Adobe Creative
-          Suite, including Illustrator and Photoshop, ensuring every design
-          meets professional standards with high-resolution quality and
-          attention to detail.
+          With over four years of experience as a creative brand and graphic
+          designer, I bring more than just aesthetics to the table. I approach
+          every project with a blend of design expertise, human understanding,
+          and psychological insight to craft solutions that truly resonate. My
+          style is clean, compelling, and strategically tailored to each brief.
+          I work seamlessly across tools like CorelDRAW, Picsart, Pixellab,
+          Canva, Figma, and Adobe Creative Suite, ensuring each concept is
+          executed with clarity, quality, and impactful storytelling.
         </p>
         <p data-aos="fade-up" className="sectoolp">
-          In addition to my design work, I am committed to staying up-to-date
-          with the latest design trends and technologies. I am always eager to
-          learn and improve my skills and seek out new challenges to push my
-          boundaries as a designer.
+          Beyond delivering strong design work, I am dedicated to staying ahead
+          of industry trends and evolving technologies. I believe in lifelong
+          learning and continually refining my craft, always seeking new
+          challenges that push my creativity and expand my perspective as a
+          designer.
         </p>
       </div>
 
@@ -63,6 +63,7 @@ const Tools = () => {
           <p className="iconname">Picsart</p>
         </div>
       </div>
+      {/* <circleTools /> */}
     </div>
   )
 }

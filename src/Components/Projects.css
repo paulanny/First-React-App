@@ -102,7 +102,9 @@
   z-index: 2;
   animation: fadeInUp 0.8s ease-in-out;
 }
-
+.viewshota {
+  text-decoration: none;
+}
 .viewshotabtn {
   background-color: transparent;
   display: flex;

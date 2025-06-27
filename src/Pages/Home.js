@@ -12,6 +12,7 @@ import CarouselAuto from '../Components/CarouselAuto'
 import Brands from '../Components/Brands'
 import { homeCardDetails } from '../Components/homeCarousel'
 
+
 const Home = () => {
   return (
     <div>
@@ -38,6 +39,7 @@ const Home = () => {
         description="Tools"
       />
       <Tools />
+    
       <Footer />
       <BackdropPattern />
     </div>

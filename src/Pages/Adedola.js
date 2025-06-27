@@ -91,7 +91,7 @@ const Adedola = () => {
 
       {/* Visual Showcase */}
       <section className="design-gallery">
-        {[bd15, bd0, bd00, bd000, bd12, bd13, bd14, bd15, bd20, bd17, bd16].map(
+        {[bd17, bd15, bd0, bd00, bd000, bd12, bd13, bd14, bd15, bd20, bd16].map(
           (img, i) => (
             <div className="design-image" key={i}>
               <img src={img} alt={`Design ${i + 1}`} />

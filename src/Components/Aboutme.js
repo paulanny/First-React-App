@@ -35,15 +35,16 @@ const Aboutme = () => {
           <img src={SideImg} alt="bannersection" />
         </div>
         <p data-aos="fade-up" class="aboutmep">
-          Hi, I’m Paul Anny — a passionate and creative{' '}
+          Hi, I’m Paul Anny — a passionate and thoughtful{' '}
           <strong>Graphic and Brand Designer</strong> with over 4 years of
-          experience in the design industry. I specialize in crafting compelling
-          visual identities through branding, logo creation, digital design, and
-          illustration. With a strong foundation in brand strategy and visual
-          storytelling, I’ve consistently delivered impactful designs that
-          connect with audiences and elevate brands. I take pride in
-          understanding each client’s unique goals and translating them into
-          tailored, effective design solutions.
+          experience bringing brands to life. I specialize in creating
+          compelling visual identities through branding, logos, and digital
+          design that go beyond aesthetics to truly resonate with audiences.
+          With a deep understanding of human behavior and strategic
+          storytelling, I craft designs that don’t just look good but
+          communicate meaning and build connection. Every project is tailored to
+          reflect the heart of the brand, ensuring thoughtful, effective, and
+          memorable results.
         </p>
       </div>
     </div>
