@@ -15,7 +15,7 @@
   font-size: 35px;
   font-family: 'Bricolage Grotesque', sans-serif;
   font-weight: 400;
-  margin-top: -20px;
+  margin-top: 5px;
   width: 60%;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .viewbtnlg {
-  margin-top: -10px;
+  margin-top: 10px;
 }
 .viewbtnlg a {
   text-decoration: none;
@@ -62,7 +62,7 @@
   position: relative;
   cursor: pointer;
   border-radius: 5px;
-  border: #d6d93b solid 1px;
+  border: #ffd700 solid 1px;
 }
 
 .viewshotabtnlg::before {
@@ -113,7 +113,7 @@
 }
 
 .coloredabout {
-  color: #d6d93b;
+  color: #ffd700;
 }
 
 @media (max-width: 1000px) {
@@ -131,7 +131,7 @@
     color: white;
     font-size: 35px;
     font-weight: 400;
-    margin-top: -20px;
+    margin-top: 20px;
     width: 100%;
   }
 
@@ -182,7 +182,7 @@
     color: white;
     font-size: 25px;
     font-weight: 400;
-    margin-top: -20px;
+    margin-top: 20px;
     width: 85%;
   }
   .allaboutme {
@@ -210,7 +210,7 @@
   }
 
   .allaboutme {
-    margin-top: -40px;
+    margin-top: 40px;
   }
 }
 
@@ -219,7 +219,7 @@
     color: white;
     font-size: 20px;
     font-weight: 400;
-    margin-top: -20px;
+    margin-top: 20px;
     width: 85%;
   }
 

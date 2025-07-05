@@ -1,53 +1,37 @@
-// import { useEffect } from 'react'
-import 'aos/dist/aos.css'
-// import Typewriter from './Typewriter'
-import MyHeroImg from '../Assets/HeroImage.png'
-import arrowImg from '../Assets/arrow.png'
-import ResumePdf from '../Assets/CreativeDesigner.pdf'
+import React from 'react'
 import './Hero.css'
+import HeroImage from '../Assets/theanny.png'
+import ArcBackground from '../Assets/perspective.png'
 
 const Hero = () => {
   return (
-    <section class="bannersection" id="about">
-      <div class="deetndimg">
-        <div class="selfdetails">
-          <div className="headerp"></div>
-          <p data-aos="fade-up" class="bigintro">
-            Animashaun <br /> Paul
+    <section className="hero-section">
+      <div className="arc-background-wrapper">
+        <img
+          src={ArcBackground}
+          alt="Arc Background"
+          className="arc-background"
+        />
+        <div className="arc-glow"></div>
+      </div>
+
+      <div className="herotextimage">
+        <div className="hero-texti">
+          <h1>The Creative Designer Your Brand Needs!</h1>
+          <p className="description">
+            Welcome to <strong>The Psychology Designer</strong> portfolio, where
+            design goes beyond creativity and aesthetics to truly understand
+            your brand, your brief, and your audience. Explore our beautiful
+            archive and be wowed!
           </p>
-          <p data-aos="fade-up" class="detailsp">
-            {' '}
-            <strong>The Psychology Designer</strong> <br></br>Welcome to my
-            portfolio, where design goes beyond creativity and aesthetics to
-            truly understand your brand, your brief, and your audience. Explore
-            thoughtful solutions crafted to connect, resonate, and inspire. Get
-            ready to be wowed!
-          </p>
-          <div class="learnimg">
-            <p data-aos="fade-up" class="learningp">
-              Learn more
-              <a
-                href={ResumePdf}
-                target="_blank"
-                rel="noreferrer"
-                class="abouta"
-              >
-                {' '}
-                about me{' '}
-              </a>
-              or jump straight to
-              <a href="#projects" class="abouta">
-                {' '}
-                my work
-              </a>
-            </p>
-            <div>
-              <img src={arrowImg} alt="jumparrow" />
-            </div>
-          </div>
+          <a href="#projects" className="cta-button">
+            Explore My Work
+          </a>
         </div>
-        <div data-aos="fade-up" class="headimg">
-          <img src={MyHeroImg} alt="bannersection" />
+
+        <div className="hero-image-container">
+          <img src={HeroImage} alt="Paul Anny" className="hero-image" />
+          {/* <div className="fade-bottom"></div> */}
         </div>
       </div>
     </section>
