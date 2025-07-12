@@ -94,7 +94,7 @@
   color: #ddd;
   line-height: 1.8;
   margin-bottom: 2rem;
-  font-family: 'Nexa', sans-serif;
+  font-family: 'Geist', sans-serif;
   animation: fadeInUp 0.7s ease-in-out;
 }
 
@@ -114,10 +114,10 @@
   height: 50px;
   outline: none;
   border: none;
-  color: #d6d93b;
+  color: #ffd700;
   position: relative;
   cursor: pointer;
-  font-family: 'Nexa', sans-serif;
+  font-family: 'Geist', sans-serif;
   font-size: 14px;
   font-weight: 700;
 }
@@ -149,7 +149,7 @@
   height: 15px;
   display: block;
   stroke: currentcolor;
-  color: rgb(214, 217, 59);
+  color: rgb(228, 194, 22);
   animation: pulse 3s infinite;
 }
 
