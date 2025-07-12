@@ -92,8 +92,8 @@
 
 .brand-about h2 {
   font-size: 2rem;
-  color: #d6d93b;
-  border-top: 2px solid #d6d93b;
+  color: #ffd700;
+  border-top: 2px solid #ffd700;
   padding-top: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -133,8 +133,8 @@
 .brand-block h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #d6d93b;
-  border-top: 2px solid #d6d93b;
+  color: #ffd700;
+  border-top: 2px solid #ffd700;
   padding-top: 0.5rem;
 }
 
@@ -167,10 +167,10 @@
 
 .gallery-title {
   font-size: 2rem;
-  color: #d6d93b;
+  color: #ffd700;
   font-family: 'Bricolage Grotesque', sans-serif;
   margin-bottom: 2rem;
-  border-bottom: 2px solid #d6d93b;
+  border-bottom: 2px solid #ffd700;
   padding-bottom: 0.5rem;
   text-align: left;
 }
@@ -198,7 +198,7 @@
 
 .gallery-thumb:hover {
   transform: scale(1.03);
-  border-color: #d6d93b;
+  border-color: #ffd700;
 }
 
 .design-image img {
@@ -238,8 +238,8 @@
 .client-feedback h3 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #d6d93b;
-  border-bottom: 2px solid #d6d93b;
+  color: #ffd700;
+  border-bottom: 2px solid #ffd700;
   padding-bottom: 0.5rem;
   position: relative;
   z-index: 1;
@@ -251,7 +251,7 @@
   border-radius: 50%;
   object-fit: cover;
   margin: 1rem auto;
-  border: 2px solid #d6d93b;
+  border: 2px solid #ffd700;
   display: block;
   position: relative;
   z-index: 1;
@@ -278,8 +278,8 @@
 .other-projects h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #d6d93b;
-  border-bottom: 2px solid #d6d93b;
+  color: #ffd700;
+  border-bottom: 2px solid #ffd700;
   display: inline-block;
   padding-bottom: 0.5rem;
 }
@@ -318,7 +318,7 @@
 .project-card h4 {
   margin: 1rem 0 0.25rem;
   font-size: 1.1rem;
-  color: #d6d93b;
+  color: #ffd700;
   padding-left: 1rem;
 }
 
@@ -348,7 +348,7 @@
   position: relative;
   cursor: pointer;
   border-radius: 5px;
-  border: #d6d93b solid 1px;
+  border: #ffd700 solid 1px;
   margin: auto;
   font-weight: 700 !important;
 }

@@ -123,8 +123,8 @@ body {
 .spanp span {
   animation: width-anim 1.2s ease-in-out;
   width: 0px;
-  background-color: #d6d93b;
-  border: 1px solid #d6d93b;
+  background-color: #ffd700;
+  border: 1px solid #ffd700;
   border-radius: 4px;
   height: 20px;
   padding: 5px;

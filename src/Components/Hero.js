@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import HeroImage from '../Assets/theanny.png'
+import HeroImage from '../Assets/paulo.png'
 import ArcBackground from '../Assets/perspective.png'
 
 const Hero = () => {
