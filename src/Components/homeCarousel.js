@@ -11,7 +11,7 @@ import new1 from '../Assets/CarouselImages/new1.jpg'
 import new2 from '../Assets/CarouselImages/new2.jpg'
 import new3 from '../Assets/CarouselImages/new3.png'
 import new4 from '../Assets/CarouselImages/new4.jpg'
-import new5 from '../Assets/CarouselImages/new5.jpg'
+import new5 from '../Assets/CarouselImages/new5.png'
 import newsha from '../Assets/CarouselImages/newsha.png'
 
 export const homeCardDetails = [
